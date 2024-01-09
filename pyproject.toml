@@ -21,7 +21,7 @@ classifiers = [
   "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 packages = [
-    { include = "python-homeassistant-analytics", from = "src" },
+    { include = "python_homeassistant_analytics", from = "src" },
 ]
 
 [tool.poetry.dependencies]
@@ -58,7 +58,7 @@ fail_under = 50
 
 [tool.coverage.run]
 plugins = ["covdefaults"]
-source = ["python-homeassistant-analytics"]
+source = ["python_homeassistant_analytics"]
 
 [tool.mypy]
 # Specify the target platform details in config, so your developers are
@@ -151,7 +151,7 @@ fixture-parentheses = false
 mark-parentheses = false
 
 [tool.ruff.isort]
-known-first-party = ["python-homeassistant-analytics"]
+known-first-party = ["python_homeassistant_analytics"]
 force-sort-within-sections = true
 split-on-trailing-comma = false
 combine-as-imports = true
