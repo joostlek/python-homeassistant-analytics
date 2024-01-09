@@ -11,6 +11,7 @@ from python_homeassistant_analytics import (
     HomeassistantAnalyticsConnectionError,
     HomeassistantAnalyticsError,
 )
+from syrupy import SnapshotAssertion
 from tests import load_fixture
 
 from .const import HOMEASSISTANT_ANALYTICS_URL
@@ -86,3 +87,17 @@ async def test_timeout(
     ) as homeassistant_analytics_client:
         with pytest.raises(HomeassistantAnalyticsConnectionError):
             assert await homeassistant_analytics_client.get_analytics()
+
+
+async def test_analytics(
+    responses: aioresponses,
+    homeassistant_analytics_client: HomeassistantAnalyticsClient,
+    snapshot: SnapshotAssertion,
+) -> None:
+    """Test retrieving analytics."""
+    responses.get(
+        HOMEASSISTANT_ANALYTICS_URL,
+        status=200,
+        body=load_fixture("data.json"),
+    )
+    assert await homeassistant_analytics_client.get_analytics() == snapshot
