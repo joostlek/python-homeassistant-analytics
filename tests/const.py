@@ -1,7 +1,7 @@
 """Constants for tests."""
 from importlib import metadata
 
-HOMEASSISTANT_ANALYTICS_URL = "https://analytics.home-assistant.io:443"
+HOMEASSISTANT_ANALYTICS_URL = "https://analytics.home-assistant.io:443/data.json"
 
 version = metadata.version("python_homeassistant_analytics")
 
