@@ -5,6 +5,7 @@ from typing import Any
 import aiohttp
 from aioresponses import CallbackResult, aioresponses
 import pytest
+from syrupy import SnapshotAssertion
 
 from python_homeassistant_analytics import (
     HomeassistantAnalyticsClient,
@@ -86,3 +87,15 @@ async def test_timeout(
     ) as homeassistant_analytics_client:
         with pytest.raises(HomeassistantAnalyticsConnectionError):
             assert await homeassistant_analytics_client.get_analytics()
+
+async def test_analytics(
+    responses: aioresponses,
+    homeassistant_analytics_client: HomeassistantAnalyticsClient,
+    snapshot: SnapshotAssertion,
+):
+    responses.get(
+        HOMEASSISTANT_ANALYTICS_URL,
+        status=200,
+        body=load_fixture("data.json"),
+    )
+    assert await homeassistant_analytics_client.get_analytics() == snapshot
