@@ -5,9 +5,9 @@ import aiohttp
 from aioresponses import aioresponses
 import pytest
 
+from python_homeassistant_analytics import HomeassistantAnalyticsClient
 from syrupy import SnapshotAssertion
 
-from python_homeassistant_analytics import HomeassistantAnalyticsClient
 from .syrupy import HomeassistantAnalyticsSnapshotExtension
 
 

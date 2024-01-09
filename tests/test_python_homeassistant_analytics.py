@@ -3,11 +3,14 @@ import asyncio
 from typing import Any
 
 import aiohttp
+from aioresponses import CallbackResult, aioresponses
 import pytest
-from aioresponses import aioresponses, CallbackResult
 
-from python_homeassistant_analytics import HomeassistantAnalyticsClient, HomeassistantAnalyticsError, \
-    HomeassistantAnalyticsConnectionError
+from python_homeassistant_analytics import (
+    HomeassistantAnalyticsClient,
+    HomeassistantAnalyticsConnectionError,
+    HomeassistantAnalyticsError,
+)
 from tests import HOMEASSISTANT_ANALYTICS_URL, load_fixture
 
 
@@ -46,7 +49,6 @@ async def test_creating_own_session(
     assert analytics.session.closed
 
 
-
 async def test_unexpected_server_response(
     responses: aioresponses,
     homeassistant_analytics_client: HomeassistantAnalyticsClient,
@@ -77,6 +79,8 @@ async def test_timeout(
         HOMEASSISTANT_ANALYTICS_URL,
         callback=response_handler,
     )
-    async with HomeassistantAnalyticsClient(request_timeout=1) as homeassistant_analytics_client:
+    async with HomeassistantAnalyticsClient(
+        request_timeout=1,
+    ) as homeassistant_analytics_client:
         with pytest.raises(HomeassistantAnalyticsConnectionError):
             assert await homeassistant_analytics_client.get_analytics()

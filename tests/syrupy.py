@@ -36,7 +36,8 @@ class HomeassistantAnalyticsSnapshotSerializer(AmberDataSerializer):
     ) -> str:
         """Pre-process data before serializing.
 
-        This allows us to handle specific cases for Homeassistant Analytics data structures.
+        This allows us to handle specific cases for
+        Homeassistant Analytics data structures.
         """
         serializable_data = data
         if is_dataclass(data):
@@ -62,4 +63,6 @@ class HomeassistantAnalyticsSnapshotExtension(AmberSnapshotExtension):
     Need to be bumped when we change the HomeassistantAnalyticsSnapshotSerializer.
     """
 
-    serializer_class: type[AmberDataSerializer] = HomeassistantAnalyticsSnapshotSerializer
+    serializer_class: type[
+        AmberDataSerializer
+    ] = HomeassistantAnalyticsSnapshotSerializer

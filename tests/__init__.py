@@ -1,7 +1,5 @@
 """Asynchronous Python client for Homeassistant Analytics."""
-from aioresponses import aioresponses
 
-from tests.const import HOMEASSISTANT_ANALYTICS_URL
 
 from pathlib import Path
 
