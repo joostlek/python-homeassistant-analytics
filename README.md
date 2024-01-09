@@ -19,7 +19,7 @@ This package allows you to fetch data from Homeassistant analytics.
 ## Installation
 
 ```bash
-pip install src
+pip install python-homeassistant-analytics
 ```
 
 ## Changelog & Releases
@@ -119,7 +119,7 @@ SOFTWARE.
 [joostlek]: https://github.com/joostlek
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [license-shield]: https://img.shields.io/github/license/joostlek/python-homeassistant-analytics.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [poetry-install]: https://python-poetry.org/docs/#installation
 [poetry]: https://python-poetry.org
 [pre-commit]: https://pre-commit.com/
