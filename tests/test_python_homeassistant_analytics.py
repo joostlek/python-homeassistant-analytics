@@ -11,7 +11,9 @@ from python_homeassistant_analytics import (
     HomeassistantAnalyticsConnectionError,
     HomeassistantAnalyticsError,
 )
-from tests import HOMEASSISTANT_ANALYTICS_URL, load_fixture
+from tests import load_fixture
+
+from .const import HOMEASSISTANT_ANALYTICS_URL
 
 
 async def test_putting_in_own_session(
