@@ -81,7 +81,7 @@ class HomeassistantAnalyticsClient:
 
         Returns
         -------
-            The SpotifyClient object.
+            The HomeassistantAnalyticsClient object.
         """
         return self
 
