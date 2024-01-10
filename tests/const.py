@@ -2,6 +2,7 @@
 from importlib import metadata
 
 HOMEASSISTANT_ANALYTICS_URL = "https://analytics.home-assistant.io:443"
+HOMEASSISTANT_URL = "https://home-assistant.io:443"
 
 version = metadata.version("python_homeassistant_analytics")
 

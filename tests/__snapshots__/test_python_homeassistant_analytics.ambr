@@ -2169,3 +2169,3649 @@
     }),
   })
 # ---
+# name: test_integrations
+  dict({
+    '3_day_blinds': dict({
+      'title': '3 Day Blinds',
+    }),
+    'abode': dict({
+      'title': 'Abode',
+    }),
+    'accuweather': dict({
+      'title': 'AccuWeather',
+    }),
+    'acer_projector': dict({
+      'title': 'Acer Projector',
+    }),
+    'acmeda': dict({
+      'title': 'Rollease Acmeda Automate',
+    }),
+    'actiontec': dict({
+      'title': 'Actiontec',
+    }),
+    'adax': dict({
+      'title': 'Adax',
+    }),
+    'adguard': dict({
+      'title': 'AdGuard Home',
+    }),
+    'ads': dict({
+      'title': 'ADS',
+    }),
+    'advantage_air': dict({
+      'title': 'Advantage Air',
+    }),
+    'aemet': dict({
+      'title': 'AEMET OpenData',
+    }),
+    'aep_ohio': dict({
+      'title': 'AEP Ohio',
+    }),
+    'aep_texas': dict({
+      'title': 'AEP Texas',
+    }),
+    'aftership': dict({
+      'title': 'AfterShip',
+    }),
+    'agent_dvr': dict({
+      'title': 'Agent DVR',
+    }),
+    'air_quality': dict({
+      'title': 'Air Quality',
+    }),
+    'airly': dict({
+      'title': 'Airly',
+    }),
+    'airnow': dict({
+      'title': 'AirNow',
+    }),
+    'airq': dict({
+      'title': 'air-Q',
+    }),
+    'airthings': dict({
+      'title': 'Airthings',
+    }),
+    'airthings_ble': dict({
+      'title': 'Airthings BLE',
+    }),
+    'airtouch4': dict({
+      'title': 'AirTouch 4',
+    }),
+    'airvisual': dict({
+      'title': 'AirVisual Cloud',
+    }),
+    'airvisual_pro': dict({
+      'title': 'AirVisual Pro',
+    }),
+    'airzone': dict({
+      'title': 'Airzone',
+    }),
+    'airzone_cloud': dict({
+      'title': 'Airzone Cloud',
+    }),
+    'aladdin_connect': dict({
+      'title': 'Aladdin Connect',
+    }),
+    'alarm_control_panel': dict({
+      'title': 'Alarm control panel',
+    }),
+    'alarmdecoder': dict({
+      'title': 'AlarmDecoder',
+    }),
+    'alert': dict({
+      'title': 'Alert',
+    }),
+    'alexa': dict({
+      'title': 'Amazon Alexa',
+    }),
+    'alpha_vantage': dict({
+      'title': 'Alpha Vantage',
+    }),
+    'amazon_polly': dict({
+      'title': 'Amazon Polly',
+    }),
+    'amberelectric': dict({
+      'title': 'Amber Electric',
+    }),
+    'ambiclimate': dict({
+      'title': 'Ambiclimate',
+    }),
+    'ambient_station': dict({
+      'title': 'Ambient Weather Station',
+    }),
+    'amcrest': dict({
+      'title': 'Amcrest',
+    }),
+    'amp_motorization': dict({
+      'title': 'AMP Motorization',
+    }),
+    'ampio': dict({
+      'title': 'Ampio Smart Smog System',
+    }),
+    'analytics': dict({
+      'title': 'Analytics',
+    }),
+    'android_ip_webcam': dict({
+      'title': 'Android IP Webcam',
+    }),
+    'androidtv': dict({
+      'title': 'Android Debug Bridge',
+    }),
+    'androidtv_remote': dict({
+      'title': 'Android TV Remote',
+    }),
+    'anel_pwrctrl': dict({
+      'title': 'Anel NET-PwrCtrl',
+    }),
+    'anova': dict({
+      'title': 'Anova',
+    }),
+    'anthemav': dict({
+      'title': 'Anthem A/V Receivers',
+    }),
+    'anwb_energie': dict({
+      'title': 'ANWB Energie',
+    }),
+    'aosmith': dict({
+      'title': 'A. O. Smith',
+    }),
+    'apache_kafka': dict({
+      'title': 'Apache Kafka',
+    }),
+    'apcupsd': dict({
+      'title': 'APC UPS Daemon',
+    }),
+    'api': dict({
+      'title': 'Home Assistant API',
+    }),
+    'appalachianpower': dict({
+      'title': 'Appalachian Power',
+    }),
+    'apple_tv': dict({
+      'title': 'Apple TV',
+    }),
+    'application_credentials': dict({
+      'title': 'Application Credentials',
+    }),
+    'apprise': dict({
+      'title': 'Apprise',
+    }),
+    'aprs': dict({
+      'title': 'APRS',
+    }),
+    'aqualogic': dict({
+      'title': 'AquaLogic',
+    }),
+    'aquostv': dict({
+      'title': 'Sharp Aquos TV',
+    }),
+    'aranet': dict({
+      'title': 'Aranet',
+    }),
+    'arcam_fmj': dict({
+      'title': 'Arcam FMJ Receivers',
+    }),
+    'arest': dict({
+      'title': 'aREST',
+    }),
+    'arris_tg2492lg': dict({
+      'title': 'Arris TG2492LG',
+    }),
+    'aruba': dict({
+      'title': 'Aruba',
+    }),
+    'arwn': dict({
+      'title': 'Ambient Radio Weather Network',
+    }),
+    'aseko_pool_live': dict({
+      'title': 'Aseko Pool Live',
+    }),
+    'assist_pipeline': dict({
+      'title': 'Assist pipeline',
+    }),
+    'asterisk_cdr': dict({
+      'title': 'Asterisk Call Detail Records',
+    }),
+    'asterisk_mbox': dict({
+      'title': 'Asterisk Voicemail',
+    }),
+    'asuswrt': dict({
+      'title': 'ASUSWRT',
+    }),
+    'atag': dict({
+      'title': 'Atag',
+    }),
+    'aten_pe': dict({
+      'title': 'ATEN Rack PDU',
+    }),
+    'atlanticcityelectric': dict({
+      'title': 'Atlantic City Electric',
+    }),
+    'atome': dict({
+      'title': 'Atome Linky',
+    }),
+    'august': dict({
+      'title': 'August',
+    }),
+    'august_ble': dict({
+      'title': 'August Bluetooth',
+    }),
+    'aurora': dict({
+      'title': 'Aurora',
+    }),
+    'aurora_abb_powerone': dict({
+      'title': 'Aurora ABB PowerOne Solar PV',
+    }),
+    'aussie_broadband': dict({
+      'title': 'Aussie Broadband',
+    }),
+    'auth': dict({
+      'title': 'Auth',
+    }),
+    'automation': dict({
+      'title': 'Automation',
+    }),
+    'avea': dict({
+      'title': 'Elgato Avea',
+    }),
+    'avion': dict({
+      'title': 'Avi-on',
+    }),
+    'awair': dict({
+      'title': 'Awair',
+    }),
+    'aws': dict({
+      'title': 'Amazon Web Services (AWS)',
+    }),
+    'axis': dict({
+      'title': 'Axis',
+    }),
+    'azure_devops': dict({
+      'title': 'Azure DevOps',
+    }),
+    'azure_event_hub': dict({
+      'title': 'Azure Event Hub',
+    }),
+    'azure_service_bus': dict({
+      'title': 'Azure Service Bus',
+    }),
+    'backup': dict({
+      'title': 'Backup',
+    }),
+    'baf': dict({
+      'title': 'Big Ass Fans',
+    }),
+    'baidu': dict({
+      'title': 'Baidu',
+    }),
+    'balboa': dict({
+      'title': 'Balboa Spa Client',
+    }),
+    'bayesian': dict({
+      'title': 'Bayesian',
+    }),
+    'bbox': dict({
+      'title': 'Bbox',
+    }),
+    'beewi_smartclim': dict({
+      'title': 'BeeWi SmartClim BLE sensor',
+    }),
+    'bge': dict({
+      'title': 'Baltimore Gas and Electric (BGE)',
+    }),
+    'binary_sensor': dict({
+      'title': 'Binary sensor',
+    }),
+    'bitcoin': dict({
+      'title': 'Bitcoin',
+    }),
+    'bizkaibus': dict({
+      'title': 'Bizkaibus',
+    }),
+    'blackbird': dict({
+      'title': 'Monoprice Blackbird Matrix Switch',
+    }),
+    'blebox': dict({
+      'title': 'BleBox devices',
+    }),
+    'blink': dict({
+      'title': 'Blink',
+    }),
+    'blinksticklight': dict({
+      'title': 'BlinkStick',
+    }),
+    'bliss_automation': dict({
+      'title': 'Bliss Automation',
+    }),
+    'bloc_blinds': dict({
+      'title': 'Bloc Blinds',
+    }),
+    'blockchain': dict({
+      'title': 'Blockchain.com',
+    }),
+    'bloomsky': dict({
+      'title': 'BloomSky',
+    }),
+    'blue_current': dict({
+      'title': 'Blue Current',
+    }),
+    'bluemaestro': dict({
+      'title': 'BlueMaestro',
+    }),
+    'blueprint': dict({
+      'title': 'Blueprint',
+    }),
+    'bluesound': dict({
+      'title': 'Bluesound',
+    }),
+    'bluetooth': dict({
+      'title': 'Bluetooth',
+    }),
+    'bluetooth_adapters': dict({
+      'title': 'Bluetooth Adapters',
+    }),
+    'bluetooth_le_tracker': dict({
+      'title': 'Bluetooth LE Tracker',
+    }),
+    'bluetooth_tracker': dict({
+      'title': 'Bluetooth Tracker',
+    }),
+    'bmw_connected_drive': dict({
+      'title': 'BMW Connected Drive',
+    }),
+    'bond': dict({
+      'title': 'Bond',
+    }),
+    'bosch_shc': dict({
+      'title': 'Bosch SHC',
+    }),
+    'brandt': dict({
+      'title': 'Brandt Smart Control',
+    }),
+    'braviatv': dict({
+      'title': 'Sony Bravia TV',
+    }),
+    'brel_home': dict({
+      'title': 'Brel Home',
+    }),
+    'broadlink': dict({
+      'title': 'Broadlink',
+    }),
+    'brother': dict({
+      'title': 'Brother Printer',
+    }),
+    'brottsplatskartan': dict({
+      'title': 'Brottsplatskartan',
+    }),
+    'browser': dict({
+      'title': 'Browser',
+    }),
+    'brunt': dict({
+      'title': 'Brunt Blind Engine',
+    }),
+    'bsblan': dict({
+      'title': 'BSB-Lan',
+    }),
+    'bswitch': dict({
+      'title': 'BSwitch',
+    }),
+    'bt_home_hub_5': dict({
+      'title': 'BT Home Hub 5',
+    }),
+    'bt_smarthub': dict({
+      'title': 'BT Smart Hub',
+    }),
+    'bthome': dict({
+      'title': 'BTHome',
+    }),
+    'bticino': dict({
+      'title': 'BTicino',
+    }),
+    'bubendorff': dict({
+      'title': 'Bubendorff',
+    }),
+    'buienradar': dict({
+      'title': 'Buienradar',
+    }),
+    'button': dict({
+      'title': 'Button',
+    }),
+    'caldav': dict({
+      'title': 'CalDAV',
+    }),
+    'calendar': dict({
+      'title': 'Calendar',
+    }),
+    'camera': dict({
+      'title': 'Camera',
+    }),
+    'canary': dict({
+      'title': 'Canary',
+    }),
+    'cast': dict({
+      'title': 'Google Cast',
+    }),
+    'ccm15': dict({
+      'title': 'Midea CCM15 AC Controller',
+    }),
+    'cert_expiry': dict({
+      'title': 'Certificate Expiry',
+    }),
+    'channels': dict({
+      'title': 'Channels',
+    }),
+    'circuit': dict({
+      'title': 'Unify Circuit',
+    }),
+    'cisco_ios': dict({
+      'title': 'Cisco IOS',
+    }),
+    'cisco_mobility_express': dict({
+      'title': 'Cisco Mobility Express',
+    }),
+    'cisco_webex_teams': dict({
+      'title': 'Cisco Webex Teams',
+    }),
+    'citybikes': dict({
+      'title': 'CityBikes',
+    }),
+    'clementine': dict({
+      'title': 'Clementine Music Player',
+    }),
+    'clickatell': dict({
+      'title': 'Clickatell',
+    }),
+    'clicksend': dict({
+      'title': 'ClickSend SMS',
+    }),
+    'clicksend_tts': dict({
+      'title': 'ClickSend TTS',
+    }),
+    'climate': dict({
+      'title': 'Climate',
+    }),
+    'cloud': dict({
+      'title': 'Home Assistant Cloud',
+    }),
+    'cloudflare': dict({
+      'title': 'Cloudflare',
+    }),
+    'cmus': dict({
+      'title': 'cmus',
+    }),
+    'co2signal': dict({
+      'title': 'Electricity Maps',
+    }),
+    'coinbase': dict({
+      'title': 'Coinbase',
+    }),
+    'color_extractor': dict({
+      'title': 'ColorExtractor',
+    }),
+    'comed': dict({
+      'title': 'Commonwealth Edison (ComEd)',
+    }),
+    'comed_hourly_pricing': dict({
+      'title': 'ComEd Hourly Pricing',
+    }),
+    'comelit': dict({
+      'title': 'Comelit SimpleHome',
+    }),
+    'comfoconnect': dict({
+      'title': 'Zehnder ComfoAir Q',
+    }),
+    'command_line': dict({
+      'title': 'Command Line',
+    }),
+    'compensation': dict({
+      'title': 'Compensation',
+    }),
+    'concord232': dict({
+      'title': 'Concord232',
+    }),
+    'coned': dict({
+      'title': 'Consolidated Edison (ConEd)',
+    }),
+    'config': dict({
+      'title': 'Configuration',
+    }),
+    'configurator': dict({
+      'title': 'Configurator',
+    }),
+    'control4': dict({
+      'title': 'Control4',
+    }),
+    'conversation': dict({
+      'title': 'Conversation',
+    }),
+    'coolmaster': dict({
+      'title': 'CoolMasterNet',
+    }),
+    'counter': dict({
+      'title': 'Counter',
+    }),
+    'cover': dict({
+      'title': 'Cover',
+    }),
+    'cozytouch': dict({
+      'title': 'Atlantic Cozytouch',
+    }),
+    'cppm_tracker': dict({
+      'title': 'Aruba ClearPass',
+    }),
+    'cpuspeed': dict({
+      'title': 'CPU Speed',
+    }),
+    'cribl': dict({
+      'title': 'Cribl',
+    }),
+    'crownstone': dict({
+      'title': 'Crownstone',
+    }),
+    'cups': dict({
+      'title': 'CUPS',
+    }),
+    'currencylayer': dict({
+      'title': 'currencylayer',
+    }),
+    'dacia': dict({
+      'title': 'Dacia',
+    }),
+    'daikin': dict({
+      'title': 'Daikin AC',
+    }),
+    'danfoss_air': dict({
+      'title': 'Danfoss Air',
+    }),
+    'datadog': dict({
+      'title': 'Datadog',
+    }),
+    'date': dict({
+      'title': 'Date',
+    }),
+    'datetime': dict({
+      'title': 'Date/Time',
+    }),
+    'ddwrt': dict({
+      'title': 'DD-WRT',
+    }),
+    'debugpy': dict({
+      'title': 'Remote Python Debugger',
+    }),
+    'deconz': dict({
+      'title': 'deCONZ',
+    }),
+    'decora': dict({
+      'title': 'Leviton Decora',
+    }),
+    'decora_wifi': dict({
+      'title': 'Leviton Decora Wi-Fi',
+    }),
+    'default_config': dict({
+      'title': 'Default Config',
+    }),
+    'delijn': dict({
+      'title': 'De Lijn',
+    }),
+    'delmarva': dict({
+      'title': 'Delmarva Power',
+    }),
+    'deluge': dict({
+      'title': 'Deluge',
+    }),
+    'demo': dict({
+      'title': 'Demo',
+    }),
+    'denon': dict({
+      'title': 'Denon Network Receivers',
+    }),
+    'denonavr': dict({
+      'title': 'Denon AVR Network Receivers',
+    }),
+    'derivative': dict({
+      'title': 'Derivative',
+    }),
+    'devialet': dict({
+      'title': 'Devialet',
+    }),
+    'device_automation': dict({
+      'title': 'Device Automation',
+    }),
+    'device_sun_light_trigger': dict({
+      'title': 'Presence-based lights',
+    }),
+    'device_tracker': dict({
+      'title': 'Device tracker',
+    }),
+    'devolo_home_control': dict({
+      'title': 'devolo Home Control',
+    }),
+    'devolo_home_network': dict({
+      'title': 'devolo Home Network',
+    }),
+    'dexcom': dict({
+      'title': 'Dexcom',
+    }),
+    'dhcp': dict({
+      'title': 'DHCP discovery',
+    }),
+    'diagnostics': dict({
+      'title': 'Diagnostics',
+    }),
+    'dialogflow': dict({
+      'title': 'Dialogflow',
+    }),
+    'diaz': dict({
+      'title': 'Diaz',
+    }),
+    'digital_loggers': dict({
+      'title': 'Digital Loggers',
+    }),
+    'digital_ocean': dict({
+      'title': 'Digital Ocean',
+    }),
+    'directv': dict({
+      'title': 'DirecTV',
+    }),
+    'discogs': dict({
+      'title': 'Discogs',
+    }),
+    'discord': dict({
+      'title': 'Discord',
+    }),
+    'discovergy': dict({
+      'title': 'Discovergy',
+    }),
+    'dlib_face_detect': dict({
+      'title': 'Dlib Face Detect',
+    }),
+    'dlib_face_identify': dict({
+      'title': 'Dlib Face Identify',
+    }),
+    'dlink': dict({
+      'title': 'D-Link Wi-Fi Smart Plugs',
+    }),
+    'dlna_dmr': dict({
+      'title': 'DLNA Digital Media Renderer',
+    }),
+    'dlna_dms': dict({
+      'title': 'DLNA Digital Media Server',
+    }),
+    'dnsip': dict({
+      'title': 'DNS IP',
+    }),
+    'dominos': dict({
+      'title': 'Dominos Pizza',
+    }),
+    'doods': dict({
+      'title': 'DOODS - Dedicated Open Object Detection Service',
+    }),
+    'doorbird': dict({
+      'title': 'DoorBird',
+    }),
+    'dooya': dict({
+      'title': 'Dooya',
+    }),
+    'dormakaba_dkey': dict({
+      'title': 'Dormakaba dKey',
+    }),
+    'dovado': dict({
+      'title': 'Dovado',
+    }),
+    'downloader': dict({
+      'title': 'Downloader',
+    }),
+    'dremel_3d_printer': dict({
+      'title': 'Dremel 3D Printer',
+    }),
+    'drop_connect': dict({
+      'title': 'DROP',
+    }),
+    'dsmr': dict({
+      'title': 'DSMR Slimme Meter',
+    }),
+    'dsmr_reader': dict({
+      'title': 'DSMR Reader',
+    }),
+    'dte_energy_bridge': dict({
+      'title': 'DTE Energy Bridge',
+    }),
+    'dublin_bus_transport': dict({
+      'title': 'Dublin Bus',
+    }),
+    'duckdns': dict({
+      'title': 'Duck DNS',
+    }),
+    'dunehd': dict({
+      'title': 'Dune HD',
+    }),
+    'duotecno': dict({
+      'title': 'Duotecno',
+    }),
+    'dwd_weather_warnings': dict({
+      'title': 'Deutscher Wetterdienst (DWD) Weather Warnings',
+    }),
+    'dweet': dict({
+      'title': 'dweet.io',
+    }),
+    'dynalite': dict({
+      'title': 'Philips Dynalite',
+    }),
+    'eastron': dict({
+      'title': 'Eastron',
+    }),
+    'easyenergy': dict({
+      'title': 'easyEnergy',
+    }),
+    'ebox': dict({
+      'title': 'EBox',
+    }),
+    'ebusd': dict({
+      'title': 'ebusd',
+    }),
+    'ecoal_boiler': dict({
+      'title': 'eSterownik eCoal.pl Boiler',
+    }),
+    'ecobee': dict({
+      'title': 'ecobee',
+    }),
+    'ecoforest': dict({
+      'title': 'Ecoforest',
+    }),
+    'econet': dict({
+      'title': 'Rheem EcoNet Products',
+    }),
+    'ecovacs': dict({
+      'title': 'Ecovacs',
+    }),
+    'ecowitt': dict({
+      'title': 'Ecowitt',
+    }),
+    'eddystone_temperature': dict({
+      'title': 'Eddystone',
+    }),
+    'edimax': dict({
+      'title': 'Edimax',
+    }),
+    'edl21': dict({
+      'title': 'EDL21',
+    }),
+    'efergy': dict({
+      'title': 'Efergy',
+    }),
+    'egardia': dict({
+      'title': 'Egardia',
+    }),
+    'electrasmart': dict({
+      'title': 'Electra Smart',
+    }),
+    'electric_kiwi': dict({
+      'title': 'Electric Kiwi',
+    }),
+    'elgato': dict({
+      'title': 'Elgato Light',
+    }),
+    'eliqonline': dict({
+      'title': 'Eliqonline',
+    }),
+    'elkm1': dict({
+      'title': 'Elk-M1 Control',
+    }),
+    'elmax': dict({
+      'title': 'Elmax',
+    }),
+    'elv': dict({
+      'title': 'ELV PCA',
+    }),
+    'emby': dict({
+      'title': 'Emby',
+    }),
+    'emoncms': dict({
+      'title': 'Emoncms',
+    }),
+    'emoncms_history': dict({
+      'title': 'Emoncms History',
+    }),
+    'emonitor': dict({
+      'title': 'SiteSage Emonitor',
+    }),
+    'emulated_hue': dict({
+      'title': 'Emulated Hue',
+    }),
+    'emulated_kasa': dict({
+      'title': 'Emulated Kasa',
+    }),
+    'emulated_roku': dict({
+      'title': 'Emulated Roku',
+    }),
+    'energie_vanons': dict({
+      'title': 'Energie VanOns',
+    }),
+    'energy': dict({
+      'title': 'Energy',
+    }),
+    'energyzero': dict({
+      'title': 'EnergyZero',
+    }),
+    'enigma2': dict({
+      'title': 'Enigma2 (OpenWebif)',
+    }),
+    'enmax': dict({
+      'title': 'Enmax Energy',
+    }),
+    'enocean': dict({
+      'title': 'EnOcean',
+    }),
+    'enphase_envoy': dict({
+      'title': 'Enphase Envoy',
+    }),
+    'entur_public_transport': dict({
+      'title': 'Entur',
+    }),
+    'environment_canada': dict({
+      'title': 'Environment Canada',
+    }),
+    'envisalink': dict({
+      'title': 'Envisalink',
+    }),
+    'ephember': dict({
+      'title': 'EPH Controls',
+    }),
+    'epson': dict({
+      'title': 'Epson',
+    }),
+    'epsonworkforce': dict({
+      'title': 'Epson Workforce',
+    }),
+    'escea': dict({
+      'title': 'Escea',
+    }),
+    'esera_onewire': dict({
+      'title': 'ESERA 1-Wire',
+    }),
+    'esphome': dict({
+      'title': 'ESPHome',
+    }),
+    'etherscan': dict({
+      'title': 'Etherscan',
+    }),
+    'eufy': dict({
+      'title': 'EufyHome',
+    }),
+    'eufylife_ble': dict({
+      'title': 'EufyLife',
+    }),
+    'event': dict({
+      'title': 'Event',
+    }),
+    'evergy': dict({
+      'title': 'Evergy',
+    }),
+    'everlights': dict({
+      'title': 'EverLights',
+    }),
+    'evil_genius_labs': dict({
+      'title': 'Evil Genius Labs',
+    }),
+    'evohome': dict({
+      'title': 'Honeywell Total Connect Comfort (Europe)',
+    }),
+    'ezviz': dict({
+      'title': 'EZVIZ',
+    }),
+    'faa_delays': dict({
+      'title': 'FAA Delays',
+    }),
+    'facebook': dict({
+      'title': 'Facebook Messenger',
+    }),
+    'facebox': dict({
+      'title': 'Facebox',
+    }),
+    'fail2ban': dict({
+      'title': 'Fail2Ban',
+    }),
+    'familyhub': dict({
+      'title': 'Samsung Family Hub',
+    }),
+    'fan': dict({
+      'title': 'Fan',
+    }),
+    'fastdotcom': dict({
+      'title': 'Fast.com',
+    }),
+    'feedreader': dict({
+      'title': 'Feedreader',
+    }),
+    'ffmpeg': dict({
+      'title': 'FFmpeg',
+    }),
+    'ffmpeg_motion': dict({
+      'title': 'FFmpeg Motion',
+    }),
+    'ffmpeg_noise': dict({
+      'title': 'FFmpeg Noise',
+    }),
+    'fibaro': dict({
+      'title': 'Fibaro',
+    }),
+    'fido': dict({
+      'title': 'Fido',
+    }),
+    'file': dict({
+      'title': 'File',
+    }),
+    'file_upload': dict({
+      'title': 'File Upload',
+    }),
+    'filesize': dict({
+      'title': 'File Size',
+    }),
+    'filter': dict({
+      'title': 'Filter',
+    }),
+    'fints': dict({
+      'title': 'FinTS',
+    }),
+    'fire_tv': dict({
+      'title': 'Amazon Fire TV',
+    }),
+    'fireservicerota': dict({
+      'title': 'FireServiceRota',
+    }),
+    'firmata': dict({
+      'title': 'Firmata',
+    }),
+    'fitbit': dict({
+      'title': 'Fitbit',
+    }),
+    'fivem': dict({
+      'title': 'FiveM',
+    }),
+    'fixer': dict({
+      'title': 'Fixer',
+    }),
+    'fjaraskupan': dict({
+      'title': 'Fjäråskupan',
+    }),
+    'fleetgo': dict({
+      'title': 'FleetGO',
+    }),
+    'flexit': dict({
+      'title': 'Flexit',
+    }),
+    'flexit_bacnet': dict({
+      'title': 'Flexit Nordic (BACnet)',
+    }),
+    'flexom': dict({
+      'title': 'Bouygues Flexom',
+    }),
+    'flic': dict({
+      'title': 'Flic',
+    }),
+    'flick_electric': dict({
+      'title': 'Flick Electric',
+    }),
+    'flipr': dict({
+      'title': 'Flipr',
+    }),
+    'flo': dict({
+      'title': 'Flo',
+    }),
+    'flock': dict({
+      'title': 'Flock',
+    }),
+    'flume': dict({
+      'title': 'Flume',
+    }),
+    'flux': dict({
+      'title': 'Flux',
+    }),
+    'flux_led': dict({
+      'title': 'Magic Home',
+    }),
+    'folder': dict({
+      'title': 'Folder',
+    }),
+    'folder_watcher': dict({
+      'title': 'Folder Watcher',
+    }),
+    'foobot': dict({
+      'title': 'Foobot',
+    }),
+    'forecast_solar': dict({
+      'title': 'Forecast.Solar',
+    }),
+    'forked_daapd': dict({
+      'title': 'OwnTone',
+    }),
+    'fortios': dict({
+      'title': 'FortiOS',
+    }),
+    'foscam': dict({
+      'title': 'Foscam',
+    }),
+    'foursquare': dict({
+      'title': 'Foursquare',
+    }),
+    'free_mobile': dict({
+      'title': 'Free Mobile',
+    }),
+    'freebox': dict({
+      'title': 'Freebox',
+    }),
+    'freedns': dict({
+      'title': 'FreeDNS',
+    }),
+    'freedompro': dict({
+      'title': 'Freedompro',
+    }),
+    'fritz': dict({
+      'title': 'AVM FRITZ!Box Tools',
+    }),
+    'fritzbox': dict({
+      'title': 'AVM FRITZ!SmartHome',
+    }),
+    'fritzbox_callmonitor': dict({
+      'title': 'AVM FRITZ!Box Call Monitor',
+    }),
+    'fronius': dict({
+      'title': 'Fronius',
+    }),
+    'frontend': dict({
+      'title': 'Home Assistant frontend',
+    }),
+    'frontier_silicon': dict({
+      'title': 'Frontier Silicon',
+    }),
+    'fujitsu_anywair': dict({
+      'title': 'Fujitsu anywAIR',
+    }),
+    'fully_kiosk': dict({
+      'title': 'Fully Kiosk Browser',
+    }),
+    'futurenow': dict({
+      'title': 'P5 FutureNow',
+    }),
+    'garadget': dict({
+      'title': 'Garadget',
+    }),
+    'garages_amsterdam': dict({
+      'title': 'Garages Amsterdam',
+    }),
+    'gardena_bluetooth': dict({
+      'title': 'Gardena Bluetooth',
+    }),
+    'gaviota': dict({
+      'title': 'Gaviota',
+    }),
+    'gc100': dict({
+      'title': 'Global Caché GC-100',
+    }),
+    'gdacs': dict({
+      'title': 'Global Disaster Alert and Coordination System (GDACS)',
+    }),
+    'generic': dict({
+      'title': 'Generic Camera',
+    }),
+    'generic_hygrostat': dict({
+      'title': 'Generic hygrostat',
+    }),
+    'generic_thermostat': dict({
+      'title': 'Generic thermostat',
+    }),
+    'geniushub': dict({
+      'title': 'Genius Hub',
+    }),
+    'geo_json_events': dict({
+      'title': 'GeoJSON',
+    }),
+    'geo_location': dict({
+      'title': 'Geolocation',
+    }),
+    'geo_rss_events': dict({
+      'title': 'GeoRSS',
+    }),
+    'geocaching': dict({
+      'title': 'Geocaching',
+    }),
+    'geofency': dict({
+      'title': 'Geofency',
+    }),
+    'geonetnz_quakes': dict({
+      'title': 'GeoNet NZ Quakes',
+    }),
+    'geonetnz_volcano': dict({
+      'title': 'GeoNet NZ Volcano',
+    }),
+    'gios': dict({
+      'title': 'GIOŚ',
+    }),
+    'github': dict({
+      'title': 'GitHub',
+    }),
+    'gitlab_ci': dict({
+      'title': 'GitLab-CI',
+    }),
+    'gitter': dict({
+      'title': 'Gitter',
+    }),
+    'glances': dict({
+      'title': 'Glances',
+    }),
+    'goalzero': dict({
+      'title': 'Goal Zero Yeti',
+    }),
+    'gogogate2': dict({
+      'title': 'Gogogate2 and ismartgate',
+    }),
+    'goodwe': dict({
+      'title': 'GoodWe Inverter',
+    }),
+    'google': dict({
+      'title': 'Google Calendar',
+    }),
+    'google_assistant': dict({
+      'title': 'Google Assistant',
+    }),
+    'google_assistant_sdk': dict({
+      'title': 'Google Assistant SDK',
+    }),
+    'google_cloud': dict({
+      'title': 'Google Cloud Platform',
+    }),
+    'google_domains': dict({
+      'title': 'Google Domains',
+    }),
+    'google_generative_ai_conversation': dict({
+      'title': 'Google Generative AI Conversation',
+    }),
+    'google_mail': dict({
+      'title': 'Google Mail',
+    }),
+    'google_maps': dict({
+      'title': 'Google Maps',
+    }),
+    'google_pubsub': dict({
+      'title': 'Google Pub/Sub',
+    }),
+    'google_sheets': dict({
+      'title': 'Google Sheets',
+    }),
+    'google_tasks': dict({
+      'title': 'Google Tasks',
+    }),
+    'google_translate': dict({
+      'title': 'Google Translate text-to-speech',
+    }),
+    'google_travel_time': dict({
+      'title': 'Google Maps Travel Time',
+    }),
+    'google_wifi': dict({
+      'title': 'Google Wifi',
+    }),
+    'govee_ble': dict({
+      'title': 'Govee Bluetooth',
+    }),
+    'gpsd': dict({
+      'title': 'GPSD',
+    }),
+    'gpslogger': dict({
+      'title': 'GPSLogger',
+    }),
+    'graphite': dict({
+      'title': 'Graphite',
+    }),
+    'gree': dict({
+      'title': 'Gree Climate',
+    }),
+    'greeneye_monitor': dict({
+      'title': 'GreenEye Monitor (GEM)',
+    }),
+    'greenwave': dict({
+      'title': 'Greenwave Reality',
+    }),
+    'group': dict({
+      'title': 'Group',
+    }),
+    'growatt_server': dict({
+      'title': 'Growatt',
+    }),
+    'gstreamer': dict({
+      'title': 'GStreamer',
+    }),
+    'gtfs': dict({
+      'title': 'General Transit Feed Specification (GTFS)',
+    }),
+    'guardian': dict({
+      'title': 'Elexa Guardian',
+    }),
+    'habitica': dict({
+      'title': 'Habitica',
+    }),
+    'hardware': dict({
+      'title': 'Hardware',
+    }),
+    'harman_kardon_avr': dict({
+      'title': 'Harman Kardon AVR',
+    }),
+    'harmony': dict({
+      'title': 'Logitech Harmony Hub',
+    }),
+    'hassio': dict({
+      'title': 'Home Assistant Supervisor',
+    }),
+    'havana_shade': dict({
+      'title': 'Havana Shade',
+    }),
+    'haveibeenpwned': dict({
+      'title': 'HaveIBeenPwned',
+    }),
+    'hddtemp': dict({
+      'title': 'hddtemp',
+    }),
+    'hdmi_cec': dict({
+      'title': 'HDMI-CEC',
+    }),
+    'heatmiser': dict({
+      'title': 'Heatmiser',
+    }),
+    'heiwa': dict({
+      'title': 'Heiwa',
+    }),
+    'heltun': dict({
+      'title': 'HELTUN',
+    }),
+    'heos': dict({
+      'title': 'Denon HEOS',
+    }),
+    'here_travel_time': dict({
+      'title': 'HERE Travel Time',
+    }),
+    'hexaom': dict({
+      'title': 'Hexaom Hexaconnect',
+    }),
+    'hi_kumo': dict({
+      'title': 'Hitachi Hi Kumo',
+    }),
+    'hikvision': dict({
+      'title': 'Hikvision',
+    }),
+    'hikvisioncam': dict({
+      'title': 'Hikvision',
+    }),
+    'hisense_aehw4a1': dict({
+      'title': 'Hisense AEH-W4A1',
+    }),
+    'history': dict({
+      'title': 'History',
+    }),
+    'history_stats': dict({
+      'title': 'History Stats',
+    }),
+    'hitron_coda': dict({
+      'title': 'Rogers Hitron CODA',
+    }),
+    'hive': dict({
+      'title': 'Hive',
+    }),
+    'hlk_sw16': dict({
+      'title': 'Hi-Link HLK-SW16',
+    }),
+    'holiday': dict({
+      'title': 'Holiday',
+    }),
+    'home_connect': dict({
+      'title': 'Home Connect',
+    }),
+    'home_plus_control': dict({
+      'title': 'Legrand Home+ Control',
+    }),
+    'homeassistant': dict({
+      'title': 'Home Assistant Core Integration',
+    }),
+    'homeassistant_alerts': dict({
+      'title': 'Home Assistant Alerts',
+    }),
+    'homeassistant_green': dict({
+      'title': 'Home Assistant Green',
+    }),
+    'homeassistant_hardware': dict({
+      'title': 'Home Assistant Hardware',
+    }),
+    'homeassistant_sky_connect': dict({
+      'title': 'Home Assistant SkyConnect',
+    }),
+    'homeassistant_yellow': dict({
+      'title': 'Home Assistant Yellow',
+    }),
+    'homekit': dict({
+      'title': 'HomeKit Bridge',
+    }),
+    'homekit_controller': dict({
+      'title': 'HomeKit Device',
+    }),
+    'homematic': dict({
+      'title': 'Homematic',
+    }),
+    'homematicip_cloud': dict({
+      'title': 'HomematicIP Cloud',
+    }),
+    'homeseer': dict({
+      'title': 'HomeSeer',
+    }),
+    'homewizard': dict({
+      'title': 'HomeWizard Energy',
+    }),
+    'homeworks': dict({
+      'title': 'Lutron Homeworks',
+    }),
+    'honeywell': dict({
+      'title': 'Honeywell Total Connect Comfort (US)',
+    }),
+    'horizon': dict({
+      'title': 'Unitymedia Horizon HD Recorder',
+    }),
+    'hp_ilo': dict({
+      'title': 'HP Integrated Lights-Out (ILO)',
+    }),
+    'html5': dict({
+      'title': 'HTML5 Push Notifications',
+    }),
+    'http': dict({
+      'title': 'HTTP',
+    }),
+    'huawei_lte': dict({
+      'title': 'Huawei LTE',
+    }),
+    'hue': dict({
+      'title': 'Philips Hue',
+    }),
+    'huisbaasje': dict({
+      'title': 'Huisbaasje',
+    }),
+    'humidifier': dict({
+      'title': 'Humidifier',
+    }),
+    'hunterdouglas_powerview': dict({
+      'title': 'Hunter Douglas PowerView',
+    }),
+    'hurrican_shutters_wholesale': dict({
+      'title': 'Hurrican Shutters Wholesale',
+    }),
+    'hvv_departures': dict({
+      'title': 'HVV Departures',
+    }),
+    'hydrawise': dict({
+      'title': 'Hunter Hydrawise',
+    }),
+    'hyperion': dict({
+      'title': 'Hyperion',
+    }),
+    'ialarm': dict({
+      'title': 'Antifurto365 iAlarm',
+    }),
+    'iammeter': dict({
+      'title': 'IamMeter',
+    }),
+    'iaqualink': dict({
+      'title': 'Jandy iAqualink',
+    }),
+    'ibeacon': dict({
+      'title': 'iBeacon Tracker',
+    }),
+    'icloud': dict({
+      'title': 'Apple iCloud',
+    }),
+    'idasen_desk': dict({
+      'title': 'IKEA Idasen Desk',
+    }),
+    'idteck_prox': dict({
+      'title': 'IDTECK Proximity Reader',
+    }),
+    'ifttt': dict({
+      'title': 'IFTTT',
+    }),
+    'iglo': dict({
+      'title': 'iGlo',
+    }),
+    'ign_sismologia': dict({
+      'title': 'IGN Sismología',
+    }),
+    'ihc': dict({
+      'title': 'IHC Controller',
+    }),
+    'image': dict({
+      'title': 'Image',
+    }),
+    'image_processing': dict({
+      'title': 'Image processing',
+    }),
+    'image_upload': dict({
+      'title': 'Image Upload',
+    }),
+    'imap': dict({
+      'title': 'IMAP',
+    }),
+    'improv_ble': dict({
+      'title': 'Improv via BLE',
+    }),
+    'incomfort': dict({
+      'title': 'Intergas InComfort/Intouch Lan2RF gateway',
+    }),
+    'indianamichiganpower': dict({
+      'title': 'Indiana Michigan Power',
+    }),
+    'influxdb': dict({
+      'title': 'InfluxDB',
+    }),
+    'inkbird': dict({
+      'title': 'INKBIRD',
+    }),
+    'input_boolean': dict({
+      'title': 'Input Boolean',
+    }),
+    'input_button': dict({
+      'title': 'Input Button',
+    }),
+    'input_datetime': dict({
+      'title': 'Input Datetime',
+    }),
+    'input_number': dict({
+      'title': 'Input Number',
+    }),
+    'input_select': dict({
+      'title': 'Input Select',
+    }),
+    'input_text': dict({
+      'title': 'Input Text',
+    }),
+    'inspired_shades': dict({
+      'title': 'Inspired Shades',
+    }),
+    'insteon': dict({
+      'title': 'Insteon',
+    }),
+    'integration': dict({
+      'title': 'Integration - Riemann sum integral',
+    }),
+    'intellifire': dict({
+      'title': 'IntelliFire',
+    }),
+    'intent_script': dict({
+      'title': 'Intent Script',
+    }),
+    'intesishome': dict({
+      'title': 'IntesisHome',
+    }),
+    'ios': dict({
+      'title': 'Home Assistant iOS',
+    }),
+    'iotawatt': dict({
+      'title': 'IoTaWatt',
+    }),
+    'iperf3': dict({
+      'title': 'Iperf3',
+    }),
+    'ipma': dict({
+      'title': 'Instituto Português do Mar e Atmosfera (IPMA)',
+    }),
+    'iqvia': dict({
+      'title': 'IQVIA',
+    }),
+    'irish_rail_transport': dict({
+      'title': 'Irish Rail Transport',
+    }),
+    'islamic_prayer_times': dict({
+      'title': 'Islamic Prayer Times',
+    }),
+    'ismartwindow': dict({
+      'title': 'iSmartWindow',
+    }),
+    'iss': dict({
+      'title': 'International Space Station (ISS)',
+    }),
+    'isy994': dict({
+      'title': 'Universal Devices ISY/IoX',
+    }),
+    'itach': dict({
+      'title': 'Global Caché iTach TCP/IP to IR',
+    }),
+    'itunes': dict({
+      'title': 'Apple iTunes',
+    }),
+    'izone': dict({
+      'title': 'iZone',
+    }),
+    'jasco': dict({
+      'title': 'Jasco',
+    }),
+    'jellyfin': dict({
+      'title': 'Jellyfin',
+    }),
+    'jewish_calendar': dict({
+      'title': 'Jewish Calendar',
+    }),
+    'joaoapps_join': dict({
+      'title': 'Joaoapps Join',
+    }),
+    'juicenet': dict({
+      'title': 'JuiceNet',
+    }),
+    'justnimbus': dict({
+      'title': 'JustNimbus',
+    }),
+    'jvc_projector': dict({
+      'title': 'JVC Projector',
+    }),
+    'kaiterra': dict({
+      'title': 'Kaiterra',
+    }),
+    'kaleidescape': dict({
+      'title': 'Kaleidescape',
+    }),
+    'kankun': dict({
+      'title': 'Kankun',
+    }),
+    'keba': dict({
+      'title': 'Keba Charging Station',
+    }),
+    'keenetic_ndms2': dict({
+      'title': 'Keenetic NDMS2 Router',
+    }),
+    'kef': dict({
+      'title': 'KEF',
+    }),
+    'kegtron': dict({
+      'title': 'Kegtron',
+    }),
+    'kentuckypower': dict({
+      'title': 'Kentucky Power',
+    }),
+    'keyboard': dict({
+      'title': 'Keyboard',
+    }),
+    'keyboard_remote': dict({
+      'title': 'Keyboard Remote',
+    }),
+    'keymitt_ble': dict({
+      'title': 'Keymitt MicroBot Push',
+    }),
+    'kira': dict({
+      'title': 'Kira',
+    }),
+    'kitchen_sink': dict({
+      'title': 'Everything but the Kitchen Sink',
+    }),
+    'kiwi': dict({
+      'title': 'KIWI',
+    }),
+    'kmtronic': dict({
+      'title': 'KMtronic',
+    }),
+    'knx': dict({
+      'title': 'KNX',
+    }),
+    'kodi': dict({
+      'title': 'Kodi',
+    }),
+    'konnected': dict({
+      'title': 'Konnected.io',
+    }),
+    'kostal_plenticore': dict({
+      'title': 'Kostal Plenticore Solar Inverter',
+    }),
+    'kraken': dict({
+      'title': 'Kraken',
+    }),
+    'kulersky': dict({
+      'title': 'Kuler Sky',
+    }),
+    'kwb': dict({
+      'title': 'KWB Easyfire',
+    }),
+    'lacrosse': dict({
+      'title': 'LaCrosse',
+    }),
+    'lacrosse_view': dict({
+      'title': 'LaCrosse View',
+    }),
+    'lametric': dict({
+      'title': 'LaMetric',
+    }),
+    'landisgyr_heat_meter': dict({
+      'title': 'Landis+Gyr Heat Meter',
+    }),
+    'lannouncer': dict({
+      'title': 'LANnouncer',
+    }),
+    'lastfm': dict({
+      'title': 'Last.fm',
+    }),
+    'launch_library': dict({
+      'title': 'Launch Library',
+    }),
+    'laundrify': dict({
+      'title': 'laundrify',
+    }),
+    'lawn_mower': dict({
+      'title': 'Lawn mower',
+    }),
+    'lcn': dict({
+      'title': 'LCN',
+    }),
+    'ld2410_ble': dict({
+      'title': 'LD2410 BLE',
+    }),
+    'led_ble': dict({
+      'title': 'LED BLE',
+    }),
+    'legrand': dict({
+      'title': 'Legrand',
+    }),
+    'leviton_z_wave': dict({
+      'title': 'Leviton Z-Wave',
+    }),
+    'lg_netcast': dict({
+      'title': 'LG Netcast',
+    }),
+    'lg_soundbar': dict({
+      'title': 'LG Soundbars',
+    }),
+    'lidarr': dict({
+      'title': 'Lidarr',
+    }),
+    'life360': dict({
+      'title': 'Life360',
+    }),
+    'lifx': dict({
+      'title': 'LIFX',
+    }),
+    'lifx_cloud': dict({
+      'title': 'LIFX Cloud',
+    }),
+    'light': dict({
+      'title': 'Light',
+    }),
+    'lightwave': dict({
+      'title': 'Lightwave',
+    }),
+    'limitlessled': dict({
+      'title': 'LimitlessLED',
+    }),
+    'linear_garage_door': dict({
+      'title': 'Linear Garage Door',
+    }),
+    'linksys_smart': dict({
+      'title': 'Linksys Smart Wi-Fi',
+    }),
+    'linode': dict({
+      'title': 'Linode',
+    }),
+    'linux_battery': dict({
+      'title': 'Linux Battery',
+    }),
+    'lirc': dict({
+      'title': 'LIRC',
+    }),
+    'litejet': dict({
+      'title': 'LiteJet',
+    }),
+    'litterrobot': dict({
+      'title': 'Litter-Robot',
+    }),
+    'livisi': dict({
+      'title': 'LIVISI Smart Home',
+    }),
+    'llamalab_automate': dict({
+      'title': 'LlamaLab Automate',
+    }),
+    'local_calendar': dict({
+      'title': 'Local Calendar',
+    }),
+    'local_file': dict({
+      'title': 'Local File',
+    }),
+    'local_ip': dict({
+      'title': 'Local IP Address',
+    }),
+    'local_todo': dict({
+      'title': 'Local To-do',
+    }),
+    'lock': dict({
+      'title': 'Lock',
+    }),
+    'logbook': dict({
+      'title': 'Logbook',
+    }),
+    'logentries': dict({
+      'title': 'Logentries',
+    }),
+    'logger': dict({
+      'title': 'Logger',
+    }),
+    'logi_circle': dict({
+      'title': 'Logi Circle',
+    }),
+    'london_air': dict({
+      'title': 'London Air',
+    }),
+    'london_underground': dict({
+      'title': 'London Underground',
+    }),
+    'lookin': dict({
+      'title': 'LOOKin',
+    }),
+    'loqed': dict({
+      'title': 'LOQED Touch Smart Lock',
+    }),
+    'luci': dict({
+      'title': 'OpenWrt (luci)',
+    }),
+    'luftdaten': dict({
+      'title': 'Sensor.Community',
+    }),
+    'lupusec': dict({
+      'title': 'Lupus Electronics LUPUSEC',
+    }),
+    'lutron': dict({
+      'title': 'Lutron',
+    }),
+    'lutron_caseta': dict({
+      'title': 'Lutron Caséta',
+    }),
+    'luxaflex': dict({
+      'title': 'Luxaflex',
+    }),
+    'lw12wifi': dict({
+      'title': 'LAGUTE LW-12',
+    }),
+    'lyric': dict({
+      'title': 'Honeywell Lyric',
+    }),
+    'mailbox': dict({
+      'title': 'Mailbox',
+    }),
+    'mailgun': dict({
+      'title': 'Mailgun',
+    }),
+    'manual': dict({
+      'title': 'Manual Alarm control panel',
+    }),
+    'manual_mqtt': dict({
+      'title': 'Manual MQTT Alarm control panel',
+    }),
+    'map': dict({
+      'title': 'Map',
+    }),
+    'marantz': dict({
+      'title': 'Marantz',
+    }),
+    'martec': dict({
+      'title': 'Martec',
+    }),
+    'marytts': dict({
+      'title': 'MaryTTS',
+    }),
+    'mastodon': dict({
+      'title': 'Mastodon',
+    }),
+    'matrix': dict({
+      'title': 'Matrix',
+    }),
+    'matter': dict({
+      'title': 'Matter (BETA)',
+    }),
+    'maxcube': dict({
+      'title': 'eQ-3 MAX!',
+    }),
+    'meater': dict({
+      'title': 'Meater',
+    }),
+    'medcom_ble': dict({
+      'title': 'Medcom Bluetooth',
+    }),
+    'media_extractor': dict({
+      'title': 'Media extractor',
+    }),
+    'media_player': dict({
+      'title': 'Media player',
+    }),
+    'media_source': dict({
+      'title': 'Media source',
+    }),
+    'mediaroom': dict({
+      'title': 'Mediaroom',
+    }),
+    'melcloud': dict({
+      'title': 'MELCloud',
+    }),
+    'melissa': dict({
+      'title': 'Melissa',
+    }),
+    'melnor': dict({
+      'title': 'Melnor Bluetooth',
+    }),
+    'meraki': dict({
+      'title': 'Meraki',
+    }),
+    'message_bird': dict({
+      'title': 'MessageBird',
+    }),
+    'met': dict({
+      'title': 'Meteorologisk institutt (Met.no)',
+    }),
+    'met_eireann': dict({
+      'title': 'Met Éireann',
+    }),
+    'meteo_france': dict({
+      'title': 'Météo-France',
+    }),
+    'meteoalarm': dict({
+      'title': 'MeteoAlarm',
+    }),
+    'meteoclimatic': dict({
+      'title': 'Meteoclimatic',
+    }),
+    'metoffice': dict({
+      'title': 'Met Office',
+    }),
+    'mfi': dict({
+      'title': 'Ubiquiti mFi mPort',
+    }),
+    'microsoft': dict({
+      'title': 'Microsoft Text-to-Speech (TTS)',
+    }),
+    'microsoft_face': dict({
+      'title': 'Microsoft Face',
+    }),
+    'microsoft_face_detect': dict({
+      'title': 'Microsoft Face Detect',
+    }),
+    'microsoft_face_identify': dict({
+      'title': 'Microsoft Face Identify',
+    }),
+    'mijndomein_energie': dict({
+      'title': 'Mijndomein Energie',
+    }),
+    'mikrotik': dict({
+      'title': 'Mikrotik',
+    }),
+    'mill': dict({
+      'title': 'Mill',
+    }),
+    'min_max': dict({
+      'title': 'Min/Max',
+    }),
+    'minecraft_server': dict({
+      'title': 'Minecraft Server',
+    }),
+    'minio': dict({
+      'title': 'Minio',
+    }),
+    'mjpeg': dict({
+      'title': 'MJPEG IP Camera',
+    }),
+    'moat': dict({
+      'title': 'Moat',
+    }),
+    'mobile_app': dict({
+      'title': 'Mobile App',
+    }),
+    'mochad': dict({
+      'title': 'Mochad',
+    }),
+    'modbus': dict({
+      'title': 'Modbus',
+    }),
+    'modem_callerid': dict({
+      'title': 'Phone Modem',
+    }),
+    'modern_forms': dict({
+      'title': 'Modern Forms',
+    }),
+    'moehlenhoff_alpha2': dict({
+      'title': 'Möhlenhoff Alpha 2',
+    }),
+    'mold_indicator': dict({
+      'title': 'Mold Indicator',
+    }),
+    'monessen': dict({
+      'title': 'Monessen',
+    }),
+    'monoprice': dict({
+      'title': 'Monoprice 6-Zone Amplifier',
+    }),
+    'moon': dict({
+      'title': 'Moon',
+    }),
+    'mopeka': dict({
+      'title': 'Mopeka',
+    }),
+    'motion_blinds': dict({
+      'title': 'Motion Blinds',
+    }),
+    'motioneye': dict({
+      'title': 'motionEye',
+    }),
+    'mpd': dict({
+      'title': 'Music Player Daemon (MPD)',
+    }),
+    'mqtt': dict({
+      'title': 'MQTT',
+    }),
+    'mqtt_eventstream': dict({
+      'title': 'MQTT Eventstream',
+    }),
+    'mqtt_json': dict({
+      'title': 'MQTT JSON',
+    }),
+    'mqtt_room': dict({
+      'title': 'MQTT room presence',
+    }),
+    'mqtt_statestream': dict({
+      'title': 'MQTT Statestream',
+    }),
+    'msteams': dict({
+      'title': 'Microsoft Teams',
+    }),
+    'mullvad': dict({
+      'title': 'Mullvad VPN',
+    }),
+    'mutesync': dict({
+      'title': 'mutesync',
+    }),
+    'mvglive': dict({
+      'title': 'MVG',
+    }),
+    'my': dict({
+      'title': 'My Home Assistant',
+    }),
+    'mycroft': dict({
+      'title': 'Mycroft',
+    }),
+    'mysensors': dict({
+      'title': 'MySensors',
+    }),
+    'mystrom': dict({
+      'title': 'myStrom',
+    }),
+    'mythicbeastsdns': dict({
+      'title': 'Mythic Beasts DNS',
+    }),
+    'nad': dict({
+      'title': 'NAD',
+    }),
+    'nam': dict({
+      'title': 'Nettigo Air Monitor',
+    }),
+    'namecheapdns': dict({
+      'title': 'Namecheap FreeDNS',
+    }),
+    'nanoleaf': dict({
+      'title': 'Nanoleaf',
+    }),
+    'neato': dict({
+      'title': 'Neato Botvac',
+    }),
+    'nederlandse_spoorwegen': dict({
+      'title': 'Nederlandse Spoorwegen (NS)',
+    }),
+    'ness_alarm': dict({
+      'title': 'Ness Alarm',
+    }),
+    'nest': dict({
+      'title': 'Google Nest',
+    }),
+    'netatmo': dict({
+      'title': 'Netatmo',
+    }),
+    'netdata': dict({
+      'title': 'Netdata',
+    }),
+    'netgear': dict({
+      'title': 'NETGEAR',
+    }),
+    'netgear_lte': dict({
+      'title': 'NETGEAR LTE',
+    }),
+    'netio': dict({
+      'title': 'Netio',
+    }),
+    'network': dict({
+      'title': 'Network Configuration',
+    }),
+    'neurio_energy': dict({
+      'title': 'Neurio energy',
+    }),
+    'nexia': dict({
+      'title': 'Nexia/American Standard/Trane',
+    }),
+    'nexity': dict({
+      'title': 'Nexity Eugénie',
+    }),
+    'nextbus': dict({
+      'title': 'NextBus',
+    }),
+    'nextcloud': dict({
+      'title': 'Nextcloud',
+    }),
+    'nextdns': dict({
+      'title': 'NextDNS',
+    }),
+    'nfandroidtv': dict({
+      'title': 'Notifications for Android TV / Fire TV',
+    }),
+    'nibe_heatpump': dict({
+      'title': 'Nibe Heat Pump',
+    }),
+    'nightscout': dict({
+      'title': 'Nightscout',
+    }),
+    'niko_home_control': dict({
+      'title': 'Niko Home Control',
+    }),
+    'nilu': dict({
+      'title': 'Norwegian Institute for Air Research (NILU)',
+    }),
+    'nina': dict({
+      'title': 'NINA',
+    }),
+    'nissan_leaf': dict({
+      'title': 'Nissan Leaf',
+    }),
+    'nmap_tracker': dict({
+      'title': 'Nmap Tracker',
+    }),
+    'nmbs': dict({
+      'title': 'NMBS',
+    }),
+    'no_ip': dict({
+      'title': 'No-IP.com',
+    }),
+    'noaa_tides': dict({
+      'title': 'NOAA Tides',
+    }),
+    'nobo_hub': dict({
+      'title': 'Nobø Ecohub',
+    }),
+    'norway_air': dict({
+      'title': 'Om Luftkvalitet i Norge (Norway Air)',
+    }),
+    'notify': dict({
+      'title': 'Notifications',
+    }),
+    'notify_events': dict({
+      'title': 'Notify.Events',
+    }),
+    'notion': dict({
+      'title': 'Notion',
+    }),
+    'nsw_fuel_station': dict({
+      'title': 'NSW Fuel Station Price',
+    }),
+    'nsw_rural_fire_service_feed': dict({
+      'title': 'NSW Rural Fire Service Incidents',
+    }),
+    'nuheat': dict({
+      'title': 'NuHeat',
+    }),
+    'nuki': dict({
+      'title': 'Nuki',
+    }),
+    'numato': dict({
+      'title': 'Numato USB GPIO Expander',
+    }),
+    'number': dict({
+      'title': 'Number',
+    }),
+    'nut': dict({
+      'title': 'Network UPS Tools (NUT)',
+    }),
+    'nutrichef': dict({
+      'title': 'Nutrichef',
+    }),
+    'nws': dict({
+      'title': 'National Weather Service (NWS)',
+    }),
+    'nx584': dict({
+      'title': 'NX584',
+    }),
+    'nzbget': dict({
+      'title': 'NZBGet',
+    }),
+    'oasa_telematics': dict({
+      'title': 'OASA Telematics',
+    }),
+    'obihai': dict({
+      'title': 'Obihai',
+    }),
+    'octoprint': dict({
+      'title': 'OctoPrint',
+    }),
+    'oem': dict({
+      'title': 'OpenEnergyMonitor WiFi Thermostat',
+    }),
+    'ohmconnect': dict({
+      'title': 'OhmConnect',
+    }),
+    'ombi': dict({
+      'title': 'Ombi',
+    }),
+    'omnilogic': dict({
+      'title': 'Hayward Omnilogic',
+    }),
+    'onboarding': dict({
+      'title': 'Home Assistant Onboarding',
+    }),
+    'oncue': dict({
+      'title': 'Oncue by Kohler',
+    }),
+    'ondilo_ico': dict({
+      'title': 'Ondilo ICO',
+    }),
+    'onewire': dict({
+      'title': '1-Wire',
+    }),
+    'onkyo': dict({
+      'title': 'Onkyo',
+    }),
+    'onvif': dict({
+      'title': 'ONVIF',
+    }),
+    'open_meteo': dict({
+      'title': 'Open-Meteo',
+    }),
+    'openai_conversation': dict({
+      'title': 'OpenAI Conversation',
+    }),
+    'openalpr_cloud': dict({
+      'title': 'OpenALPR Cloud',
+    }),
+    'opencv': dict({
+      'title': 'OpenCV',
+    }),
+    'openerz': dict({
+      'title': 'Open ERZ',
+    }),
+    'openevse': dict({
+      'title': 'OpenEVSE',
+    }),
+    'openexchangerates': dict({
+      'title': 'Open Exchange Rates',
+    }),
+    'opengarage': dict({
+      'title': 'OpenGarage',
+    }),
+    'openhardwaremonitor': dict({
+      'title': 'Open Hardware Monitor',
+    }),
+    'openhome': dict({
+      'title': 'Linn / OpenHome',
+    }),
+    'opensensemap': dict({
+      'title': 'openSenseMap',
+    }),
+    'opensky': dict({
+      'title': 'OpenSky Network',
+    }),
+    'opentherm_gw': dict({
+      'title': 'OpenTherm Gateway',
+    }),
+    'openuv': dict({
+      'title': 'OpenUV',
+    }),
+    'openweathermap': dict({
+      'title': 'OpenWeatherMap',
+    }),
+    'opnsense': dict({
+      'title': 'OPNSense',
+    }),
+    'opower': dict({
+      'title': 'Opower',
+    }),
+    'opple': dict({
+      'title': 'Opple',
+    }),
+    'oralb': dict({
+      'title': 'Oral-B',
+    }),
+    'oru': dict({
+      'title': 'Orange and Rockland Utility (ORU)',
+    }),
+    'oru_opower': dict({
+      'title': 'Orange and Rockland Utilities (ORU) Opower',
+    }),
+    'orvibo': dict({
+      'title': 'Orvibo',
+    }),
+    'osoenergy': dict({
+      'title': 'OSO Energy',
+    }),
+    'osramlightify': dict({
+      'title': 'Osramlightify',
+    }),
+    'otbr': dict({
+      'title': 'Open Thread Border Router',
+    }),
+    'otp': dict({
+      'title': 'One-Time Password (OTP)',
+    }),
+    'ourgroceries': dict({
+      'title': 'OurGroceries',
+    }),
+    'overkiz': dict({
+      'title': 'Overkiz',
+    }),
+    'ovo_energy': dict({
+      'title': 'OVO Energy',
+    }),
+    'owntracks': dict({
+      'title': 'OwnTracks',
+    }),
+    'p1_monitor': dict({
+      'title': 'P1 Monitor',
+    }),
+    'panasonic_bluray': dict({
+      'title': 'Panasonic Blu-Ray Player',
+    }),
+    'panasonic_viera': dict({
+      'title': 'Panasonic Viera',
+    }),
+    'pandora': dict({
+      'title': 'Pandora',
+    }),
+    'panel_custom': dict({
+      'title': 'Custom panel',
+    }),
+    'panel_iframe': dict({
+      'title': 'iFrame panel',
+    }),
+    'pcs_lighting': dict({
+      'title': 'PCS Lighting',
+    }),
+    'peco': dict({
+      'title': 'PECO Outage Counter',
+    }),
+    'peco_opower': dict({
+      'title': 'PECO Energy Company (PECO)',
+    }),
+    'pegel_online': dict({
+      'title': 'PEGELONLINE',
+    }),
+    'pencom': dict({
+      'title': 'Pencom',
+    }),
+    'pepco': dict({
+      'title': 'Potomac Electric Power Company (Pepco)',
+    }),
+    'persistent_notification': dict({
+      'title': 'Persistent Notification',
+    }),
+    'person': dict({
+      'title': 'Person',
+    }),
+    'pge': dict({
+      'title': 'Pacific Gas & Electric (PG&E)',
+    }),
+    'philips_js': dict({
+      'title': 'Philips TV',
+    }),
+    'pi_hole': dict({
+      'title': 'Pi-hole',
+    }),
+    'picnic': dict({
+      'title': 'Picnic',
+    }),
+    'picotts': dict({
+      'title': 'Pico TTS',
+    }),
+    'pilight': dict({
+      'title': 'Pilight',
+    }),
+    'ping': dict({
+      'title': 'Ping (ICMP)',
+    }),
+    'pioneer': dict({
+      'title': 'Pioneer',
+    }),
+    'piper': dict({
+      'title': 'Piper',
+    }),
+    'pjlink': dict({
+      'title': 'PJLink',
+    }),
+    'plaato': dict({
+      'title': 'Plaato',
+    }),
+    'plant': dict({
+      'title': 'Plant Monitor',
+    }),
+    'plex': dict({
+      'title': 'Plex Media Server',
+    }),
+    'plugwise': dict({
+      'title': 'Plugwise',
+    }),
+    'plum_lightpad': dict({
+      'title': 'Plum Lightpad',
+    }),
+    'pocketcasts': dict({
+      'title': 'Pocket Casts',
+    }),
+    'point': dict({
+      'title': 'Minut Point',
+    }),
+    'poolsense': dict({
+      'title': 'PoolSense',
+    }),
+    'portlandgeneral': dict({
+      'title': 'Portland General Electric (PGE)',
+    }),
+    'powerwall': dict({
+      'title': 'Tesla Powerwall',
+    }),
+    'private_ble_device': dict({
+      'title': 'Private BLE Device',
+    }),
+    'profiler': dict({
+      'title': 'Profiler',
+    }),
+    'progettihwsw': dict({
+      'title': 'ProgettiHWSW Automation',
+    }),
+    'proliphix': dict({
+      'title': 'Proliphix',
+    }),
+    'prometheus': dict({
+      'title': 'Prometheus',
+    }),
+    'prosegur': dict({
+      'title': 'Prosegur Alarm',
+    }),
+    'prowl': dict({
+      'title': 'Prowl',
+    }),
+    'proximity': dict({
+      'title': 'Proximity',
+    }),
+    'proxmoxve': dict({
+      'title': 'Proxmox VE',
+    }),
+    'proxy': dict({
+      'title': 'Camera Proxy',
+    }),
+    'prusalink': dict({
+      'title': 'PrusaLink',
+    }),
+    'ps4': dict({
+      'title': 'Sony PlayStation 4',
+    }),
+    'pse': dict({
+      'title': 'Puget Sound Energy (PSE)',
+    }),
+    'psoklahoma': dict({
+      'title': 'Public Service Company of Oklahoma (PSO)',
+    }),
+    'pulseaudio_loopback': dict({
+      'title': 'PulseAudio Loopback',
+    }),
+    'pure_energie': dict({
+      'title': 'Pure Energie',
+    }),
+    'purpleair': dict({
+      'title': 'PurpleAir',
+    }),
+    'push': dict({
+      'title': 'Push',
+    }),
+    'pushbullet': dict({
+      'title': 'Pushbullet',
+    }),
+    'pushover': dict({
+      'title': 'Pushover',
+    }),
+    'pushsafer': dict({
+      'title': 'Pushsafer',
+    }),
+    'pvoutput': dict({
+      'title': 'PVOutput',
+    }),
+    'pvpc_hourly_pricing': dict({
+      'title': 'Spain electricity hourly pricing (PVPC)',
+    }),
+    'pyload': dict({
+      'title': 'pyLoad',
+    }),
+    'python_script': dict({
+      'title': 'Python Scripts',
+    }),
+    'qbittorrent': dict({
+      'title': 'qBittorrent',
+    }),
+    'qingping': dict({
+      'title': 'Qingping',
+    }),
+    'qld_bushfire': dict({
+      'title': 'Queensland Bushfire Alert',
+    }),
+    'qnap': dict({
+      'title': 'QNAP',
+    }),
+    'qnap_qsw': dict({
+      'title': 'QNAP QSW',
+    }),
+    'qrcode': dict({
+      'title': 'QR Code',
+    }),
+    'quadrafire': dict({
+      'title': 'Quadra-Fire',
+    }),
+    'quantum_gateway': dict({
+      'title': 'Quantum Gateway',
+    }),
+    'qvr_pro': dict({
+      'title': 'QVR Pro',
+    }),
+    'qwikswitch': dict({
+      'title': 'QwikSwitch QSUSB',
+    }),
+    'rachio': dict({
+      'title': 'Rachio',
+    }),
+    'radarr': dict({
+      'title': 'Radarr',
+    }),
+    'radio_browser': dict({
+      'title': 'Radio Browser',
+    }),
+    'radiotherm': dict({
+      'title': 'Radio Thermostat',
+    }),
+    'rainbird': dict({
+      'title': 'Rain Bird',
+    }),
+    'raincloud': dict({
+      'title': 'Melnor RainCloud',
+    }),
+    'rainforest_eagle': dict({
+      'title': 'Rainforest Eagle',
+    }),
+    'rainmachine': dict({
+      'title': 'RainMachine',
+    }),
+    'random': dict({
+      'title': 'Random',
+    }),
+    'rapt_ble': dict({
+      'title': 'RAPT Bluetooth',
+    }),
+    'raspyrfm': dict({
+      'title': 'RaspyRFM',
+    }),
+    'raven_rock_mfg': dict({
+      'title': 'Raven Rock MFG',
+    }),
+    'rdw': dict({
+      'title': 'RDW',
+    }),
+    'recollect_waste': dict({
+      'title': 'ReCollect Waste',
+    }),
+    'recorder': dict({
+      'title': 'Recorder',
+    }),
+    'recovery_mode': dict({
+      'title': 'Recovery Mode',
+    }),
+    'recswitch': dict({
+      'title': 'Ankuoo REC Switch',
+    }),
+    'reddit': dict({
+      'title': 'Reddit',
+    }),
+    'refoss': dict({
+      'title': 'Refoss',
+    }),
+    'rejseplanen': dict({
+      'title': 'Rejseplanen',
+    }),
+    'remember_the_milk': dict({
+      'title': 'Remember The Milk',
+    }),
+    'remote': dict({
+      'title': 'Remote',
+    }),
+    'remote_rpi_gpio': dict({
+      'title': 'Raspberry Pi Remote GPIO',
+    }),
+    'renault': dict({
+      'title': 'Renault',
+    }),
+    'renson': dict({
+      'title': 'Renson',
+    }),
+    'reolink': dict({
+      'title': 'Reolink IP NVR/camera',
+    }),
+    'repairs': dict({
+      'title': 'Repairs',
+    }),
+    'repetier': dict({
+      'title': 'Repetier-Server',
+    }),
+    'rest': dict({
+      'title': 'RESTful',
+    }),
+    'rest_command': dict({
+      'title': 'RESTful Command',
+    }),
+    'rexel': dict({
+      'title': 'Rexel Energeasy Connect',
+    }),
+    'rflink': dict({
+      'title': 'RFLink',
+    }),
+    'rfxtrx': dict({
+      'title': 'RFXCOM RFXtrx',
+    }),
+    'rhasspy': dict({
+      'title': 'Rhasspy',
+    }),
+    'ridwell': dict({
+      'title': 'Ridwell',
+    }),
+    'ring': dict({
+      'title': 'Ring',
+    }),
+    'ripple': dict({
+      'title': 'Ripple',
+    }),
+    'risco': dict({
+      'title': 'Risco',
+    }),
+    'rituals_perfume_genie': dict({
+      'title': 'Rituals Perfume Genie',
+    }),
+    'rmvtransport': dict({
+      'title': 'RMV',
+    }),
+    'roborock': dict({
+      'title': 'Roborock',
+    }),
+    'rocketchat': dict({
+      'title': 'Rocket.Chat',
+    }),
+    'roku': dict({
+      'title': 'Roku',
+    }),
+    'roomba': dict({
+      'title': 'iRobot Roomba and Braava',
+    }),
+    'roon': dict({
+      'title': 'RoonLabs music player',
+    }),
+    'route53': dict({
+      'title': 'AWS Route53',
+    }),
+    'rova': dict({
+      'title': 'ROVA',
+    }),
+    'rpi_camera': dict({
+      'title': 'Raspberry Pi Camera',
+    }),
+    'rpi_power': dict({
+      'title': 'Raspberry Pi Power Supply Checker',
+    }),
+    'rss_feed_template': dict({
+      'title': 'RSS feed template',
+    }),
+    'rtorrent': dict({
+      'title': 'rTorrent',
+    }),
+    'rtsp_to_webrtc': dict({
+      'title': 'RTSPtoWebRTC',
+    }),
+    'ruckus_unleashed': dict({
+      'title': 'Ruckus Unleashed',
+    }),
+    'russound_rio': dict({
+      'title': 'Russound RIO',
+    }),
+    'russound_rnet': dict({
+      'title': 'Russound RNET',
+    }),
+    'ruuvi_gateway': dict({
+      'title': 'Ruuvi Gateway',
+    }),
+    'ruuvitag_ble': dict({
+      'title': 'RuuviTag BLE',
+    }),
+    'rympro': dict({
+      'title': 'Read Your Meter Pro',
+    }),
+    'sabnzbd': dict({
+      'title': 'SABnzbd',
+    }),
+    'saj': dict({
+      'title': 'SAJ Solar Inverter',
+    }),
+    'samsungtv': dict({
+      'title': 'Samsung Smart TV',
+    }),
+    'satel_integra': dict({
+      'title': 'Satel Integra',
+    }),
+    'scene': dict({
+      'title': 'Scenes',
+    }),
+    'schedule': dict({
+      'title': 'Schedule',
+    }),
+    'schlage': dict({
+      'title': 'Schlage',
+    }),
+    'schluter': dict({
+      'title': 'Schluter',
+    }),
+    'scl': dict({
+      'title': 'Seattle City Light (SCL)',
+    }),
+    'scrape': dict({
+      'title': 'Scrape',
+    }),
+    'screenaway': dict({
+      'title': 'ScreenAway',
+    }),
+    'screenlogic': dict({
+      'title': 'Pentair ScreenLogic',
+    }),
+    'script': dict({
+      'title': 'Scripts',
+    }),
+    'scsgate': dict({
+      'title': 'SCSGate',
+    }),
+    'search': dict({
+      'title': 'Search',
+    }),
+    'season': dict({
+      'title': 'Season',
+    }),
+    'select': dict({
+      'title': 'Select',
+    }),
+    'sendgrid': dict({
+      'title': 'SendGrid',
+    }),
+    'sense': dict({
+      'title': 'Sense',
+    }),
+    'sensibo': dict({
+      'title': 'Sensibo',
+    }),
+    'sensirion_ble': dict({
+      'title': 'Sensirion BLE',
+    }),
+    'sensor': dict({
+      'title': 'Sensor',
+    }),
+    'sensorblue': dict({
+      'title': 'SensorBlue',
+    }),
+    'sensorpro': dict({
+      'title': 'SensorPro',
+    }),
+    'sensorpush': dict({
+      'title': 'SensorPush',
+    }),
+    'sentry': dict({
+      'title': 'Sentry',
+    }),
+    'senz': dict({
+      'title': 'nVent RAYCHEM SENZ',
+    }),
+    'serial': dict({
+      'title': 'Serial',
+    }),
+    'serial_pm': dict({
+      'title': 'Serial Particulate Matter',
+    }),
+    'sesame': dict({
+      'title': 'Sesame Smart Lock',
+    }),
+    'seven_segments': dict({
+      'title': 'Seven Segments OCR',
+    }),
+    'seventeentrack': dict({
+      'title': '17TRACK',
+    }),
+    'sfr_box': dict({
+      'title': 'SFR Box',
+    }),
+    'sharkiq': dict({
+      'title': 'Shark IQ',
+    }),
+    'shell_command': dict({
+      'title': 'Shell Command',
+    }),
+    'shelly': dict({
+      'title': 'Shelly',
+    }),
+    'shodan': dict({
+      'title': 'Shodan',
+    }),
+    'shopping_list': dict({
+      'title': 'Shopping list',
+    }),
+    'sia': dict({
+      'title': 'SIA Alarm Systems',
+    }),
+    'sigfox': dict({
+      'title': 'Sigfox',
+    }),
+    'sighthound': dict({
+      'title': 'Sighthound',
+    }),
+    'signal_messenger': dict({
+      'title': 'Signal Messenger',
+    }),
+    'simplepush': dict({
+      'title': 'Simplepush',
+    }),
+    'simplisafe': dict({
+      'title': 'SimpliSafe',
+    }),
+    'simply_automated': dict({
+      'title': 'Simply Automated',
+    }),
+    'simu': dict({
+      'title': 'SIMU LiveIn2',
+    }),
+    'simulated': dict({
+      'title': 'Simulated',
+    }),
+    'sinch': dict({
+      'title': 'Sinch SMS',
+    }),
+    'siren': dict({
+      'title': 'Siren',
+    }),
+    'sisyphus': dict({
+      'title': 'Sisyphus',
+    }),
+    'sky_hub': dict({
+      'title': 'Sky Hub',
+    }),
+    'skybeacon': dict({
+      'title': 'Skybeacon',
+    }),
+    'skybell': dict({
+      'title': 'SkyBell',
+    }),
+    'slack': dict({
+      'title': 'Slack',
+    }),
+    'sleepiq': dict({
+      'title': 'SleepIQ',
+    }),
+    'slide': dict({
+      'title': 'Slide',
+    }),
+    'slimproto': dict({
+      'title': 'SlimProto (Squeezebox players)',
+    }),
+    'sma': dict({
+      'title': 'SMA Solar',
+    }),
+    'smappee': dict({
+      'title': 'Smappee',
+    }),
+    'smart_blinds': dict({
+      'title': 'Smart Blinds',
+    }),
+    'smart_home': dict({
+      'title': 'Smart Home',
+    }),
+    'smart_meter_texas': dict({
+      'title': 'Smart Meter Texas',
+    }),
+    'smarther': dict({
+      'title': 'Smarther',
+    }),
+    'smartthings': dict({
+      'title': 'SmartThings',
+    }),
+    'smarttub': dict({
+      'title': 'SmartTub',
+    }),
+    'smarty': dict({
+      'title': 'Salda Smarty',
+    }),
+    'smhi': dict({
+      'title': 'SMHI',
+    }),
+    'sms': dict({
+      'title': 'SMS notifications via GSM-modem',
+    }),
+    'smtp': dict({
+      'title': 'SMTP',
+    }),
+    'snapcast': dict({
+      'title': 'Snapcast',
+    }),
+    'snips': dict({
+      'title': 'Snips',
+    }),
+    'snmp': dict({
+      'title': 'SNMP',
+    }),
+    'snooz': dict({
+      'title': 'Snooz',
+    }),
+    'solaredge': dict({
+      'title': 'SolarEdge',
+    }),
+    'solaredge_local': dict({
+      'title': 'SolarEdge Local',
+    }),
+    'solarlog': dict({
+      'title': 'Solar-Log',
+    }),
+    'solax': dict({
+      'title': 'SolaX Power',
+    }),
+    'soma': dict({
+      'title': 'Soma Connect',
+    }),
+    'somfy': dict({
+      'title': 'Somfy',
+    }),
+    'somfy_mylink': dict({
+      'title': 'Somfy MyLink',
+    }),
+    'sonarr': dict({
+      'title': 'Sonarr',
+    }),
+    'songpal': dict({
+      'title': 'Sony Songpal',
+    }),
+    'sonos': dict({
+      'title': 'Sonos',
+    }),
+    'sony_projector': dict({
+      'title': 'Sony Projector',
+    }),
+    'soundtouch': dict({
+      'title': 'Bose SoundTouch',
+    }),
+    'spaceapi': dict({
+      'title': 'Space API',
+    }),
+    'spc': dict({
+      'title': 'Vanderbilt SPC',
+    }),
+    'speedtestdotnet': dict({
+      'title': 'Speedtest.net',
+    }),
+    'spider': dict({
+      'title': 'Itho Daalderop Spider',
+    }),
+    'splunk': dict({
+      'title': 'Splunk',
+    }),
+    'spotify': dict({
+      'title': 'Spotify',
+    }),
+    'sql': dict({
+      'title': 'SQL',
+    }),
+    'squeezebox': dict({
+      'title': 'Squeezebox (Logitech Media Server)',
+    }),
+    'srp_energy': dict({
+      'title': 'SRP Energy',
+    }),
+    'ssdp': dict({
+      'title': 'Simple Service Discovery Protocol (SSDP)',
+    }),
+    'starline': dict({
+      'title': 'StarLine',
+    }),
+    'starlingbank': dict({
+      'title': 'Starling Bank',
+    }),
+    'starlink': dict({
+      'title': 'Starlink',
+    }),
+    'startca': dict({
+      'title': 'Start.ca',
+    }),
+    'statistics': dict({
+      'title': 'Statistics',
+    }),
+    'statsd': dict({
+      'title': 'StatsD',
+    }),
+    'steam_online': dict({
+      'title': 'Steam',
+    }),
+    'steamist': dict({
+      'title': 'Steamist',
+    }),
+    'stiebel_eltron': dict({
+      'title': 'STIEBEL ELTRON',
+    }),
+    'stookalert': dict({
+      'title': 'RIVM Stookalert',
+    }),
+    'stookwijzer': dict({
+      'title': 'Stookwijzer',
+    }),
+    'stream': dict({
+      'title': 'Stream',
+    }),
+    'streamlabswater': dict({
+      'title': 'StreamLabs',
+    }),
+    'stt': dict({
+      'title': 'Speech-to-text (STT)',
+    }),
+    'subaru': dict({
+      'title': 'Subaru',
+    }),
+    'suez_water': dict({
+      'title': 'Suez Water',
+    }),
+    'sun': dict({
+      'title': 'Sun',
+    }),
+    'sunweg': dict({
+      'title': 'Sun WEG',
+    }),
+    'supervisord': dict({
+      'title': 'Supervisord',
+    }),
+    'supla': dict({
+      'title': 'SUPLA',
+    }),
+    'surepetcare': dict({
+      'title': 'Sure Petcare',
+    }),
+    'swepco': dict({
+      'title': 'Southwestern Electric Power Company (SWEPCO)',
+    }),
+    'swiss_hydrological_data': dict({
+      'title': 'Swiss Hydrological Data',
+    }),
+    'swiss_public_transport': dict({
+      'title': 'Swiss public transport',
+    }),
+    'swisscom': dict({
+      'title': 'Swisscom Internet-Box',
+    }),
+    'switch': dict({
+      'title': 'Switch',
+    }),
+    'switch_as_x': dict({
+      'title': 'Change device type of a switch',
+    }),
+    'switchbee': dict({
+      'title': 'SwitchBee',
+    }),
+    'switchbot': dict({
+      'title': 'SwitchBot Bluetooth',
+    }),
+    'switchbot_cloud': dict({
+      'title': 'SwitchBot Cloud',
+    }),
+    'switcher_kis': dict({
+      'title': 'Switcher',
+    }),
+    'switchmate': dict({
+      'title': 'Switchmate SimplySmart Home',
+    }),
+    'symfonisk': dict({
+      'title': 'IKEA SYMFONISK',
+    }),
+    'syncthing': dict({
+      'title': 'Syncthing',
+    }),
+    'syncthru': dict({
+      'title': 'Samsung SyncThru Printer',
+    }),
+    'synology_chat': dict({
+      'title': 'Synology Chat',
+    }),
+    'synology_dsm': dict({
+      'title': 'Synology DSM',
+    }),
+    'synology_srm': dict({
+      'title': 'Synology SRM',
+    }),
+    'syslog': dict({
+      'title': 'Syslog',
+    }),
+    'system_bridge': dict({
+      'title': 'System Bridge',
+    }),
+    'system_health': dict({
+      'title': 'System Health',
+    }),
+    'system_log': dict({
+      'title': 'System Log',
+    }),
+    'systemmonitor': dict({
+      'title': 'System monitor',
+    }),
+    'tado': dict({
+      'title': 'Tado',
+    }),
+    'tag': dict({
+      'title': 'Tags',
+    }),
+    'tailscale': dict({
+      'title': 'Tailscale',
+    }),
+    'tailwind': dict({
+      'title': 'Tailwind',
+    }),
+    'tami4': dict({
+      'title': 'Tami4 Edge / Edge+',
+    }),
+    'tank_utility': dict({
+      'title': 'Tank Utility',
+    }),
+    'tankerkoenig': dict({
+      'title': 'Tankerkoenig',
+    }),
+    'tapsaff': dict({
+      'title': 'Taps Aff',
+    }),
+    'tasmota': dict({
+      'title': 'Tasmota',
+    }),
+    'tautulli': dict({
+      'title': 'Tautulli',
+    }),
+    'tcp': dict({
+      'title': 'TCP',
+    }),
+    'ted5000': dict({
+      'title': 'The Energy Detective TED5000',
+    }),
+    'telegram': dict({
+      'title': 'Telegram',
+    }),
+    'telegram_bot': dict({
+      'title': 'Telegram bot',
+    }),
+    'tellduslive': dict({
+      'title': 'Telldus Live',
+    }),
+    'tellstick': dict({
+      'title': 'TellStick',
+    }),
+    'telnet': dict({
+      'title': 'Telnet',
+    }),
+    'temper': dict({
+      'title': 'TEMPer',
+    }),
+    'template': dict({
+      'title': 'Template',
+    }),
+    'tensorflow': dict({
+      'title': 'TensorFlow',
+    }),
+    'tesla_wall_connector': dict({
+      'title': 'Tesla Wall Connector',
+    }),
+    'tessie': dict({
+      'title': 'Tessie',
+    }),
+    'text': dict({
+      'title': 'Text',
+    }),
+    'tfiac': dict({
+      'title': 'Tfiac',
+    }),
+    'thermobeacon': dict({
+      'title': 'ThermoBeacon',
+    }),
+    'thermoplus': dict({
+      'title': 'ThermoPlus',
+    }),
+    'thermopro': dict({
+      'title': 'ThermoPro',
+    }),
+    'thermoworks_smoke': dict({
+      'title': 'ThermoWorks Smoke',
+    }),
+    'thethingsnetwork': dict({
+      'title': 'The Things Network',
+    }),
+    'thingspeak': dict({
+      'title': 'ThingSpeak',
+    }),
+    'thinkingcleaner': dict({
+      'title': 'Thinking Cleaner',
+    }),
+    'third_reality': dict({
+      'title': 'Third Reality',
+    }),
+    'thomson': dict({
+      'title': 'Thomson',
+    }),
+    'thread': dict({
+      'title': 'Thread',
+    }),
+    'threshold': dict({
+      'title': 'Threshold',
+    }),
+    'tibber': dict({
+      'title': 'Tibber',
+    }),
+    'tikteck': dict({
+      'title': 'Tikteck',
+    }),
+    'tile': dict({
+      'title': 'Tile',
+    }),
+    'tilt_ble': dict({
+      'title': 'Tilt Hydrometer BLE',
+    }),
+    'time': dict({
+      'title': 'Time',
+    }),
+    'time_date': dict({
+      'title': 'Time & Date',
+    }),
+    'timer': dict({
+      'title': 'Timer',
+    }),
+    'tmb': dict({
+      'title': 'Transports Metropolitans de Barcelona',
+    }),
+    'tod': dict({
+      'title': 'Times of the Day',
+    }),
+    'todo': dict({
+      'title': 'To-do list',
+    }),
+    'todoist': dict({
+      'title': 'Todoist',
+    }),
+    'tolo': dict({
+      'title': 'TOLO Sauna',
+    }),
+    'tomato': dict({
+      'title': 'Tomato',
+    }),
+    'tomorrowio': dict({
+      'title': 'Tomorrow.io',
+    }),
+    'toon': dict({
+      'title': 'Toon',
+    }),
+    'torque': dict({
+      'title': 'Torque',
+    }),
+    'totalconnect': dict({
+      'title': 'Total Connect',
+    }),
+    'touchline': dict({
+      'title': 'Roth Touchline',
+    }),
+    'tplink': dict({
+      'title': 'TP-Link Kasa Smart',
+    }),
+    'tplink_lte': dict({
+      'title': 'TP-Link LTE',
+    }),
+    'tplink_omada': dict({
+      'title': 'TP-Link Omada',
+    }),
+    'traccar': dict({
+      'title': 'Traccar',
+    }),
+    'tractive': dict({
+      'title': 'Tractive',
+    }),
+    'tradfri': dict({
+      'title': 'IKEA TRÅDFRI',
+    }),
+    'trafikverket_camera': dict({
+      'title': 'Trafikverket Camera',
+    }),
+    'trafikverket_ferry': dict({
+      'title': 'Trafikverket Ferry',
+    }),
+    'trafikverket_train': dict({
+      'title': 'Trafikverket Train',
+    }),
+    'trafikverket_weatherstation': dict({
+      'title': 'Trafikverket Weather Station',
+    }),
+    'transmission': dict({
+      'title': 'Transmission',
+    }),
+    'transport_nsw': dict({
+      'title': 'Transport NSW',
+    }),
+    'travisci': dict({
+      'title': 'Travis-CI',
+    }),
+    'trend': dict({
+      'title': 'Trend',
+    }),
+    'tts': dict({
+      'title': 'Text-to-speech (TTS)',
+    }),
+    'tuya': dict({
+      'title': 'Tuya',
+    }),
+    'twentemilieu': dict({
+      'title': 'Twente Milieu',
+    }),
+    'twilio': dict({
+      'title': 'Twilio',
+    }),
+    'twilio_call': dict({
+      'title': 'Twilio Call',
+    }),
+    'twilio_sms': dict({
+      'title': 'Twilio SMS',
+    }),
+    'twinkly': dict({
+      'title': 'Twinkly',
+    }),
+    'twitch': dict({
+      'title': 'Twitch',
+    }),
+    'twitter': dict({
+      'title': 'X',
+    }),
+    'ubiwizz': dict({
+      'title': 'Ubiwizz',
+    }),
+    'ubus': dict({
+      'title': 'OpenWrt (ubus)',
+    }),
+    'ue_smart_radio': dict({
+      'title': 'Logitech UE Smart Radio',
+    }),
+    'uk_transport': dict({
+      'title': 'UK Transport',
+    }),
+    'ukraine_alarm': dict({
+      'title': 'Ukraine Alarm',
+    }),
+    'ultraloq': dict({
+      'title': 'Ultraloq',
+    }),
+    'unifi': dict({
+      'title': 'UniFi Network',
+    }),
+    'unifi_direct': dict({
+      'title': 'UniFi AP',
+    }),
+    'unifiled': dict({
+      'title': 'UniFi LED',
+    }),
+    'unifiprotect': dict({
+      'title': 'UniFi Protect',
+    }),
+    'universal': dict({
+      'title': 'Universal media player',
+    }),
+    'upb': dict({
+      'title': 'Universal Powerline Bus (UPB)',
+    }),
+    'upc_connect': dict({
+      'title': 'UPC Connect Box',
+    }),
+    'upcloud': dict({
+      'title': 'UpCloud',
+    }),
+    'update': dict({
+      'title': 'Update',
+    }),
+    'upnp': dict({
+      'title': 'UPnP/IGD',
+    }),
+    'uprise_smart_shades': dict({
+      'title': 'Uprise Smart Shades',
+    }),
+    'uptime': dict({
+      'title': 'Uptime',
+    }),
+    'uptimerobot': dict({
+      'title': 'UptimeRobot',
+    }),
+    'usb': dict({
+      'title': 'USB Discovery',
+    }),
+    'usgs_earthquakes_feed': dict({
+      'title': 'U.S. Geological Survey Earthquake Hazards (USGS)',
+    }),
+    'utility_meter': dict({
+      'title': 'Utility Meter',
+    }),
+    'uvc': dict({
+      'title': 'Ubiquiti UniFi Video',
+    }),
+    'v2c': dict({
+      'title': 'V2C',
+    }),
+    'vacuum': dict({
+      'title': 'Vacuum',
+    }),
+    'vallox': dict({
+      'title': 'Vallox',
+    }),
+    'valve': dict({
+      'title': 'Valve',
+    }),
+    'vasttrafik': dict({
+      'title': 'Västtrafik',
+    }),
+    'velbus': dict({
+      'title': 'Velbus',
+    }),
+    'velux': dict({
+      'title': 'Velux',
+    }),
+    'venstar': dict({
+      'title': 'Venstar',
+    }),
+    'vera': dict({
+      'title': 'Vera',
+    }),
+    'verisure': dict({
+      'title': 'Verisure',
+    }),
+    'vermont_castings': dict({
+      'title': 'Vermont Castings',
+    }),
+    'versasense': dict({
+      'title': 'VersaSense',
+    }),
+    'version': dict({
+      'title': 'Version',
+    }),
+    'vesync': dict({
+      'title': 'VeSync',
+    }),
+    'viaggiatreno': dict({
+      'title': 'Trenitalia ViaggiaTreno',
+    }),
+    'vicare': dict({
+      'title': 'Viessmann ViCare',
+    }),
+    'vilfo': dict({
+      'title': 'Vilfo Router',
+    }),
+    'vivotek': dict({
+      'title': 'VIVOTEK',
+    }),
+    'vizio': dict({
+      'title': 'VIZIO SmartCast',
+    }),
+    'vlc': dict({
+      'title': 'VLC media player',
+    }),
+    'vlc_telnet': dict({
+      'title': 'VLC media player via Telnet',
+    }),
+    'vodafone_station': dict({
+      'title': 'Vodafone Station',
+    }),
+    'voice_assistant': dict({
+      'title': 'Voice Assistant',
+    }),
+    'voicerss': dict({
+      'title': 'VoiceRSS',
+    }),
+    'voip': dict({
+      'title': 'Voice over IP',
+    }),
+    'volkszaehler': dict({
+      'title': 'Volkszaehler',
+    }),
+    'volumio': dict({
+      'title': 'Volumio',
+    }),
+    'volvooncall': dict({
+      'title': 'Volvo On Call',
+    }),
+    'vulcan': dict({
+      'title': 'Uonet+ Vulcan',
+    }),
+    'vultr': dict({
+      'title': 'Vultr',
+    }),
+    'w800rf32': dict({
+      'title': 'WGL Designs W800RF32',
+    }),
+    'wake_on_lan': dict({
+      'title': 'Wake on LAN',
+    }),
+    'wake_word': dict({
+      'title': 'Wake-word detection',
+    }),
+    'wallbox': dict({
+      'title': 'Wallbox',
+    }),
+    'waqi': dict({
+      'title': 'World Air Quality Index (WAQI)',
+    }),
+    'water_heater': dict({
+      'title': 'Water heater',
+    }),
+    'waterfurnace': dict({
+      'title': 'WaterFurnace',
+    }),
+    'watson_iot': dict({
+      'title': 'IBM Watson IoT Platform',
+    }),
+    'watson_tts': dict({
+      'title': 'IBM Watson TTS',
+    }),
+    'watttime': dict({
+      'title': 'WattTime',
+    }),
+    'waze_travel_time': dict({
+      'title': 'Waze Travel Time',
+    }),
+    'weather': dict({
+      'title': 'Weather',
+    }),
+    'weatherflow': dict({
+      'title': 'WeatherFlow',
+    }),
+    'weatherkit': dict({
+      'title': 'Apple WeatherKit',
+    }),
+    'webhook': dict({
+      'title': 'Webhook',
+    }),
+    'webostv': dict({
+      'title': 'LG webOS Smart TV',
+    }),
+    'websocket_api': dict({
+      'title': 'Home Assistant WebSocket API',
+    }),
+    'wemo': dict({
+      'title': 'Belkin WeMo',
+    }),
+    'whirlpool': dict({
+      'title': 'Whirlpool Appliances',
+    }),
+    'whisper': dict({
+      'title': 'Whisper',
+    }),
+    'whois': dict({
+      'title': 'Whois',
+    }),
+    'wiffi': dict({
+      'title': 'Wiffi',
+    }),
+    'wilight': dict({
+      'title': 'WiLight',
+    }),
+    'wirelesstag': dict({
+      'title': 'Wireless Sensor Tags',
+    }),
+    'withings': dict({
+      'title': 'Withings',
+    }),
+    'wiz': dict({
+      'title': 'WiZ',
+    }),
+    'wled': dict({
+      'title': 'WLED',
+    }),
+    'wolflink': dict({
+      'title': 'Wolf SmartSet Service',
+    }),
+    'workday': dict({
+      'title': 'Workday',
+    }),
+    'worldclock': dict({
+      'title': 'Worldclock',
+    }),
+    'worldtidesinfo': dict({
+      'title': 'World Tides',
+    }),
+    'worxlandroid': dict({
+      'title': 'Worx Landroid',
+    }),
+    'ws66i': dict({
+      'title': 'Soundavo WS66i 6-Zone Amplifier',
+    }),
+    'wsdot': dict({
+      'title': 'Washington State Department of Transportation (WSDOT)',
+    }),
+    'wyoming': dict({
+      'title': 'Wyoming Protocol',
+    }),
+    'x10': dict({
+      'title': 'Heyu X10',
+    }),
+    'xbox': dict({
+      'title': 'Xbox',
+    }),
+    'xeoma': dict({
+      'title': 'Xeoma',
+    }),
+    'xiaomi': dict({
+      'title': 'Xiaomi',
+    }),
+    'xiaomi_aqara': dict({
+      'title': 'Xiaomi Gateway (Aqara)',
+    }),
+    'xiaomi_ble': dict({
+      'title': 'Xiaomi BLE',
+    }),
+    'xiaomi_miio': dict({
+      'title': 'Xiaomi Miio',
+    }),
+    'xiaomi_tv': dict({
+      'title': 'Xiaomi TV',
+    }),
+    'xmpp': dict({
+      'title': 'Jabber (XMPP)',
+    }),
+    'xs1': dict({
+      'title': 'EZcontrol XS1',
+    }),
+    'yale_home': dict({
+      'title': 'Yale Home',
+    }),
+    'yale_smart_alarm': dict({
+      'title': 'Yale Smart Living',
+    }),
+    'yalexs_ble': dict({
+      'title': 'Yale Access Bluetooth',
+    }),
+    'yamaha': dict({
+      'title': 'Yamaha Network Receivers',
+    }),
+    'yamaha_musiccast': dict({
+      'title': 'MusicCast',
+    }),
+    'yandex_transport': dict({
+      'title': 'Yandex Transport',
+    }),
+    'yandextts': dict({
+      'title': 'Yandex TTS',
+    }),
+    'yardian': dict({
+      'title': 'Yardian',
+    }),
+    'yeelight': dict({
+      'title': 'Yeelight',
+    }),
+    'yeelightsunflower': dict({
+      'title': 'Yeelight Sunflower',
+    }),
+    'yi': dict({
+      'title': 'Yi Home Cameras',
+    }),
+    'yolink': dict({
+      'title': 'YoLink',
+    }),
+    'youless': dict({
+      'title': 'YouLess',
+    }),
+    'youtube': dict({
+      'title': 'YouTube',
+    }),
+    'zabbix': dict({
+      'title': 'Zabbix',
+    }),
+    'zamg': dict({
+      'title': 'GeoSphere Austria',
+    }),
+    'zengge': dict({
+      'title': 'Zengge',
+    }),
+    'zeroconf': dict({
+      'title': 'Zero-configuration networking (zeroconf)',
+    }),
+    'zerproc': dict({
+      'title': 'Zerproc',
+    }),
+    'zestimate': dict({
+      'title': 'Zestimate',
+    }),
+    'zeversolar': dict({
+      'title': 'Zeversolar',
+    }),
+    'zha': dict({
+      'title': 'Zigbee Home Automation',
+    }),
+    'zhong_hong': dict({
+      'title': 'ZhongHong',
+    }),
+    'ziggo_mediabox_xl': dict({
+      'title': 'Ziggo Mediabox XL',
+    }),
+    'zodiac': dict({
+      'title': 'Zodiac',
+    }),
+    'zone': dict({
+      'title': 'Zone',
+    }),
+    'zoneminder': dict({
+      'title': 'ZoneMinder',
+    }),
+    'zwave_js': dict({
+      'title': 'Z-Wave',
+    }),
+    'zwave_me': dict({
+      'title': 'Z-Wave.Me',
+    }),
+  })
+# ---

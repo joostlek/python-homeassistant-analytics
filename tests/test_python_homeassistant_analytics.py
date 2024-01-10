@@ -14,7 +14,7 @@ from python_homeassistant_analytics import (
 from syrupy import SnapshotAssertion
 from tests import load_fixture
 
-from .const import HOMEASSISTANT_ANALYTICS_URL
+from .const import HOMEASSISTANT_ANALYTICS_URL, HOMEASSISTANT_URL
 
 
 async def test_putting_in_own_session(
@@ -115,3 +115,17 @@ async def test_current_analytics(
         body=load_fixture("current_data.json"),
     )
     assert await homeassistant_analytics_client.get_current_analytics() == snapshot
+
+
+async def test_integrations(
+    responses: aioresponses,
+    homeassistant_analytics_client: HomeassistantAnalyticsClient,
+    snapshot: SnapshotAssertion,
+) -> None:
+    """Test retrieving integrations."""
+    responses.get(
+        f"{HOMEASSISTANT_URL}/integrations.json",
+        status=200,
+        body=load_fixture("integrations.json"),
+    )
+    assert await homeassistant_analytics_client.get_integrations() == snapshot

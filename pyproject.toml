@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-homeassistant-analytics"
-version = "0.2.1"
+version = "0.3.0"
 description = "Asynchronous Python client for Homeassistant Analytics."
 authors = ["Joost Lekkerkerker <joostlek@outlook.com>"]
 maintainers = ["Joost Lekkerkerker <joostlek@outlook.com>"]
