@@ -22,7 +22,7 @@ async def test_putting_in_own_session(
 ) -> None:
     """Test putting in own session."""
     responses.get(
-        HOMEASSISTANT_ANALYTICS_URL,
+        f"{HOMEASSISTANT_ANALYTICS_URL}/data.json",
         status=200,
         body=load_fixture("data.json"),
     )
@@ -40,7 +40,7 @@ async def test_creating_own_session(
 ) -> None:
     """Test creating own session."""
     responses.get(
-        HOMEASSISTANT_ANALYTICS_URL,
+        f"{HOMEASSISTANT_ANALYTICS_URL}/data.json",
         status=200,
         body=load_fixture("data.json"),
     )
@@ -58,7 +58,7 @@ async def test_unexpected_server_response(
 ) -> None:
     """Test handling unexpected response."""
     responses.get(
-        HOMEASSISTANT_ANALYTICS_URL,
+        f"{HOMEASSISTANT_ANALYTICS_URL}/data.json",
         status=200,
         headers={"Content-Type": "plain/text"},
         body="Yes",
@@ -79,7 +79,7 @@ async def test_timeout(
         return CallbackResult(body="Goodmorning!")
 
     responses.get(
-        HOMEASSISTANT_ANALYTICS_URL,
+        f"{HOMEASSISTANT_ANALYTICS_URL}/data.json",
         callback=response_handler,
     )
     async with HomeassistantAnalyticsClient(
@@ -96,8 +96,22 @@ async def test_analytics(
 ) -> None:
     """Test retrieving analytics."""
     responses.get(
-        HOMEASSISTANT_ANALYTICS_URL,
+        f"{HOMEASSISTANT_ANALYTICS_URL}/data.json",
         status=200,
         body=load_fixture("data.json"),
     )
     assert await homeassistant_analytics_client.get_analytics() == snapshot
+
+
+async def test_current_analytics(
+    responses: aioresponses,
+    homeassistant_analytics_client: HomeassistantAnalyticsClient,
+    snapshot: SnapshotAssertion,
+) -> None:
+    """Test retrieving current analytics."""
+    responses.get(
+        f"{HOMEASSISTANT_ANALYTICS_URL}/current_data.json",
+        status=200,
+        body=load_fixture("current_data.json"),
+    )
+    assert await homeassistant_analytics_client.get_current_analytics() == snapshot
