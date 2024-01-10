@@ -19,3 +19,10 @@ class Analytics(DataClassORJSONMixin):
     """Analytics model."""
 
     current: CurrentAnalytics = field(metadata=field_options(alias="current"))
+
+
+@dataclass
+class Integration(DataClassORJSONMixin):
+    """Integration model."""
+
+    title: str

@@ -7,13 +7,18 @@ from importlib import metadata
 from typing import Self
 
 from aiohttp import ClientSession
+import orjson
 from yarl import URL
 
 from python_homeassistant_analytics.exceptions import (
     HomeassistantAnalyticsConnectionError,
     HomeassistantAnalyticsError,
 )
-from python_homeassistant_analytics.models import Analytics, CurrentAnalytics
+from python_homeassistant_analytics.models import (
+    Analytics,
+    CurrentAnalytics,
+    Integration,
+)
 
 VERSION = metadata.version(__package__)
 
@@ -27,11 +32,11 @@ class HomeassistantAnalyticsClient:
     api_host: str = "analytics.home-assistant.io"
     _close_session: bool = False
 
-    async def _request(self, uri: str) -> str:
+    async def _request(self, host: str, uri: str) -> str:
         """Handle a request to Homeassistant Analytics."""
         url = URL.build(
             scheme="https",
-            host=self.api_host,
+            host=host,
             port=443,
         ).joinpath(uri)
 
@@ -68,13 +73,22 @@ class HomeassistantAnalyticsClient:
 
     async def get_analytics(self) -> Analytics:
         """Get analytics."""
-        response = await self._request("data.json")
+        response = await self._request("analytics.home-assistant.io", "data.json")
         return Analytics.from_json(response)
 
     async def get_current_analytics(self) -> CurrentAnalytics:
         """Get current analytics."""
-        response = await self._request("current_data.json")
+        response = await self._request(
+            "analytics.home-assistant.io",
+            "current_data.json",
+        )
         return CurrentAnalytics.from_json(response)
+
+    async def get_integrations(self) -> dict[str, Integration]:
+        """Get integrations."""
+        response = await self._request("home-assistant.io", "integrations.json")
+        obj = orjson.loads(response)  # pylint: disable=no-member
+        return {key: Integration.from_dict(value) for key, value in obj.items()}
 
     async def close(self) -> None:
         """Close open client session."""
