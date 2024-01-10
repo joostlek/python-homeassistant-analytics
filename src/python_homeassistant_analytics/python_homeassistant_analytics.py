@@ -13,7 +13,7 @@ from python_homeassistant_analytics.exceptions import (
     HomeassistantAnalyticsConnectionError,
     HomeassistantAnalyticsError,
 )
-from python_homeassistant_analytics.models import Analytics
+from python_homeassistant_analytics.models import Analytics, CurrentAnalytics
 
 VERSION = metadata.version(__package__)
 
@@ -27,13 +27,13 @@ class HomeassistantAnalyticsClient:
     api_host: str = "analytics.home-assistant.io"
     _close_session: bool = False
 
-    async def _request(self) -> str:
+    async def _request(self, uri: str) -> str:
         """Handle a request to Homeassistant Analytics."""
         url = URL.build(
             scheme="https",
             host=self.api_host,
             port=443,
-        ).joinpath("data.json")
+        ).joinpath(uri)
 
         headers = {
             "User-Agent": f"PythonHomeassistantAnalytics/{VERSION}",
@@ -67,9 +67,14 @@ class HomeassistantAnalyticsClient:
         return await response.text()
 
     async def get_analytics(self) -> Analytics:
-        """Get album."""
-        response = await self._request()
+        """Get analytics."""
+        response = await self._request("data.json")
         return Analytics.from_json(response)
+
+    async def get_current_analytics(self) -> CurrentAnalytics:
+        """Get current analytics."""
+        response = await self._request("current_data.json")
+        return CurrentAnalytics.from_json(response)
 
     async def close(self) -> None:
         """Close open client session."""
