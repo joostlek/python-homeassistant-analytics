@@ -7,3 +7,7 @@ class HomeassistantAnalyticsError(Exception):
 
 class HomeassistantAnalyticsConnectionError(HomeassistantAnalyticsError):
     """Homeassistant Analytics connection exception."""
+
+
+class HomeassistantAnalyticsNotModifiedError(HomeassistantAnalyticsError):
+    """Homeassistant Analytics not modified exception."""

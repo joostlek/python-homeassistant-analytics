@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import asyncio
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from importlib import metadata
 from typing import Self
 
@@ -13,6 +13,7 @@ from yarl import URL
 from python_homeassistant_analytics.exceptions import (
     HomeassistantAnalyticsConnectionError,
     HomeassistantAnalyticsError,
+    HomeassistantAnalyticsNotModifiedError,
 )
 from python_homeassistant_analytics.models import (
     Analytics,
@@ -31,6 +32,7 @@ class HomeassistantAnalyticsClient:
     request_timeout: int = 10
     api_host: str = "analytics.home-assistant.io"
     _close_session: bool = False
+    _etags: dict[str, str] = field(default_factory=dict)
 
     async def _request(self, host: str, uri: str) -> str:
         """Handle a request to Homeassistant Analytics."""
@@ -43,6 +45,7 @@ class HomeassistantAnalyticsClient:
         headers = {
             "User-Agent": f"PythonHomeassistantAnalytics/{VERSION}",
             "Accept": "application/json, text/plain, */*",
+            "If-None-Match": self._etags.get(url.path, ""),
         }
 
         if self.session is None:
@@ -61,6 +64,9 @@ class HomeassistantAnalyticsClient:
 
         content_type = response.headers.get("Content-Type", "")
 
+        if response.status == 304:
+            raise HomeassistantAnalyticsNotModifiedError
+
         if "application/json" not in content_type:
             text = await response.text()
             msg = "Unexpected response from Homeassistant Analytics"
@@ -68,6 +74,9 @@ class HomeassistantAnalyticsClient:
                 msg,
                 {"Content-Type": content_type, "response": text},
             )
+
+        if etag := response.headers.get("etag"):
+            self._etags[url.path] = etag
 
         return await response.text()
 
