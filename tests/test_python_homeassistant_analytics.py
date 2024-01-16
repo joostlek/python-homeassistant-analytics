@@ -3,6 +3,7 @@ import asyncio
 from typing import Any
 
 import aiohttp
+from aiohttp.hdrs import METH_GET
 from aioresponses import CallbackResult, aioresponses
 import pytest
 
@@ -10,11 +11,12 @@ from python_homeassistant_analytics import (
     HomeassistantAnalyticsClient,
     HomeassistantAnalyticsConnectionError,
     HomeassistantAnalyticsError,
+    HomeassistantAnalyticsNotModifiedError,
 )
 from syrupy import SnapshotAssertion
 from tests import load_fixture
 
-from .const import HOMEASSISTANT_ANALYTICS_URL, HOMEASSISTANT_URL
+from .const import HEADERS, HOMEASSISTANT_ANALYTICS_URL, HOMEASSISTANT_URL
 
 
 async def test_putting_in_own_session(
@@ -101,6 +103,39 @@ async def test_analytics(
         body=load_fixture("data.json"),
     )
     assert await homeassistant_analytics_client.get_analytics() == snapshot
+
+
+async def test_etags(
+    responses: aioresponses,
+    homeassistant_analytics_client: HomeassistantAnalyticsClient,
+) -> None:
+    """Test retrieving current analytics."""
+    responses.get(
+        f"{HOMEASSISTANT_ANALYTICS_URL}/current_data.json",
+        status=200,
+        body=load_fixture("current_data.json"),
+        headers={"etag": "123"},
+    )
+    responses.get(
+        f"{HOMEASSISTANT_ANALYTICS_URL}/current_data.json",
+        status=304,
+    )
+
+    assert await homeassistant_analytics_client.get_current_analytics()
+
+    responses.assert_called_with(
+        f"{HOMEASSISTANT_ANALYTICS_URL}/current_data.json",
+        METH_GET,
+        headers={**HEADERS, "If-None-Match": ""},
+    )
+    with pytest.raises(HomeassistantAnalyticsNotModifiedError):
+        assert await homeassistant_analytics_client.get_current_analytics()
+
+    responses.assert_called_with(
+        f"{HOMEASSISTANT_ANALYTICS_URL}/current_data.json",
+        METH_GET,
+        headers={**HEADERS, "If-None-Match": "123"},
+    )
 
 
 async def test_current_analytics(
