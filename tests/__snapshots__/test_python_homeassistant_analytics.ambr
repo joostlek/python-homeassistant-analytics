@@ -2172,3645 +2172,4859 @@
 # name: test_integrations
   dict({
     '3_day_blinds': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': '3 Day Blinds',
     }),
     'abode': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Abode',
     }),
     'accuweather': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'AccuWeather',
     }),
     'acer_projector': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Acer Projector',
     }),
     'acmeda': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Rollease Acmeda Automate',
     }),
     'actiontec': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Actiontec',
     }),
     'adax': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Adax',
     }),
     'adguard': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'AdGuard Home',
     }),
     'ads': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ADS',
     }),
     'advantage_air': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Advantage Air',
     }),
     'aemet': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'AEMET OpenData',
     }),
     'aep_ohio': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'AEP Ohio',
     }),
     'aep_texas': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'AEP Texas',
     }),
     'aftership': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'AfterShip',
     }),
     'agent_dvr': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Agent DVR',
     }),
     'air_quality': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Air Quality',
     }),
     'airly': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Airly',
     }),
     'airnow': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'AirNow',
     }),
     'airq': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'air-Q',
     }),
     'airthings': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Airthings',
     }),
     'airthings_ble': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Airthings BLE',
     }),
     'airtouch4': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'AirTouch 4',
     }),
     'airvisual': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'AirVisual Cloud',
     }),
     'airvisual_pro': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'AirVisual Pro',
     }),
     'airzone': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Airzone',
     }),
     'airzone_cloud': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Airzone Cloud',
     }),
     'aladdin_connect': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Aladdin Connect',
     }),
     'alarm_control_panel': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Alarm control panel',
     }),
     'alarmdecoder': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'AlarmDecoder',
     }),
     'alert': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Alert',
     }),
     'alexa': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Amazon Alexa',
     }),
     'alpha_vantage': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Alpha Vantage',
     }),
     'amazon_polly': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Amazon Polly',
     }),
     'amberelectric': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Amber Electric',
     }),
     'ambiclimate': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ambiclimate',
     }),
     'ambient_station': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Ambient Weather Station',
     }),
     'amcrest': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Amcrest',
     }),
     'amp_motorization': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'AMP Motorization',
     }),
     'ampio': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ampio Smart Smog System',
     }),
     'analytics': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Analytics',
     }),
     'android_ip_webcam': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Android IP Webcam',
     }),
     'androidtv': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Android Debug Bridge',
     }),
     'androidtv_remote': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Android TV Remote',
     }),
     'anel_pwrctrl': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Anel NET-PwrCtrl',
     }),
     'anova': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Anova',
     }),
     'anthemav': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Anthem A/V Receivers',
     }),
     'anwb_energie': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'ANWB Energie',
     }),
     'aosmith': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'A. O. Smith',
     }),
     'apache_kafka': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Apache Kafka',
     }),
     'apcupsd': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'APC UPS Daemon',
     }),
     'api': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Home Assistant API',
     }),
     'appalachianpower': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Appalachian Power',
     }),
     'apple_tv': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Apple TV',
     }),
     'application_credentials': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Application Credentials',
     }),
     'apprise': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Apprise',
     }),
     'aprs': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'APRS',
     }),
     'aqualogic': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'AquaLogic',
     }),
     'aquostv': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sharp Aquos TV',
     }),
     'aranet': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Aranet',
     }),
     'arcam_fmj': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Arcam FMJ Receivers',
     }),
     'arest': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'aREST',
     }),
     'arris_tg2492lg': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Arris TG2492LG',
     }),
     'aruba': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Aruba',
     }),
     'arwn': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ambient Radio Weather Network',
     }),
     'aseko_pool_live': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Aseko Pool Live',
     }),
     'assist_pipeline': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Assist pipeline',
     }),
     'asterisk_cdr': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Asterisk Call Detail Records',
     }),
     'asterisk_mbox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Asterisk Voicemail',
     }),
     'asuswrt': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'ASUSWRT',
     }),
     'atag': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Atag',
     }),
     'aten_pe': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ATEN Rack PDU',
     }),
     'atlanticcityelectric': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Atlantic City Electric',
     }),
     'atome': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Atome Linky',
     }),
     'august': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'August',
     }),
     'august_ble': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'August Bluetooth',
     }),
     'aurora': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Aurora',
     }),
     'aurora_abb_powerone': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Aurora ABB PowerOne Solar PV',
     }),
     'aussie_broadband': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Aussie Broadband',
     }),
     'auth': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Auth',
     }),
     'automation': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Automation',
     }),
     'avea': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Elgato Avea',
     }),
     'avion': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Avi-on',
     }),
     'awair': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Awair',
     }),
     'aws': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Amazon Web Services (AWS)',
     }),
     'axis': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Axis',
     }),
     'azure_devops': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Azure DevOps',
     }),
     'azure_event_hub': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Azure Event Hub',
     }),
     'azure_service_bus': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Azure Service Bus',
     }),
     'backup': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Backup',
     }),
     'baf': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Big Ass Fans',
     }),
     'baidu': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Baidu',
     }),
     'balboa': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Balboa Spa Client',
     }),
     'bayesian': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Bayesian',
     }),
     'bbox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Bbox',
     }),
     'beewi_smartclim': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'BeeWi SmartClim BLE sensor',
     }),
     'bge': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Baltimore Gas and Electric (BGE)',
     }),
     'binary_sensor': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Binary sensor',
     }),
     'bitcoin': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Bitcoin',
     }),
     'bizkaibus': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Bizkaibus',
     }),
     'blackbird': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Monoprice Blackbird Matrix Switch',
     }),
     'blebox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'BleBox devices',
     }),
     'blink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Blink',
     }),
     'blinksticklight': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'BlinkStick',
     }),
     'bliss_automation': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Bliss Automation',
     }),
     'bloc_blinds': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Bloc Blinds',
     }),
     'blockchain': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Blockchain.com',
     }),
     'bloomsky': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'BloomSky',
     }),
     'blue_current': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Blue Current',
     }),
     'bluemaestro': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'BlueMaestro',
     }),
     'blueprint': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Blueprint',
     }),
     'bluesound': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Bluesound',
     }),
     'bluetooth': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Bluetooth',
     }),
     'bluetooth_adapters': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Bluetooth Adapters',
     }),
     'bluetooth_le_tracker': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Bluetooth LE Tracker',
     }),
     'bluetooth_tracker': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Bluetooth Tracker',
     }),
     'bmw_connected_drive': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'BMW Connected Drive',
     }),
     'bond': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Bond',
     }),
     'bosch_shc': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Bosch SHC',
     }),
     'brandt': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Brandt Smart Control',
     }),
     'braviatv': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Sony Bravia TV',
     }),
     'brel_home': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Brel Home',
     }),
     'broadlink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Broadlink',
     }),
     'brother': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Brother Printer',
     }),
     'brottsplatskartan': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Brottsplatskartan',
     }),
     'browser': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Browser',
     }),
     'brunt': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Brunt Blind Engine',
     }),
     'bsblan': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'BSB-Lan',
     }),
     'bswitch': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'BSwitch',
     }),
     'bt_home_hub_5': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'BT Home Hub 5',
     }),
     'bt_smarthub': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'BT Smart Hub',
     }),
     'bthome': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'BTHome',
     }),
     'bticino': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'BTicino',
     }),
     'bubendorff': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Bubendorff',
     }),
     'buienradar': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Buienradar',
     }),
     'button': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Button',
     }),
     'caldav': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'CalDAV',
     }),
     'calendar': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Calendar',
     }),
     'camera': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Camera',
     }),
     'canary': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Canary',
     }),
     'cast': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Cast',
     }),
     'ccm15': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Midea CCM15 AC Controller',
     }),
     'cert_expiry': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Certificate Expiry',
     }),
     'channels': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Channels',
     }),
     'circuit': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Unify Circuit',
     }),
     'cisco_ios': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Cisco IOS',
     }),
     'cisco_mobility_express': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Cisco Mobility Express',
     }),
     'cisco_webex_teams': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Cisco Webex Teams',
     }),
     'citybikes': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'CityBikes',
     }),
     'clementine': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Clementine Music Player',
     }),
     'clickatell': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Clickatell',
     }),
     'clicksend': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ClickSend SMS',
     }),
     'clicksend_tts': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ClickSend TTS',
     }),
     'climate': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Climate',
     }),
     'cloud': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Home Assistant Cloud',
     }),
     'cloudflare': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Cloudflare',
     }),
     'cmus': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'cmus',
     }),
     'co2signal': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Electricity Maps',
     }),
     'coinbase': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Coinbase',
     }),
     'color_extractor': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ColorExtractor',
     }),
     'comed': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Commonwealth Edison (ComEd)',
     }),
     'comed_hourly_pricing': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ComEd Hourly Pricing',
     }),
     'comelit': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Comelit SimpleHome',
     }),
     'comfoconnect': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Zehnder ComfoAir Q',
     }),
     'command_line': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Command Line',
     }),
     'compensation': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Compensation',
     }),
     'concord232': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Concord232',
     }),
     'coned': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Consolidated Edison (ConEd)',
     }),
     'config': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Configuration',
     }),
     'configurator': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Configurator',
     }),
     'control4': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Control4',
     }),
     'conversation': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Conversation',
     }),
     'coolmaster': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'CoolMasterNet',
     }),
     'counter': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Counter',
     }),
     'cover': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Cover',
     }),
     'cozytouch': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Atlantic Cozytouch',
     }),
     'cppm_tracker': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Aruba ClearPass',
     }),
     'cpuspeed': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'CPU Speed',
     }),
     'cribl': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Cribl',
     }),
     'crownstone': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Crownstone',
     }),
     'cups': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'CUPS',
     }),
     'currencylayer': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'currencylayer',
     }),
     'dacia': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Dacia',
     }),
     'daikin': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Daikin AC',
     }),
     'danfoss_air': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Danfoss Air',
     }),
     'datadog': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Datadog',
     }),
     'date': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Date',
     }),
     'datetime': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Date/Time',
     }),
     'ddwrt': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'DD-WRT',
     }),
     'debugpy': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Remote Python Debugger',
     }),
     'deconz': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'deCONZ',
     }),
     'decora': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Leviton Decora',
     }),
     'decora_wifi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Leviton Decora Wi-Fi',
     }),
     'default_config': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Default Config',
     }),
     'delijn': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'De Lijn',
     }),
     'delmarva': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Delmarva Power',
     }),
     'deluge': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Deluge',
     }),
     'demo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Demo',
     }),
     'denon': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Denon Network Receivers',
     }),
     'denonavr': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Denon AVR Network Receivers',
     }),
     'derivative': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Derivative',
     }),
     'devialet': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Devialet',
     }),
     'device_automation': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Device Automation',
     }),
     'device_sun_light_trigger': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Presence-based lights',
     }),
     'device_tracker': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Device tracker',
     }),
     'devolo_home_control': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'devolo Home Control',
     }),
     'devolo_home_network': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'devolo Home Network',
     }),
     'dexcom': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Dexcom',
     }),
     'dhcp': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'DHCP discovery',
     }),
     'diagnostics': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Diagnostics',
     }),
     'dialogflow': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Dialogflow',
     }),
     'diaz': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Diaz',
     }),
     'digital_loggers': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Digital Loggers',
     }),
     'digital_ocean': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Digital Ocean',
     }),
     'directv': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'DirecTV',
     }),
     'discogs': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Discogs',
     }),
     'discord': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Discord',
     }),
     'discovergy': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Discovergy',
     }),
     'dlib_face_detect': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Dlib Face Detect',
     }),
     'dlib_face_identify': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Dlib Face Identify',
     }),
     'dlink': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'D-Link Wi-Fi Smart Plugs',
     }),
     'dlna_dmr': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'DLNA Digital Media Renderer',
     }),
     'dlna_dms': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'DLNA Digital Media Server',
     }),
     'dnsip': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'DNS IP',
     }),
     'dominos': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Dominos Pizza',
     }),
     'doods': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'DOODS - Dedicated Open Object Detection Service',
     }),
     'doorbird': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'DoorBird',
     }),
     'dooya': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Dooya',
     }),
     'dormakaba_dkey': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Dormakaba dKey',
     }),
     'dovado': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Dovado',
     }),
     'downloader': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Downloader',
     }),
     'dremel_3d_printer': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Dremel 3D Printer',
     }),
     'drop_connect': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'DROP',
     }),
     'dsmr': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'DSMR Slimme Meter',
     }),
     'dsmr_reader': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'DSMR Reader',
     }),
     'dte_energy_bridge': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'DTE Energy Bridge',
     }),
     'dublin_bus_transport': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Dublin Bus',
     }),
     'duckdns': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Duck DNS',
     }),
     'dunehd': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Dune HD',
     }),
     'duotecno': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Duotecno',
     }),
     'dwd_weather_warnings': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Deutscher Wetterdienst (DWD) Weather Warnings',
     }),
     'dweet': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'dweet.io',
     }),
     'dynalite': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Philips Dynalite',
     }),
     'eastron': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Eastron',
     }),
     'easyenergy': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'easyEnergy',
     }),
     'ebox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'EBox',
     }),
     'ebusd': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ebusd',
     }),
     'ecoal_boiler': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'eSterownik eCoal.pl Boiler',
     }),
     'ecobee': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ecobee',
     }),
     'ecoforest': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ecoforest',
     }),
     'econet': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Rheem EcoNet Products',
     }),
     'ecovacs': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ecovacs',
     }),
     'ecowitt': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ecowitt',
     }),
     'eddystone_temperature': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Eddystone',
     }),
     'edimax': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Edimax',
     }),
     'edl21': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'EDL21',
     }),
     'efergy': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Efergy',
     }),
     'egardia': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Egardia',
     }),
     'electrasmart': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Electra Smart',
     }),
     'electric_kiwi': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Electric Kiwi',
     }),
     'elgato': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Elgato Light',
     }),
     'eliqonline': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Eliqonline',
     }),
     'elkm1': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Elk-M1 Control',
     }),
     'elmax': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Elmax',
     }),
     'elv': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ELV PCA',
     }),
     'emby': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Emby',
     }),
     'emoncms': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Emoncms',
     }),
     'emoncms_history': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Emoncms History',
     }),
     'emonitor': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SiteSage Emonitor',
     }),
     'emulated_hue': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Emulated Hue',
     }),
     'emulated_kasa': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Emulated Kasa',
     }),
     'emulated_roku': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Emulated Roku',
     }),
     'energie_vanons': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Energie VanOns',
     }),
     'energy': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Energy',
     }),
     'energyzero': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'EnergyZero',
     }),
     'enigma2': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Enigma2 (OpenWebif)',
     }),
     'enmax': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Enmax Energy',
     }),
     'enocean': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'EnOcean',
     }),
     'enphase_envoy': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Enphase Envoy',
     }),
     'entur_public_transport': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Entur',
     }),
     'environment_canada': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Environment Canada',
     }),
     'envisalink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Envisalink',
     }),
     'ephember': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'EPH Controls',
     }),
     'epson': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Epson',
     }),
     'epsonworkforce': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Epson Workforce',
     }),
     'escea': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Escea',
     }),
     'esera_onewire': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'ESERA 1-Wire',
     }),
     'esphome': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'ESPHome',
     }),
     'etherscan': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Etherscan',
     }),
     'eufy': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'EufyHome',
     }),
     'eufylife_ble': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'EufyLife',
     }),
     'event': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Event',
     }),
     'evergy': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Evergy',
     }),
     'everlights': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'EverLights',
     }),
     'evil_genius_labs': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Evil Genius Labs',
     }),
     'evohome': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Honeywell Total Connect Comfort (Europe)',
     }),
     'ezviz': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'EZVIZ',
     }),
     'faa_delays': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'FAA Delays',
     }),
     'facebook': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Facebook Messenger',
     }),
     'facebox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Facebox',
     }),
     'fail2ban': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Fail2Ban',
     }),
     'familyhub': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Samsung Family Hub',
     }),
     'fan': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Fan',
     }),
     'fastdotcom': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Fast.com',
     }),
     'feedreader': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Feedreader',
     }),
     'ffmpeg': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'FFmpeg',
     }),
     'ffmpeg_motion': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'FFmpeg Motion',
     }),
     'ffmpeg_noise': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'FFmpeg Noise',
     }),
     'fibaro': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Fibaro',
     }),
     'fido': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Fido',
     }),
     'file': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'File',
     }),
     'file_upload': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'File Upload',
     }),
     'filesize': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'File Size',
     }),
     'filter': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Filter',
     }),
     'fints': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'FinTS',
     }),
     'fire_tv': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Amazon Fire TV',
     }),
     'fireservicerota': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'FireServiceRota',
     }),
     'firmata': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Firmata',
     }),
     'fitbit': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Fitbit',
     }),
     'fivem': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'FiveM',
     }),
     'fixer': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Fixer',
     }),
     'fjaraskupan': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Fjäråskupan',
     }),
     'fleetgo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'FleetGO',
     }),
     'flexit': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Flexit',
     }),
     'flexit_bacnet': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Flexit Nordic (BACnet)',
     }),
     'flexom': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Bouygues Flexom',
     }),
     'flic': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Flic',
     }),
     'flick_electric': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Flick Electric',
     }),
     'flipr': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Flipr',
     }),
     'flo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Flo',
     }),
     'flock': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Flock',
     }),
     'flume': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Flume',
     }),
     'flux': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Flux',
     }),
     'flux_led': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Magic Home',
     }),
     'folder': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Folder',
     }),
     'folder_watcher': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Folder Watcher',
     }),
     'foobot': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Foobot',
     }),
     'forecast_solar': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Forecast.Solar',
     }),
     'forked_daapd': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OwnTone',
     }),
     'fortios': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'FortiOS',
     }),
     'foscam': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Foscam',
     }),
     'foursquare': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Foursquare',
     }),
     'free_mobile': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Free Mobile',
     }),
     'freebox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Freebox',
     }),
     'freedns': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'FreeDNS',
     }),
     'freedompro': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Freedompro',
     }),
     'fritz': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'AVM FRITZ!Box Tools',
     }),
     'fritzbox': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'AVM FRITZ!SmartHome',
     }),
     'fritzbox_callmonitor': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'AVM FRITZ!Box Call Monitor',
     }),
     'fronius': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Fronius',
     }),
     'frontend': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Home Assistant frontend',
     }),
     'frontier_silicon': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Frontier Silicon',
     }),
     'fujitsu_anywair': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Fujitsu anywAIR',
     }),
     'fully_kiosk': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Fully Kiosk Browser',
     }),
     'futurenow': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'P5 FutureNow',
     }),
     'garadget': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Garadget',
     }),
     'garages_amsterdam': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Garages Amsterdam',
     }),
     'gardena_bluetooth': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Gardena Bluetooth',
     }),
     'gaviota': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Gaviota',
     }),
     'gc100': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Global Caché GC-100',
     }),
     'gdacs': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Global Disaster Alert and Coordination System (GDACS)',
     }),
     'generic': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Generic Camera',
     }),
     'generic_hygrostat': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Generic hygrostat',
     }),
     'generic_thermostat': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Generic thermostat',
     }),
     'geniushub': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Genius Hub',
     }),
     'geo_json_events': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'GeoJSON',
     }),
     'geo_location': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Geolocation',
     }),
     'geo_rss_events': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'GeoRSS',
     }),
     'geocaching': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Geocaching',
     }),
     'geofency': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Geofency',
     }),
     'geonetnz_quakes': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'GeoNet NZ Quakes',
     }),
     'geonetnz_volcano': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'GeoNet NZ Volcano',
     }),
     'gios': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'GIOŚ',
     }),
     'github': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'GitHub',
     }),
     'gitlab_ci': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'GitLab-CI',
     }),
     'gitter': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Gitter',
     }),
     'glances': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Glances',
     }),
     'goalzero': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Goal Zero Yeti',
     }),
     'gogogate2': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Gogogate2 and ismartgate',
     }),
     'goodwe': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'GoodWe Inverter',
     }),
     'google': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Calendar',
     }),
     'google_assistant': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Assistant',
     }),
     'google_assistant_sdk': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Google Assistant SDK',
     }),
     'google_cloud': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Cloud Platform',
     }),
     'google_domains': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Domains',
     }),
     'google_generative_ai_conversation': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Google Generative AI Conversation',
     }),
     'google_mail': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Google Mail',
     }),
     'google_maps': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Maps',
     }),
     'google_pubsub': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Pub/Sub',
     }),
     'google_sheets': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Google Sheets',
     }),
     'google_tasks': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Tasks',
     }),
     'google_translate': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Translate text-to-speech',
     }),
     'google_travel_time': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Maps Travel Time',
     }),
     'google_wifi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Wifi',
     }),
     'govee_ble': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Govee Bluetooth',
     }),
     'gpsd': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'GPSD',
     }),
     'gpslogger': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'GPSLogger',
     }),
     'graphite': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Graphite',
     }),
     'gree': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Gree Climate',
     }),
     'greeneye_monitor': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'GreenEye Monitor (GEM)',
     }),
     'greenwave': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Greenwave Reality',
     }),
     'group': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Group',
     }),
     'growatt_server': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Growatt',
     }),
     'gstreamer': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'GStreamer',
     }),
     'gtfs': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'General Transit Feed Specification (GTFS)',
     }),
     'guardian': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Elexa Guardian',
     }),
     'habitica': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Habitica',
     }),
     'hardware': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Hardware',
     }),
     'harman_kardon_avr': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Harman Kardon AVR',
     }),
     'harmony': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Logitech Harmony Hub',
     }),
     'hassio': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Home Assistant Supervisor',
     }),
     'havana_shade': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Havana Shade',
     }),
     'haveibeenpwned': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'HaveIBeenPwned',
     }),
     'hddtemp': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'hddtemp',
     }),
     'hdmi_cec': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'HDMI-CEC',
     }),
     'heatmiser': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Heatmiser',
     }),
     'heiwa': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Heiwa',
     }),
     'heltun': dict({
+      'integration_type': <IntegrationType.BRAND: 'brand'>,
       'title': 'HELTUN',
     }),
     'heos': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Denon HEOS',
     }),
     'here_travel_time': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'HERE Travel Time',
     }),
     'hexaom': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Hexaom Hexaconnect',
     }),
     'hi_kumo': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Hitachi Hi Kumo',
     }),
     'hikvision': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Hikvision',
     }),
     'hikvisioncam': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Hikvision',
     }),
     'hisense_aehw4a1': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Hisense AEH-W4A1',
     }),
     'history': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'History',
     }),
     'history_stats': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'History Stats',
     }),
     'hitron_coda': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Rogers Hitron CODA',
     }),
     'hive': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Hive',
     }),
     'hlk_sw16': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Hi-Link HLK-SW16',
     }),
     'holiday': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Holiday',
     }),
     'home_connect': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Home Connect',
     }),
     'home_plus_control': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Legrand Home+ Control',
     }),
     'homeassistant': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Home Assistant Core Integration',
     }),
     'homeassistant_alerts': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Home Assistant Alerts',
     }),
     'homeassistant_green': dict({
+      'integration_type': <IntegrationType.HARDWARE: 'hardware'>,
       'title': 'Home Assistant Green',
     }),
     'homeassistant_hardware': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Home Assistant Hardware',
     }),
     'homeassistant_sky_connect': dict({
+      'integration_type': <IntegrationType.HARDWARE: 'hardware'>,
       'title': 'Home Assistant SkyConnect',
     }),
     'homeassistant_yellow': dict({
+      'integration_type': <IntegrationType.HARDWARE: 'hardware'>,
       'title': 'Home Assistant Yellow',
     }),
     'homekit': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'HomeKit Bridge',
     }),
     'homekit_controller': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'HomeKit Device',
     }),
     'homematic': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Homematic',
     }),
     'homematicip_cloud': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'HomematicIP Cloud',
     }),
     'homeseer': dict({
+      'integration_type': <IntegrationType.BRAND: 'brand'>,
       'title': 'HomeSeer',
     }),
     'homewizard': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'HomeWizard Energy',
     }),
     'homeworks': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Lutron Homeworks',
     }),
     'honeywell': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Honeywell Total Connect Comfort (US)',
     }),
     'horizon': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Unitymedia Horizon HD Recorder',
     }),
     'hp_ilo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'HP Integrated Lights-Out (ILO)',
     }),
     'html5': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'HTML5 Push Notifications',
     }),
     'http': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'HTTP',
     }),
     'huawei_lte': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Huawei LTE',
     }),
     'hue': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Philips Hue',
     }),
     'huisbaasje': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Huisbaasje',
     }),
     'humidifier': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Humidifier',
     }),
     'hunterdouglas_powerview': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Hunter Douglas PowerView',
     }),
     'hurrican_shutters_wholesale': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Hurrican Shutters Wholesale',
     }),
     'hvv_departures': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'HVV Departures',
     }),
     'hydrawise': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Hunter Hydrawise',
     }),
     'hyperion': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Hyperion',
     }),
     'ialarm': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Antifurto365 iAlarm',
     }),
     'iammeter': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IamMeter',
     }),
     'iaqualink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Jandy iAqualink',
     }),
     'ibeacon': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'iBeacon Tracker',
     }),
     'icloud': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Apple iCloud',
     }),
     'idasen_desk': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IKEA Idasen Desk',
     }),
     'idteck_prox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IDTECK Proximity Reader',
     }),
     'ifttt': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IFTTT',
     }),
     'iglo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'iGlo',
     }),
     'ign_sismologia': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'IGN Sismología',
     }),
     'ihc': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IHC Controller',
     }),
     'image': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Image',
     }),
     'image_processing': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Image processing',
     }),
     'image_upload': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Image Upload',
     }),
     'imap': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IMAP',
     }),
     'improv_ble': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Improv via BLE',
     }),
     'incomfort': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Intergas InComfort/Intouch Lan2RF gateway',
     }),
     'indianamichiganpower': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Indiana Michigan Power',
     }),
     'influxdb': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'InfluxDB',
     }),
     'inkbird': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'INKBIRD',
     }),
     'input_boolean': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Input Boolean',
     }),
     'input_button': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Input Button',
     }),
     'input_datetime': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Input Datetime',
     }),
     'input_number': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Input Number',
     }),
     'input_select': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Input Select',
     }),
     'input_text': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Input Text',
     }),
     'inspired_shades': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Inspired Shades',
     }),
     'insteon': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Insteon',
     }),
     'integration': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Integration - Riemann sum integral',
     }),
     'intellifire': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IntelliFire',
     }),
     'intent_script': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Intent Script',
     }),
     'intesishome': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IntesisHome',
     }),
     'ios': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Home Assistant iOS',
     }),
     'iotawatt': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IoTaWatt',
     }),
     'iperf3': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Iperf3',
     }),
     'ipma': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Instituto Português do Mar e Atmosfera (IPMA)',
     }),
     'iqvia': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'IQVIA',
     }),
     'irish_rail_transport': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Irish Rail Transport',
     }),
     'islamic_prayer_times': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Islamic Prayer Times',
     }),
     'ismartwindow': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'iSmartWindow',
     }),
     'iss': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'International Space Station (ISS)',
     }),
     'isy994': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Universal Devices ISY/IoX',
     }),
     'itach': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Global Caché iTach TCP/IP to IR',
     }),
     'itunes': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Apple iTunes',
     }),
     'izone': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'iZone',
     }),
     'jasco': dict({
+      'integration_type': <IntegrationType.BRAND: 'brand'>,
       'title': 'Jasco',
     }),
     'jellyfin': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Jellyfin',
     }),
     'jewish_calendar': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Jewish Calendar',
     }),
     'joaoapps_join': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Joaoapps Join',
     }),
     'juicenet': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'JuiceNet',
     }),
     'justnimbus': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'JustNimbus',
     }),
     'jvc_projector': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'JVC Projector',
     }),
     'kaiterra': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Kaiterra',
     }),
     'kaleidescape': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Kaleidescape',
     }),
     'kankun': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Kankun',
     }),
     'keba': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Keba Charging Station',
     }),
     'keenetic_ndms2': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Keenetic NDMS2 Router',
     }),
     'kef': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'KEF',
     }),
     'kegtron': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Kegtron',
     }),
     'kentuckypower': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Kentucky Power',
     }),
     'keyboard': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Keyboard',
     }),
     'keyboard_remote': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Keyboard Remote',
     }),
     'keymitt_ble': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Keymitt MicroBot Push',
     }),
     'kira': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Kira',
     }),
     'kitchen_sink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Everything but the Kitchen Sink',
     }),
     'kiwi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'KIWI',
     }),
     'kmtronic': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'KMtronic',
     }),
     'knx': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'KNX',
     }),
     'kodi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Kodi',
     }),
     'konnected': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Konnected.io',
     }),
     'kostal_plenticore': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Kostal Plenticore Solar Inverter',
     }),
     'kraken': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Kraken',
     }),
     'kulersky': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Kuler Sky',
     }),
     'kwb': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'KWB Easyfire',
     }),
     'lacrosse': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LaCrosse',
     }),
     'lacrosse_view': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LaCrosse View',
     }),
     'lametric': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'LaMetric',
     }),
     'landisgyr_heat_meter': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Landis+Gyr Heat Meter',
     }),
     'lannouncer': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LANnouncer',
     }),
     'lastfm': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Last.fm',
     }),
     'launch_library': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Launch Library',
     }),
     'laundrify': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'laundrify',
     }),
     'lawn_mower': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Lawn mower',
     }),
     'lcn': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LCN',
     }),
     'ld2410_ble': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'LD2410 BLE',
     }),
     'led_ble': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LED BLE',
     }),
     'legrand': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Legrand',
     }),
     'leviton_z_wave': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Leviton Z-Wave',
     }),
     'lg_netcast': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LG Netcast',
     }),
     'lg_soundbar': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LG Soundbars',
     }),
     'lidarr': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Lidarr',
     }),
     'life360': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Life360',
     }),
     'lifx': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LIFX',
     }),
     'lifx_cloud': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LIFX Cloud',
     }),
     'light': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Light',
     }),
     'lightwave': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Lightwave',
     }),
     'limitlessled': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LimitlessLED',
     }),
     'linear_garage_door': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Linear Garage Door',
     }),
     'linksys_smart': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Linksys Smart Wi-Fi',
     }),
     'linode': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Linode',
     }),
     'linux_battery': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Linux Battery',
     }),
     'lirc': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LIRC',
     }),
     'litejet': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'LiteJet',
     }),
     'litterrobot': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Litter-Robot',
     }),
     'livisi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LIVISI Smart Home',
     }),
     'llamalab_automate': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LlamaLab Automate',
     }),
     'local_calendar': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Local Calendar',
     }),
     'local_file': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Local File',
     }),
     'local_ip': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Local IP Address',
     }),
     'local_todo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Local To-do',
     }),
     'lock': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Lock',
     }),
     'logbook': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Logbook',
     }),
     'logentries': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Logentries',
     }),
     'logger': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Logger',
     }),
     'logi_circle': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Logi Circle',
     }),
     'london_air': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'London Air',
     }),
     'london_underground': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'London Underground',
     }),
     'lookin': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LOOKin',
     }),
     'loqed': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LOQED Touch Smart Lock',
     }),
     'luci': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OpenWrt (luci)',
     }),
     'luftdaten': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Sensor.Community',
     }),
     'lupusec': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Lupus Electronics LUPUSEC',
     }),
     'lutron': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Lutron',
     }),
     'lutron_caseta': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Lutron Caséta',
     }),
     'luxaflex': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Luxaflex',
     }),
     'lw12wifi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LAGUTE LW-12',
     }),
     'lyric': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Honeywell Lyric',
     }),
     'mailbox': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Mailbox',
     }),
     'mailgun': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Mailgun',
     }),
     'manual': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Manual Alarm control panel',
     }),
     'manual_mqtt': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Manual MQTT Alarm control panel',
     }),
     'map': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Map',
     }),
     'marantz': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Marantz',
     }),
     'martec': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Martec',
     }),
     'marytts': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MaryTTS',
     }),
     'mastodon': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Mastodon',
     }),
     'matrix': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Matrix',
     }),
     'matter': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Matter (BETA)',
     }),
     'maxcube': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'eQ-3 MAX!',
     }),
     'meater': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Meater',
     }),
     'medcom_ble': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Medcom Bluetooth',
     }),
     'media_extractor': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Media extractor',
     }),
     'media_player': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Media player',
     }),
     'media_source': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Media source',
     }),
     'mediaroom': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Mediaroom',
     }),
     'melcloud': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MELCloud',
     }),
     'melissa': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Melissa',
     }),
     'melnor': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Melnor Bluetooth',
     }),
     'meraki': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Meraki',
     }),
     'message_bird': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MessageBird',
     }),
     'met': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Meteorologisk institutt (Met.no)',
     }),
     'met_eireann': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Met Éireann',
     }),
     'meteo_france': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Météo-France',
     }),
     'meteoalarm': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MeteoAlarm',
     }),
     'meteoclimatic': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Meteoclimatic',
     }),
     'metoffice': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Met Office',
     }),
     'mfi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ubiquiti mFi mPort',
     }),
     'microsoft': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Microsoft Text-to-Speech (TTS)',
     }),
     'microsoft_face': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Microsoft Face',
     }),
     'microsoft_face_detect': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Microsoft Face Detect',
     }),
     'microsoft_face_identify': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Microsoft Face Identify',
     }),
     'mijndomein_energie': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Mijndomein Energie',
     }),
     'mikrotik': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Mikrotik',
     }),
     'mill': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Mill',
     }),
     'min_max': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Min/Max',
     }),
     'minecraft_server': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Minecraft Server',
     }),
     'minio': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Minio',
     }),
     'mjpeg': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MJPEG IP Camera',
     }),
     'moat': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Moat',
     }),
     'mobile_app': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Mobile App',
     }),
     'mochad': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Mochad',
     }),
     'modbus': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Modbus',
     }),
     'modem_callerid': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Phone Modem',
     }),
     'modern_forms': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Modern Forms',
     }),
     'moehlenhoff_alpha2': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Möhlenhoff Alpha 2',
     }),
     'mold_indicator': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Mold Indicator',
     }),
     'monessen': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Monessen',
     }),
     'monoprice': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Monoprice 6-Zone Amplifier',
     }),
     'moon': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Moon',
     }),
     'mopeka': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Mopeka',
     }),
     'motion_blinds': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Motion Blinds',
     }),
     'motioneye': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'motionEye',
     }),
     'mpd': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Music Player Daemon (MPD)',
     }),
     'mqtt': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MQTT',
     }),
     'mqtt_eventstream': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MQTT Eventstream',
     }),
     'mqtt_json': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MQTT JSON',
     }),
     'mqtt_room': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MQTT room presence',
     }),
     'mqtt_statestream': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MQTT Statestream',
     }),
     'msteams': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Microsoft Teams',
     }),
     'mullvad': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Mullvad VPN',
     }),
     'mutesync': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'mutesync',
     }),
     'mvglive': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MVG',
     }),
     'my': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'My Home Assistant',
     }),
     'mycroft': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Mycroft',
     }),
     'mysensors': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MySensors',
     }),
     'mystrom': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'myStrom',
     }),
     'mythicbeastsdns': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Mythic Beasts DNS',
     }),
     'nad': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'NAD',
     }),
     'nam': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Nettigo Air Monitor',
     }),
     'namecheapdns': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Namecheap FreeDNS',
     }),
     'nanoleaf': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Nanoleaf',
     }),
     'neato': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Neato Botvac',
     }),
     'nederlandse_spoorwegen': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Nederlandse Spoorwegen (NS)',
     }),
     'ness_alarm': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ness Alarm',
     }),
     'nest': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Google Nest',
     }),
     'netatmo': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Netatmo',
     }),
     'netdata': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Netdata',
     }),
     'netgear': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'NETGEAR',
     }),
     'netgear_lte': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'NETGEAR LTE',
     }),
     'netio': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Netio',
     }),
     'network': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Network Configuration',
     }),
     'neurio_energy': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Neurio energy',
     }),
     'nexia': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Nexia/American Standard/Trane',
     }),
     'nexity': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Nexity Eugénie',
     }),
     'nextbus': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'NextBus',
     }),
     'nextcloud': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Nextcloud',
     }),
     'nextdns': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'NextDNS',
     }),
     'nfandroidtv': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Notifications for Android TV / Fire TV',
     }),
     'nibe_heatpump': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Nibe Heat Pump',
     }),
     'nightscout': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Nightscout',
     }),
     'niko_home_control': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Niko Home Control',
     }),
     'nilu': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Norwegian Institute for Air Research (NILU)',
     }),
     'nina': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'NINA',
     }),
     'nissan_leaf': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Nissan Leaf',
     }),
     'nmap_tracker': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Nmap Tracker',
     }),
     'nmbs': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'NMBS',
     }),
     'no_ip': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'No-IP.com',
     }),
     'noaa_tides': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'NOAA Tides',
     }),
     'nobo_hub': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Nobø Ecohub',
     }),
     'norway_air': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Om Luftkvalitet i Norge (Norway Air)',
     }),
     'notify': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Notifications',
     }),
     'notify_events': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Notify.Events',
     }),
     'notion': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Notion',
     }),
     'nsw_fuel_station': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'NSW Fuel Station Price',
     }),
     'nsw_rural_fire_service_feed': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'NSW Rural Fire Service Incidents',
     }),
     'nuheat': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'NuHeat',
     }),
     'nuki': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Nuki',
     }),
     'numato': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Numato USB GPIO Expander',
     }),
     'number': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Number',
     }),
     'nut': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Network UPS Tools (NUT)',
     }),
     'nutrichef': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Nutrichef',
     }),
     'nws': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'National Weather Service (NWS)',
     }),
     'nx584': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'NX584',
     }),
     'nzbget': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'NZBGet',
     }),
     'oasa_telematics': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OASA Telematics',
     }),
     'obihai': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Obihai',
     }),
     'octoprint': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OctoPrint',
     }),
     'oem': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OpenEnergyMonitor WiFi Thermostat',
     }),
     'ohmconnect': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OhmConnect',
     }),
     'ombi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ombi',
     }),
     'omnilogic': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Hayward Omnilogic',
     }),
     'onboarding': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Home Assistant Onboarding',
     }),
     'oncue': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Oncue by Kohler',
     }),
     'ondilo_ico': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ondilo ICO',
     }),
     'onewire': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': '1-Wire',
     }),
     'onkyo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Onkyo',
     }),
     'onvif': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ONVIF',
     }),
     'open_meteo': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Open-Meteo',
     }),
     'openai_conversation': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'OpenAI Conversation',
     }),
     'openalpr_cloud': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OpenALPR Cloud',
     }),
     'opencv': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OpenCV',
     }),
     'openerz': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Open ERZ',
     }),
     'openevse': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OpenEVSE',
     }),
     'openexchangerates': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Open Exchange Rates',
     }),
     'opengarage': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OpenGarage',
     }),
     'openhardwaremonitor': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Open Hardware Monitor',
     }),
     'openhome': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Linn / OpenHome',
     }),
     'opensensemap': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'openSenseMap',
     }),
     'opensky': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OpenSky Network',
     }),
     'opentherm_gw': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OpenTherm Gateway',
     }),
     'openuv': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'OpenUV',
     }),
     'openweathermap': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OpenWeatherMap',
     }),
     'opnsense': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OPNSense',
     }),
     'opower': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Opower',
     }),
     'opple': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Opple',
     }),
     'oralb': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Oral-B',
     }),
     'oru': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Orange and Rockland Utility (ORU)',
     }),
     'oru_opower': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Orange and Rockland Utilities (ORU) Opower',
     }),
     'orvibo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Orvibo',
     }),
     'osoenergy': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OSO Energy',
     }),
     'osramlightify': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Osramlightify',
     }),
     'otbr': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Open Thread Border Router',
     }),
     'otp': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'One-Time Password (OTP)',
     }),
     'ourgroceries': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OurGroceries',
     }),
     'overkiz': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Overkiz',
     }),
     'ovo_energy': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'OVO Energy',
     }),
     'owntracks': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OwnTracks',
     }),
     'p1_monitor': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'P1 Monitor',
     }),
     'panasonic_bluray': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Panasonic Blu-Ray Player',
     }),
     'panasonic_viera': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Panasonic Viera',
     }),
     'pandora': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pandora',
     }),
     'panel_custom': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Custom panel',
     }),
     'panel_iframe': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'iFrame panel',
     }),
     'pcs_lighting': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'PCS Lighting',
     }),
     'peco': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'PECO Outage Counter',
     }),
     'peco_opower': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'PECO Energy Company (PECO)',
     }),
     'pegel_online': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'PEGELONLINE',
     }),
     'pencom': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pencom',
     }),
     'pepco': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Potomac Electric Power Company (Pepco)',
     }),
     'persistent_notification': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Persistent Notification',
     }),
     'person': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Person',
     }),
     'pge': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Pacific Gas & Electric (PG&E)',
     }),
     'philips_js': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Philips TV',
     }),
     'pi_hole': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pi-hole',
     }),
     'picnic': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Picnic',
     }),
     'picotts': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pico TTS',
     }),
     'pilight': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pilight',
     }),
     'ping': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ping (ICMP)',
     }),
     'pioneer': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pioneer',
     }),
     'piper': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Piper',
     }),
     'pjlink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'PJLink',
     }),
     'plaato': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Plaato',
     }),
     'plant': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Plant Monitor',
     }),
     'plex': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Plex Media Server',
     }),
     'plugwise': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Plugwise',
     }),
     'plum_lightpad': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Plum Lightpad',
     }),
     'pocketcasts': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pocket Casts',
     }),
     'point': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Minut Point',
     }),
     'poolsense': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'PoolSense',
     }),
     'portlandgeneral': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Portland General Electric (PGE)',
     }),
     'powerwall': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tesla Powerwall',
     }),
     'private_ble_device': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Private BLE Device',
     }),
     'profiler': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Profiler',
     }),
     'progettihwsw': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ProgettiHWSW Automation',
     }),
     'proliphix': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Proliphix',
     }),
     'prometheus': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Prometheus',
     }),
     'prosegur': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Prosegur Alarm',
     }),
     'prowl': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Prowl',
     }),
     'proximity': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Proximity',
     }),
     'proxmoxve': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Proxmox VE',
     }),
     'proxy': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Camera Proxy',
     }),
     'prusalink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'PrusaLink',
     }),
     'ps4': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sony PlayStation 4',
     }),
     'pse': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Puget Sound Energy (PSE)',
     }),
     'psoklahoma': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Public Service Company of Oklahoma (PSO)',
     }),
     'pulseaudio_loopback': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'PulseAudio Loopback',
     }),
     'pure_energie': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pure Energie',
     }),
     'purpleair': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'PurpleAir',
     }),
     'push': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Push',
     }),
     'pushbullet': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pushbullet',
     }),
     'pushover': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pushover',
     }),
     'pushsafer': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pushsafer',
     }),
     'pvoutput': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'PVOutput',
     }),
     'pvpc_hourly_pricing': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Spain electricity hourly pricing (PVPC)',
     }),
     'pyload': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'pyLoad',
     }),
     'python_script': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Python Scripts',
     }),
     'qbittorrent': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'qBittorrent',
     }),
     'qingping': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Qingping',
     }),
     'qld_bushfire': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Queensland Bushfire Alert',
     }),
     'qnap': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'QNAP',
     }),
     'qnap_qsw': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'QNAP QSW',
     }),
     'qrcode': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'QR Code',
     }),
     'quadrafire': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Quadra-Fire',
     }),
     'quantum_gateway': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Quantum Gateway',
     }),
     'qvr_pro': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'QVR Pro',
     }),
     'qwikswitch': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'QwikSwitch QSUSB',
     }),
     'rachio': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Rachio',
     }),
     'radarr': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Radarr',
     }),
     'radio_browser': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Radio Browser',
     }),
     'radiotherm': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Radio Thermostat',
     }),
     'rainbird': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Rain Bird',
     }),
     'raincloud': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Melnor RainCloud',
     }),
     'rainforest_eagle': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Rainforest Eagle',
     }),
     'rainmachine': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'RainMachine',
     }),
     'random': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Random',
     }),
     'rapt_ble': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'RAPT Bluetooth',
     }),
     'raspyrfm': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'RaspyRFM',
     }),
     'raven_rock_mfg': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Raven Rock MFG',
     }),
     'rdw': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'RDW',
     }),
     'recollect_waste': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'ReCollect Waste',
     }),
     'recorder': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Recorder',
     }),
     'recovery_mode': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Recovery Mode',
     }),
     'recswitch': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ankuoo REC Switch',
     }),
     'reddit': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Reddit',
     }),
     'refoss': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Refoss',
     }),
     'rejseplanen': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Rejseplanen',
     }),
     'remember_the_milk': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Remember The Milk',
     }),
     'remote': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Remote',
     }),
     'remote_rpi_gpio': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Raspberry Pi Remote GPIO',
     }),
     'renault': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Renault',
     }),
     'renson': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Renson',
     }),
     'reolink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Reolink IP NVR/camera',
     }),
     'repairs': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Repairs',
     }),
     'repetier': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Repetier-Server',
     }),
     'rest': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'RESTful',
     }),
     'rest_command': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'RESTful Command',
     }),
     'rexel': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Rexel Energeasy Connect',
     }),
     'rflink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'RFLink',
     }),
     'rfxtrx': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'RFXCOM RFXtrx',
     }),
     'rhasspy': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Rhasspy',
     }),
     'ridwell': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Ridwell',
     }),
     'ring': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ring',
     }),
     'ripple': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ripple',
     }),
     'risco': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Risco',
     }),
     'rituals_perfume_genie': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Rituals Perfume Genie',
     }),
     'rmvtransport': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'RMV',
     }),
     'roborock': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Roborock',
     }),
     'rocketchat': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Rocket.Chat',
     }),
     'roku': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Roku',
     }),
     'roomba': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'iRobot Roomba and Braava',
     }),
     'roon': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'RoonLabs music player',
     }),
     'route53': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'AWS Route53',
     }),
     'rova': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ROVA',
     }),
     'rpi_camera': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Raspberry Pi Camera',
     }),
     'rpi_power': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Raspberry Pi Power Supply Checker',
     }),
     'rss_feed_template': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'RSS feed template',
     }),
     'rtorrent': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'rTorrent',
     }),
     'rtsp_to_webrtc': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'RTSPtoWebRTC',
     }),
     'ruckus_unleashed': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Ruckus Unleashed',
     }),
     'russound_rio': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Russound RIO',
     }),
     'russound_rnet': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Russound RNET',
     }),
     'ruuvi_gateway': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ruuvi Gateway',
     }),
     'ruuvitag_ble': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'RuuviTag BLE',
     }),
     'rympro': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Read Your Meter Pro',
     }),
     'sabnzbd': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SABnzbd',
     }),
     'saj': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SAJ Solar Inverter',
     }),
     'samsungtv': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Samsung Smart TV',
     }),
     'satel_integra': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Satel Integra',
     }),
     'scene': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Scenes',
     }),
     'schedule': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Schedule',
     }),
     'schlage': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Schlage',
     }),
     'schluter': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Schluter',
     }),
     'scl': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Seattle City Light (SCL)',
     }),
     'scrape': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Scrape',
     }),
     'screenaway': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'ScreenAway',
     }),
     'screenlogic': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Pentair ScreenLogic',
     }),
     'script': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Scripts',
     }),
     'scsgate': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SCSGate',
     }),
     'search': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Search',
     }),
     'season': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Season',
     }),
     'select': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Select',
     }),
     'sendgrid': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SendGrid',
     }),
     'sense': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sense',
     }),
     'sensibo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sensibo',
     }),
     'sensirion_ble': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sensirion BLE',
     }),
     'sensor': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Sensor',
     }),
     'sensorblue': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'SensorBlue',
     }),
     'sensorpro': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SensorPro',
     }),
     'sensorpush': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SensorPush',
     }),
     'sentry': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Sentry',
     }),
     'senz': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'nVent RAYCHEM SENZ',
     }),
     'serial': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Serial',
     }),
     'serial_pm': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Serial Particulate Matter',
     }),
     'sesame': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sesame Smart Lock',
     }),
     'seven_segments': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Seven Segments OCR',
     }),
     'seventeentrack': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': '17TRACK',
     }),
     'sfr_box': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'SFR Box',
     }),
     'sharkiq': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Shark IQ',
     }),
     'shell_command': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Shell Command',
     }),
     'shelly': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Shelly',
     }),
     'shodan': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Shodan',
     }),
     'shopping_list': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Shopping list',
     }),
     'sia': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SIA Alarm Systems',
     }),
     'sigfox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sigfox',
     }),
     'sighthound': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sighthound',
     }),
     'signal_messenger': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Signal Messenger',
     }),
     'simplepush': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Simplepush',
     }),
     'simplisafe': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'SimpliSafe',
     }),
     'simply_automated': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Simply Automated',
     }),
     'simu': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'SIMU LiveIn2',
     }),
     'simulated': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Simulated',
     }),
     'sinch': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sinch SMS',
     }),
     'siren': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Siren',
     }),
     'sisyphus': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sisyphus',
     }),
     'sky_hub': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sky Hub',
     }),
     'skybeacon': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Skybeacon',
     }),
     'skybell': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'SkyBell',
     }),
     'slack': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Slack',
     }),
     'sleepiq': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SleepIQ',
     }),
     'slide': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Slide',
     }),
     'slimproto': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SlimProto (Squeezebox players)',
     }),
     'sma': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SMA Solar',
     }),
     'smappee': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Smappee',
     }),
     'smart_blinds': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Smart Blinds',
     }),
     'smart_home': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Smart Home',
     }),
     'smart_meter_texas': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Smart Meter Texas',
     }),
     'smarther': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Smarther',
     }),
     'smartthings': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SmartThings',
     }),
     'smarttub': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SmartTub',
     }),
     'smarty': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Salda Smarty',
     }),
     'smhi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SMHI',
     }),
     'sms': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SMS notifications via GSM-modem',
     }),
     'smtp': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SMTP',
     }),
     'snapcast': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Snapcast',
     }),
     'snips': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Snips',
     }),
     'snmp': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SNMP',
     }),
     'snooz': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Snooz',
     }),
     'solaredge': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'SolarEdge',
     }),
     'solaredge_local': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SolarEdge Local',
     }),
     'solarlog': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Solar-Log',
     }),
     'solax': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SolaX Power',
     }),
     'soma': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Soma Connect',
     }),
     'somfy': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Somfy',
     }),
     'somfy_mylink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Somfy MyLink',
     }),
     'sonarr': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sonarr',
     }),
     'songpal': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sony Songpal',
     }),
     'sonos': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sonos',
     }),
     'sony_projector': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sony Projector',
     }),
     'soundtouch': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Bose SoundTouch',
     }),
     'spaceapi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Space API',
     }),
     'spc': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Vanderbilt SPC',
     }),
     'speedtestdotnet': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Speedtest.net',
     }),
     'spider': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Itho Daalderop Spider',
     }),
     'splunk': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Splunk',
     }),
     'spotify': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Spotify',
     }),
     'sql': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SQL',
     }),
     'squeezebox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Squeezebox (Logitech Media Server)',
     }),
     'srp_energy': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SRP Energy',
     }),
     'ssdp': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Simple Service Discovery Protocol (SSDP)',
     }),
     'starline': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'StarLine',
     }),
     'starlingbank': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Starling Bank',
     }),
     'starlink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Starlink',
     }),
     'startca': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Start.ca',
     }),
     'statistics': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Statistics',
     }),
     'statsd': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'StatsD',
     }),
     'steam_online': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Steam',
     }),
     'steamist': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Steamist',
     }),
     'stiebel_eltron': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'STIEBEL ELTRON',
     }),
     'stookalert': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'RIVM Stookalert',
     }),
     'stookwijzer': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Stookwijzer',
     }),
     'stream': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Stream',
     }),
     'streamlabswater': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'StreamLabs',
     }),
     'stt': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Speech-to-text (STT)',
     }),
     'subaru': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Subaru',
     }),
     'suez_water': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Suez Water',
     }),
     'sun': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sun',
     }),
     'sunweg': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sun WEG',
     }),
     'supervisord': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Supervisord',
     }),
     'supla': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SUPLA',
     }),
     'surepetcare': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Sure Petcare',
     }),
     'swepco': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Southwestern Electric Power Company (SWEPCO)',
     }),
     'swiss_hydrological_data': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Swiss Hydrological Data',
     }),
     'swiss_public_transport': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Swiss public transport',
     }),
     'swisscom': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Swisscom Internet-Box',
     }),
     'switch': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Switch',
     }),
     'switch_as_x': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Change device type of a switch',
     }),
     'switchbee': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SwitchBee',
     }),
     'switchbot': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SwitchBot Bluetooth',
     }),
     'switchbot_cloud': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'SwitchBot Cloud',
     }),
     'switcher_kis': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Switcher',
     }),
     'switchmate': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Switchmate SimplySmart Home',
     }),
     'symfonisk': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'IKEA SYMFONISK',
     }),
     'syncthing': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Syncthing',
     }),
     'syncthru': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Samsung SyncThru Printer',
     }),
     'synology_chat': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Synology Chat',
     }),
     'synology_dsm': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Synology DSM',
     }),
     'synology_srm': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Synology SRM',
     }),
     'syslog': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Syslog',
     }),
     'system_bridge': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'System Bridge',
     }),
     'system_health': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'System Health',
     }),
     'system_log': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'System Log',
     }),
     'systemmonitor': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'System monitor',
     }),
     'tado': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tado',
     }),
     'tag': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tags',
     }),
     'tailscale': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Tailscale',
     }),
     'tailwind': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Tailwind',
     }),
     'tami4': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tami4 Edge / Edge+',
     }),
     'tank_utility': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tank Utility',
     }),
     'tankerkoenig': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tankerkoenig',
     }),
     'tapsaff': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Taps Aff',
     }),
     'tasmota': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tasmota',
     }),
     'tautulli': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Tautulli',
     }),
     'tcp': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'TCP',
     }),
     'ted5000': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'The Energy Detective TED5000',
     }),
     'telegram': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Telegram',
     }),
     'telegram_bot': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Telegram bot',
     }),
     'tellduslive': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Telldus Live',
     }),
     'tellstick': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'TellStick',
     }),
     'telnet': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Telnet',
     }),
     'temper': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'TEMPer',
     }),
     'template': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Template',
     }),
     'tensorflow': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'TensorFlow',
     }),
     'tesla_wall_connector': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tesla Wall Connector',
     }),
     'tessie': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tessie',
     }),
     'text': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Text',
     }),
     'tfiac': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tfiac',
     }),
     'thermobeacon': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ThermoBeacon',
     }),
     'thermoplus': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'ThermoPlus',
     }),
     'thermopro': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ThermoPro',
     }),
     'thermoworks_smoke': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ThermoWorks Smoke',
     }),
     'thethingsnetwork': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'The Things Network',
     }),
     'thingspeak': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ThingSpeak',
     }),
     'thinkingcleaner': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Thinking Cleaner',
     }),
     'third_reality': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Third Reality',
     }),
     'thomson': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Thomson',
     }),
     'thread': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Thread',
     }),
     'threshold': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Threshold',
     }),
     'tibber': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tibber',
     }),
     'tikteck': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tikteck',
     }),
     'tile': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Tile',
     }),
     'tilt_ble': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tilt Hydrometer BLE',
     }),
     'time': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Time',
     }),
     'time_date': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Time & Date',
     }),
     'timer': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Timer',
     }),
     'tmb': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Transports Metropolitans de Barcelona',
     }),
     'tod': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Times of the Day',
     }),
     'todo': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'To-do list',
     }),
     'todoist': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Todoist',
     }),
     'tolo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'TOLO Sauna',
     }),
     'tomato': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Tomato',
     }),
     'tomorrowio': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Tomorrow.io',
     }),
     'toon': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Toon',
     }),
     'torque': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Torque',
     }),
     'totalconnect': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Total Connect',
     }),
     'touchline': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Roth Touchline',
     }),
     'tplink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'TP-Link Kasa Smart',
     }),
     'tplink_lte': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'TP-Link LTE',
     }),
     'tplink_omada': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'TP-Link Omada',
     }),
     'traccar': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Traccar',
     }),
     'tractive': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Tractive',
     }),
     'tradfri': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IKEA TRÅDFRI',
     }),
     'trafikverket_camera': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Trafikverket Camera',
     }),
     'trafikverket_ferry': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Trafikverket Ferry',
     }),
     'trafikverket_train': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Trafikverket Train',
     }),
     'trafikverket_weatherstation': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Trafikverket Weather Station',
     }),
     'transmission': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Transmission',
     }),
     'transport_nsw': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Transport NSW',
     }),
     'travisci': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Travis-CI',
     }),
     'trend': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Trend',
     }),
     'tts': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Text-to-speech (TTS)',
     }),
     'tuya': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Tuya',
     }),
     'twentemilieu': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Twente Milieu',
     }),
     'twilio': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Twilio',
     }),
     'twilio_call': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Twilio Call',
     }),
     'twilio_sms': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Twilio SMS',
     }),
     'twinkly': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Twinkly',
     }),
     'twitch': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Twitch',
     }),
     'twitter': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'X',
     }),
     'ubiwizz': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Ubiwizz',
     }),
     'ubus': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'OpenWrt (ubus)',
     }),
     'ue_smart_radio': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Logitech UE Smart Radio',
     }),
     'uk_transport': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'UK Transport',
     }),
     'ukraine_alarm': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ukraine Alarm',
     }),
     'ultraloq': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Ultraloq',
     }),
     'unifi': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'UniFi Network',
     }),
     'unifi_direct': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'UniFi AP',
     }),
     'unifiled': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'UniFi LED',
     }),
     'unifiprotect': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'UniFi Protect',
     }),
     'universal': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Universal media player',
     }),
     'upb': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Universal Powerline Bus (UPB)',
     }),
     'upc_connect': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'UPC Connect Box',
     }),
     'upcloud': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'UpCloud',
     }),
     'update': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Update',
     }),
     'upnp': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'UPnP/IGD',
     }),
     'uprise_smart_shades': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Uprise Smart Shades',
     }),
     'uptime': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Uptime',
     }),
     'uptimerobot': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'UptimeRobot',
     }),
     'usb': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'USB Discovery',
     }),
     'usgs_earthquakes_feed': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'U.S. Geological Survey Earthquake Hazards (USGS)',
     }),
     'utility_meter': dict({
+      'integration_type': <IntegrationType.HELPER: 'helper'>,
       'title': 'Utility Meter',
     }),
     'uvc': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ubiquiti UniFi Video',
     }),
     'v2c': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'V2C',
     }),
     'vacuum': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Vacuum',
     }),
     'vallox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Vallox',
     }),
     'valve': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Valve',
     }),
     'vasttrafik': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Västtrafik',
     }),
     'velbus': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Velbus',
     }),
     'velux': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Velux',
     }),
     'venstar': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Venstar',
     }),
     'vera': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Vera',
     }),
     'verisure': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Verisure',
     }),
     'vermont_castings': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Vermont Castings',
     }),
     'versasense': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'VersaSense',
     }),
     'version': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Version',
     }),
     'vesync': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'VeSync',
     }),
     'viaggiatreno': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Trenitalia ViaggiaTreno',
     }),
     'vicare': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Viessmann ViCare',
     }),
     'vilfo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Vilfo Router',
     }),
     'vivotek': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'VIVOTEK',
     }),
     'vizio': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'VIZIO SmartCast',
     }),
     'vlc': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'VLC media player',
     }),
     'vlc_telnet': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'VLC media player via Telnet',
     }),
     'vodafone_station': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Vodafone Station',
     }),
     'voice_assistant': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Voice Assistant',
     }),
     'voicerss': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'VoiceRSS',
     }),
     'voip': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Voice over IP',
     }),
     'volkszaehler': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Volkszaehler',
     }),
     'volumio': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Volumio',
     }),
     'volvooncall': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Volvo On Call',
     }),
     'vulcan': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Uonet+ Vulcan',
     }),
     'vultr': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Vultr',
     }),
     'w800rf32': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'WGL Designs W800RF32',
     }),
     'wake_on_lan': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Wake on LAN',
     }),
     'wake_word': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Wake-word detection',
     }),
     'wallbox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Wallbox',
     }),
     'waqi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'World Air Quality Index (WAQI)',
     }),
     'water_heater': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Water heater',
     }),
     'waterfurnace': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'WaterFurnace',
     }),
     'watson_iot': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IBM Watson IoT Platform',
     }),
     'watson_tts': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'IBM Watson TTS',
     }),
     'watttime': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'WattTime',
     }),
     'waze_travel_time': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Waze Travel Time',
     }),
     'weather': dict({
+      'integration_type': <IntegrationType.ENTITY: 'entity'>,
       'title': 'Weather',
     }),
     'weatherflow': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'WeatherFlow',
     }),
     'weatherkit': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Apple WeatherKit',
     }),
     'webhook': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Webhook',
     }),
     'webostv': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'LG webOS Smart TV',
     }),
     'websocket_api': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Home Assistant WebSocket API',
     }),
     'wemo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Belkin WeMo',
     }),
     'whirlpool': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Whirlpool Appliances',
     }),
     'whisper': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Whisper',
     }),
     'whois': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'Whois',
     }),
     'wiffi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Wiffi',
     }),
     'wilight': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'WiLight',
     }),
     'wirelesstag': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Wireless Sensor Tags',
     }),
     'withings': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Withings',
     }),
     'wiz': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'WiZ',
     }),
     'wled': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'WLED',
     }),
     'wolflink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Wolf SmartSet Service',
     }),
     'workday': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Workday',
     }),
     'worldclock': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Worldclock',
     }),
     'worldtidesinfo': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'World Tides',
     }),
     'worxlandroid': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Worx Landroid',
     }),
     'ws66i': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Soundavo WS66i 6-Zone Amplifier',
     }),
     'wsdot': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Washington State Department of Transportation (WSDOT)',
     }),
     'wyoming': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Wyoming Protocol',
     }),
     'x10': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Heyu X10',
     }),
     'xbox': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Xbox',
     }),
     'xeoma': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Xeoma',
     }),
     'xiaomi': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Xiaomi',
     }),
     'xiaomi_aqara': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Xiaomi Gateway (Aqara)',
     }),
     'xiaomi_ble': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Xiaomi BLE',
     }),
     'xiaomi_miio': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Xiaomi Miio',
     }),
     'xiaomi_tv': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Xiaomi TV',
     }),
     'xmpp': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Jabber (XMPP)',
     }),
     'xs1': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'EZcontrol XS1',
     }),
     'yale_home': dict({
+      'integration_type': <IntegrationType.VIRTUAL: 'virtual'>,
       'title': 'Yale Home',
     }),
     'yale_smart_alarm': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Yale Smart Living',
     }),
     'yalexs_ble': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Yale Access Bluetooth',
     }),
     'yamaha': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Yamaha Network Receivers',
     }),
     'yamaha_musiccast': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'MusicCast',
     }),
     'yandex_transport': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Yandex Transport',
     }),
     'yandextts': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Yandex TTS',
     }),
     'yardian': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Yardian',
     }),
     'yeelight': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Yeelight',
     }),
     'yeelightsunflower': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Yeelight Sunflower',
     }),
     'yi': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Yi Home Cameras',
     }),
     'yolink': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'YoLink',
     }),
     'youless': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'YouLess',
     }),
     'youtube': dict({
+      'integration_type': <IntegrationType.SERVICE: 'service'>,
       'title': 'YouTube',
     }),
     'zabbix': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Zabbix',
     }),
     'zamg': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'GeoSphere Austria',
     }),
     'zengge': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Zengge',
     }),
     'zeroconf': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Zero-configuration networking (zeroconf)',
     }),
     'zerproc': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Zerproc',
     }),
     'zestimate': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Zestimate',
     }),
     'zeversolar': dict({
+      'integration_type': <IntegrationType.DEVICE: 'device'>,
       'title': 'Zeversolar',
     }),
     'zha': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Zigbee Home Automation',
     }),
     'zhong_hong': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ZhongHong',
     }),
     'ziggo_mediabox_xl': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Ziggo Mediabox XL',
     }),
     'zodiac': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Zodiac',
     }),
     'zone': dict({
+      'integration_type': <IntegrationType.SYSTEM: 'system'>,
       'title': 'Zone',
     }),
     'zoneminder': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'ZoneMinder',
     }),
     'zwave_js': dict({
+      'integration_type': <IntegrationType.HUB: 'hub'>,
       'title': 'Z-Wave',
     }),
     'zwave_me': dict({
+      'integration_type': <IntegrationType.INTEGRATION: 'integration'>,
       'title': 'Z-Wave.Me',
     }),
   })
