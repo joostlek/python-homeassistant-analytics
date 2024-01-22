@@ -43,3 +43,11 @@ class Integration(DataClassORJSONMixin):
 
     title: str
     integration_type: IntegrationType
+
+
+@dataclass
+class CustomIntegration(DataClassORJSONMixin):
+    """CustomIntegration model."""
+
+    total: int
+    versions: dict[str, int]
