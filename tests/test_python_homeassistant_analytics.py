@@ -126,7 +126,7 @@ async def test_etags(
     responses.assert_called_with(
         f"{HOMEASSISTANT_ANALYTICS_URL}/current_data.json",
         METH_GET,
-        headers={**HEADERS, "If-None-Match": ""},
+        headers=HEADERS,
     )
     with pytest.raises(HomeassistantAnalyticsNotModifiedError):
         assert await homeassistant_analytics_client.get_current_analytics()
