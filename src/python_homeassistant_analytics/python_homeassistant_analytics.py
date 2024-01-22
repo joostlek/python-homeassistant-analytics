@@ -45,8 +45,9 @@ class HomeassistantAnalyticsClient:
         headers = {
             "User-Agent": f"PythonHomeassistantAnalytics/{VERSION}",
             "Accept": "application/json, text/plain, */*",
-            "If-None-Match": self._etags.get(url.path, ""),
         }
+        if etag := self._etags.get(url.path):
+            headers["If-None-Match"] = etag
 
         if self.session is None:
             self.session = ClientSession()
