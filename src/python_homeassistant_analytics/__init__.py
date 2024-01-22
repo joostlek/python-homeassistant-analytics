@@ -5,7 +5,7 @@ from .exceptions import (
     HomeassistantAnalyticsError,
     HomeassistantAnalyticsNotModifiedError,
 )
-from .models import Analytics, CurrentAnalytics, Integration
+from .models import Analytics, CurrentAnalytics, CustomIntegration, Integration
 from .python_homeassistant_analytics import HomeassistantAnalyticsClient
 
 __all__ = [
@@ -16,4 +16,5 @@ __all__ = [
     "HomeassistantAnalyticsClient",
     "Analytics",
     "CurrentAnalytics",
+    "CustomIntegration",
 ]

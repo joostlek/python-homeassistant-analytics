@@ -18,6 +18,7 @@ from python_homeassistant_analytics.exceptions import (
 from python_homeassistant_analytics.models import (
     Analytics,
     CurrentAnalytics,
+    CustomIntegration,
     Integration,
 )
 
@@ -99,6 +100,15 @@ class HomeassistantAnalyticsClient:
         response = await self._request("home-assistant.io", "integrations.json")
         obj = orjson.loads(response)  # pylint: disable=no-member
         return {key: Integration.from_dict(value) for key, value in obj.items()}
+
+    async def get_custom_integrations(self) -> dict[str, CustomIntegration]:
+        """Get custom integrations."""
+        response = await self._request(
+            "analytics.home-assistant.io",
+            "custom_integrations.json",
+        )
+        obj = orjson.loads(response)  # pylint: disable=no-member
+        return {key: CustomIntegration.from_dict(value) for key, value in obj.items()}
 
     async def close(self) -> None:
         """Close open client session."""
