@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from enum import StrEnum
 
 from mashumaro import field_options
@@ -9,9 +10,34 @@ from mashumaro.mixins.orjson import DataClassORJSONMixin
 
 
 @dataclass
+class InstallationTypes(DataClassORJSONMixin):
+    """InstallationTypes model."""
+
+    os: int
+    container: int
+    core: int
+    supervised: int
+    unsupported_container: int
+    unknown: int
+
+
+@dataclass
 class CurrentAnalytics(DataClassORJSONMixin):
     """CurrentAnalytics model."""
 
+    last_updated: datetime = field(
+        metadata=field_options(
+            deserialize=lambda x: datetime.fromtimestamp(x / 1000, tz=timezone.utc),
+        ),
+    )
+    countries: dict[str, int]
+    installation_types: InstallationTypes
+    active_installations: int
+    average_users: int = field(metadata=field_options(alias="avg_users"))
+    average_automations: int = field(metadata=field_options(alias="avg_automations"))
+    average_integrations: int = field(metadata=field_options(alias="avg_integrations"))
+    average_addons: int = field(metadata=field_options(alias="avg_addons"))
+    average_states: int = field(metadata=field_options(alias="avg_states"))
     integrations: dict[str, int]
 
 
