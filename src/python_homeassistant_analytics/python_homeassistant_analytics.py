@@ -121,6 +121,7 @@ class HomeassistantAnalyticsClient:
         Returns
         -------
             The HomeassistantAnalyticsClient object.
+
         """
         return self
 
@@ -130,5 +131,6 @@ class HomeassistantAnalyticsClient:
         Args:
         ----
             _exc_info: Exec type.
+
         """
         await self.close()
