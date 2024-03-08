@@ -1,6 +1,5 @@
 """Asynchronous Python client for Homeassistant Analytics."""
 
-
 from pathlib import Path
 
 

@@ -1,4 +1,5 @@
 """Asynchronous Python client for Homeassistant Analytics."""
+
 import asyncio
 from typing import Any
 

@@ -1,4 +1,5 @@
 """Asynchronous Python client for Homeassistant Analytics."""
+
 from __future__ import annotations
 
 from dataclasses import asdict, is_dataclass
@@ -63,6 +64,6 @@ class HomeassistantAnalyticsSnapshotExtension(AmberSnapshotExtension):
     Need to be bumped when we change the HomeassistantAnalyticsSnapshotSerializer.
     """
 
-    serializer_class: type[
-        AmberDataSerializer
-    ] = HomeassistantAnalyticsSnapshotSerializer
+    serializer_class: type[AmberDataSerializer] = (
+        HomeassistantAnalyticsSnapshotSerializer
+    )
