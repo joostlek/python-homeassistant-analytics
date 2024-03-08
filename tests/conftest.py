@@ -1,4 +1,5 @@
 """Asynchronous Python client for Homeassistant Analytics."""
+
 from typing import AsyncGenerator, Generator
 
 import aiohttp
