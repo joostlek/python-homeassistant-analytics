@@ -78,3 +78,11 @@ class CustomIntegration(DataClassORJSONMixin):
 
     total: int
     versions: dict[str, int]
+
+
+@dataclass
+class Addon(DataClassORJSONMixin):
+    """Addon model."""
+
+    total: int
+    versions: dict[str, int]

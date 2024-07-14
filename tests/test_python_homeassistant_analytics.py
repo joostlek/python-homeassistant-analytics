@@ -179,3 +179,17 @@ async def test_custom_integrations(
         body=load_fixture("custom_integrations.json"),
     )
     assert await homeassistant_analytics_client.get_custom_integrations() == snapshot
+
+
+async def test_addons(
+    responses: aioresponses,
+    homeassistant_analytics_client: HomeassistantAnalyticsClient,
+    snapshot: SnapshotAssertion,
+) -> None:
+    """Test retrieving addons."""
+    responses.get(
+        f"{HOMEASSISTANT_ANALYTICS_URL}/addons.json",
+        status=200,
+        body=load_fixture("addons.json"),
+    )
+    assert await homeassistant_analytics_client.get_addons() == snapshot

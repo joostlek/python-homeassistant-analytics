@@ -17,6 +17,7 @@ from python_homeassistant_analytics.exceptions import (
     HomeassistantAnalyticsNotModifiedError,
 )
 from python_homeassistant_analytics.models import (
+    Addon,
     Analytics,
     CurrentAnalytics,
     CustomIntegration,
@@ -101,6 +102,12 @@ class HomeassistantAnalyticsClient:
         response = await self._request("home-assistant.io", "integrations.json")
         obj = orjson.loads(response)  # pylint: disable=no-member
         return {key: Integration.from_dict(value) for key, value in obj.items()}
+
+    async def get_addons(self) -> dict[str, Addon]:
+        """Get addons."""
+        response = await self._request("analytics.home-assistant.io", "addons.json")
+        obj = orjson.loads(response)  # pylint: disable=no-member
+        return {key: Addon.from_dict(value) for key, value in obj.items()}
 
     async def get_custom_integrations(self) -> dict[str, CustomIntegration]:
         """Get custom integrations."""
