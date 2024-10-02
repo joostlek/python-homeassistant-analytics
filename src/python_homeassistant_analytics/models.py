@@ -40,6 +40,7 @@ class CurrentAnalytics(DataClassORJSONMixin):
     average_addons: int = field(metadata=field_options(alias="avg_addons"))
     average_states: int = field(metadata=field_options(alias="avg_states"))
     integrations: dict[str, int]
+    reports_integrations: int
 
 
 @dataclass

@@ -29102,6 +29102,7 @@
         'zwave_me': 64,
       }),
       'last_updated': datetime.datetime(2024, 1, 8, 11, 2, 38, 591000, tzinfo=datetime.timezone.utc),
+      'reports_integrations': 248192,
     }),
   })
 # ---
@@ -30404,6 +30405,7 @@
       'zwave_me': 64,
     }),
     'last_updated': datetime.datetime(2024, 1, 10, 11, 23, 11, 95000, tzinfo=datetime.timezone.utc),
+    'reports_integrations': 249256,
   })
 # ---
 # name: test_custom_integrations
