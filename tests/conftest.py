@@ -1,6 +1,6 @@
 """Asynchronous Python client for Homeassistant Analytics."""
 
-from typing import AsyncGenerator, Generator
+from collections.abc import AsyncGenerator, Generator
 
 import aiohttp
 from aioresponses import aioresponses
@@ -21,9 +21,12 @@ def snapshot_assertion(snapshot: SnapshotAssertion) -> SnapshotAssertion:
 @pytest.fixture(name="homeassistant_analytics_client")
 async def client() -> AsyncGenerator[HomeassistantAnalyticsClient, None]:
     """Return a Spotify client."""
-    async with aiohttp.ClientSession() as session, HomeassistantAnalyticsClient(
-        session=session,
-    ) as homeassistant_analytics_client:
+    async with (
+        aiohttp.ClientSession() as session,
+        HomeassistantAnalyticsClient(
+            session=session,
+        ) as homeassistant_analytics_client,
+    ):
         yield homeassistant_analytics_client
 
 
