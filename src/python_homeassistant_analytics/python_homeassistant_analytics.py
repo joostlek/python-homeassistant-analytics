@@ -7,7 +7,7 @@ from dataclasses import dataclass, field
 from importlib import metadata
 from typing import Self
 
-from aiohttp import ClientSession
+from aiohttp import ClientConnectionError, ClientSession
 import orjson
 from yarl import URL
 
@@ -64,6 +64,9 @@ class HomeassistantAnalyticsClient:
                 )
         except asyncio.TimeoutError as exception:
             msg = "Timeout occurred while connecting to Homeassistant Analytics"
+            raise HomeassistantAnalyticsConnectionError(msg) from exception
+        except ClientConnectionError as exception:
+            msg = "Error occurred while connecting to Homeassistant Analytics"
             raise HomeassistantAnalyticsConnectionError(msg) from exception
 
         content_type = response.headers.get("Content-Type", "")
