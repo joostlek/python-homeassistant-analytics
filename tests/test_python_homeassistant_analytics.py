@@ -92,6 +92,14 @@ async def test_timeout(
             assert await homeassistant_analytics_client.get_analytics()
 
 
+@pytest.mark.usefixtures("responses")
+async def test_client_connection_error() -> None:
+    """Test client connection error."""
+    async with HomeassistantAnalyticsClient() as homeassistant_analytics_client:
+        with pytest.raises(HomeassistantAnalyticsConnectionError):
+            assert await homeassistant_analytics_client.get_analytics()
+
+
 async def test_analytics(
     responses: aioresponses,
     homeassistant_analytics_client: HomeassistantAnalyticsClient,
