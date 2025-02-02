@@ -102,7 +102,7 @@ class HomeassistantAnalyticsClient:
 
     async def get_integrations(self) -> dict[str, Integration]:
         """Get integrations."""
-        response = await self._request("home-assistant.io", "integrations.json")
+        response = await self._request("next.home-assistant.io", "integrations.json")
         obj = orjson.loads(response)  # pylint: disable=no-member
         return {key: Integration.from_dict(value) for key, value in obj.items()}
 
