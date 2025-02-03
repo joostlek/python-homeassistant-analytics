@@ -9,6 +9,7 @@ from aioresponses import CallbackResult, aioresponses
 import pytest
 
 from python_homeassistant_analytics import (
+    Environment,
     HomeassistantAnalyticsClient,
     HomeassistantAnalyticsConnectionError,
     HomeassistantAnalyticsError,
@@ -201,3 +202,33 @@ async def test_addons(
         body=load_fixture("addons.json"),
     )
     assert await homeassistant_analytics_client.get_addons() == snapshot
+
+
+@pytest.mark.parametrize(
+    ("environment", "url"),
+    [
+        (None, f"{HOMEASSISTANT_URL}/integrations.json"),
+        (Environment.CURRENT, f"{HOMEASSISTANT_URL}/integrations.json"),
+        (Environment.RC, "https://rc.home-assistant.io/integrations.json"),
+        (Environment.NEXT, "https://next.home-assistant.io/integrations.json"),
+    ],
+)
+async def test_integration_environment(
+    homeassistant_analytics_client: HomeassistantAnalyticsClient,
+    responses: aioresponses,
+    environment: Environment,
+    url: str,
+) -> None:
+    """Test retrieving integrations from different environments."""
+    responses.get(
+        url,
+        status=200,
+        body=load_fixture("integrations.json"),
+    )
+    assert await homeassistant_analytics_client.get_integrations(environment)
+
+    responses.assert_called_with(
+        url,
+        METH_GET,
+        headers=HEADERS,
+    )

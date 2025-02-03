@@ -10,6 +10,14 @@ from mashumaro import field_options
 from mashumaro.mixins.orjson import DataClassORJSONMixin
 
 
+class Environment(StrEnum):
+    """Environment."""
+
+    CURRENT = "current"
+    NEXT = "next"
+    RC = "rc"
+
+
 @dataclass
 class InstallationTypes(DataClassORJSONMixin):
     """InstallationTypes model."""
