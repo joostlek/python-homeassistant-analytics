@@ -21,6 +21,7 @@ from python_homeassistant_analytics.models import (
     Analytics,
     CurrentAnalytics,
     CustomIntegration,
+    Environment,
     Integration,
 )
 
@@ -100,9 +101,19 @@ class HomeassistantAnalyticsClient:
         )
         return CurrentAnalytics.from_json(response)
 
-    async def get_integrations(self) -> dict[str, Integration]:
+    async def get_integrations(
+        self,
+        environment: Environment = Environment.CURRENT,
+    ) -> dict[str, Integration]:
         """Get integrations."""
-        response = await self._request("next.home-assistant.io", "integrations.json")
+        prefix = {
+            Environment.RC: "rc.",
+            Environment.NEXT: "next.",
+        }.get(environment, "")
+        response = await self._request(
+            f"{prefix}home-assistant.io",
+            "integrations.json",
+        )
         obj = orjson.loads(response)  # pylint: disable=no-member
         return {key: Integration.from_dict(value) for key, value in obj.items()}
 

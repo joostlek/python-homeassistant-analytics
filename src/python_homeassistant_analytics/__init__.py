@@ -9,6 +9,7 @@ from .models import (
     Analytics,
     CurrentAnalytics,
     CustomIntegration,
+    Environment,
     InstallationTypes,
     Integration,
 )
@@ -18,6 +19,7 @@ __all__ = [
     "Analytics",
     "CurrentAnalytics",
     "CustomIntegration",
+    "Environment",
     "HomeassistantAnalyticsClient",
     "HomeassistantAnalyticsConnectionError",
     "HomeassistantAnalyticsError",

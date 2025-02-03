@@ -3,7 +3,7 @@
 from importlib import metadata
 
 HOMEASSISTANT_ANALYTICS_URL = "https://analytics.home-assistant.io"
-HOMEASSISTANT_URL = "https://next.home-assistant.io"
+HOMEASSISTANT_URL = "https://home-assistant.io"
 
 version = metadata.version("python_homeassistant_analytics")
 
