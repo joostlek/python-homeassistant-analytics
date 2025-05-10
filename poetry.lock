@@ -2126,13 +2126,13 @@ files = [
 
 [[package]]
 name = "safety"
-version = "3.4.0"
+version = "3.5.0"
 description = "Scan dependencies for known vulnerabilities and licenses."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "safety-3.4.0-py3-none-any.whl", hash = "sha256:176707f682e709c96bbf5462593de614cd844b7fc867d1ffacd8706d428e492f"},
-    {file = "safety-3.4.0.tar.gz", hash = "sha256:fc8763166616751c468bf401e66bdf6a87ea5f544c8b32679d6ba4c48c33c679"},
+    {file = "safety-3.5.0-py3-none-any.whl", hash = "sha256:b002e863e6e6bf111a1aafdf60e3a0378f8bc66221a3628c2230c7f2617c522e"},
+    {file = "safety-3.5.0.tar.gz", hash = "sha256:7223af388bde5323867eca5495f9817746289be9fd5b1896f168dc7082ea8ff1"},
 ]
 
 [package.dependencies]
@@ -2486,4 +2486,4 @@ propcache = ">=0.2.1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "b0e96c2de33ca6dae0c44d6dedb5eec114e00e085a4ca2fe81aee611ff197a07"
+content-hash = "e730bae09da8ad7c2c28a1398fafcfb66763967c5af6f4aa7a8a053ad2d9f345"
