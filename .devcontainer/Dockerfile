@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/python:2-3.11
+FROM mcr.microsoft.com/vscode/devcontainers/python:3-3.11
 
 RUN pip3 --disable-pip-version-check --no-cache-dir install \
     setuptools \
