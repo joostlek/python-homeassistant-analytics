@@ -63,7 +63,7 @@ class HomeassistantAnalyticsClient:
                     url,
                     headers=headers,
                 )
-        except asyncio.TimeoutError as exception:
+        except TimeoutError as exception:
             msg = "Timeout occurred while connecting to Homeassistant Analytics"
             raise HomeassistantAnalyticsConnectionError(msg) from exception
         except ClientConnectionError as exception:

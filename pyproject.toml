@@ -1,57 +1,77 @@
-[tool.poetry]
+[project]
 name = "python-homeassistant-analytics"
 version = "0.5.0"
 description = "Asynchronous Python client for Homeassistant Analytics."
-authors = ["Joost Lekkerkerker <joostlek@outlook.com>"]
-maintainers = ["Joost Lekkerkerker <joostlek@outlook.com>"]
-license = "MIT"
+authors = [{ name = "Joost Lekkerkerker", email = "joostlek@outlook.com" }]
+requires-python = ">=3.13,<4"
 readme = "README.md"
-homepage = "https://github.com/joostlek/python-homeassistant-analytics"
-repository = "https://github.com/joostlek/python-homeassistant-analytics"
-documentation = "https://github.com/joostlek/python-homeassistant-analytics"
-keywords = ["Homeassistant", "api", "async", "client"]
+license = "MIT"
+maintainers = [{ name = "Joost Lekkerkerker", email = "joostlek@outlook.com" }]
+keywords = [
+    "Homeassistant",
+    "api",
+    "async",
+    "client",
+]
 classifiers = [
-  "Development Status :: 5 - Production/Stable",
-  "Framework :: AsyncIO",
-  "Intended Audience :: Developers",
-  "Natural Language :: English",
-  "Programming Language :: Python :: 3.13",
-  "Programming Language :: Python :: 3.14",
-  "Programming Language :: Python :: 3",
-  "Topic :: Software Development :: Libraries :: Python Modules",
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-packages = [
-    { include = "python_homeassistant_analytics", from = "src" },
+dependencies = [
+    "aiohttp>=3.0.0",
+    "yarl>=1.6.0",
+    "mashumaro>=3.11,<4",
+    "orjson>=3.9.0",
 ]
 
-[tool.poetry.dependencies]
-python = "^3.13"
-aiohttp = ">=3.0.0"
-yarl = ">=1.6.0"
-mashumaro = "^3.11"
-orjson = ">=3.9.0"
-
-[tool.poetry.group.dev.dependencies]
-aiohttp = "<3.14"  # aioresponses 0.7.8 incompatible with aiohttp 3.14
-codespell = "2.4.2"
-covdefaults = "2.3.0"
-coverage = {version = "7.14.1", extras = ["toml"]}
-mypy = "1.20.2"
-prek = "0.3.9"
-pre-commit-hooks = "6.0.0"
-pylint = "4.0.5"
-pytest = "9.0.3"
-pytest-asyncio = "1.4.0"
-pytest-cov = "7.1.0"
-ruff = "0.15.15"
-safety = "3.8.1"
-yamllint = "1.38.0"
-syrupy = "5.3.1"
-aioresponses = "0.7.8"
-
-[tool.poetry.urls]
+[project.urls]
+Homepage = "https://github.com/joostlek/python-homeassistant-analytics"
+Repository = "https://github.com/joostlek/python-homeassistant-analytics"
+Documentation = "https://github.com/joostlek/python-homeassistant-analytics"
 "Bug Tracker" = "https://github.com/joostlek/python-homeassistant-analytics/issues"
 Changelog = "https://github.com/joostlek/python-homeassistant-analytics/releases"
+
+[dependency-groups]
+dev = [
+    "aiohttp<3.14",
+    "codespell==2.4.2",
+    "covdefaults==2.3.0",
+    "coverage[toml]==7.14.1",
+    "mypy==1.20.2",
+    "prek==0.3.9",
+    "pre-commit-hooks==6.0.0",
+    "pylint==4.0.5",
+    "pytest==9.0.3",
+    "pytest-asyncio==1.4.0",
+    "pytest-cov==7.1.0",
+    "ruff==0.15.15",
+    "safety==3.8.1",
+    "yamllint==1.38.0",
+    "syrupy==5.3.1",
+    "aioresponses==0.7.8",
+]
+
+[tool.uv]
+default-groups = "all"
+
+[tool.hatch.build.targets.sdist]
+include = ["src/python_homeassistant_analytics"]
+
+[tool.hatch.build.targets.wheel]
+include = ["src/python_homeassistant_analytics"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src/python_homeassistant_analytics" = "python_homeassistant_analytics"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [tool.coverage.report]
 show_missing = true
@@ -158,7 +178,3 @@ combine-as-imports = true
 
 [tool.ruff.lint.mccabe]
 max-complexity = 25
-
-[build-system]
-build-backend = "poetry.core.masonry.api"
-requires = ["poetry-core>=1.0.0"]
