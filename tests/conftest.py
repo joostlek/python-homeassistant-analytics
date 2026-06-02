@@ -19,7 +19,7 @@ def snapshot_assertion(snapshot: SnapshotAssertion) -> SnapshotAssertion:
 
 
 @pytest.fixture(name="homeassistant_analytics_client")
-async def client() -> AsyncGenerator[HomeassistantAnalyticsClient, None]:
+async def client() -> AsyncGenerator[HomeassistantAnalyticsClient]:
     """Return a Spotify client."""
     async with (
         aiohttp.ClientSession() as session,
@@ -31,7 +31,7 @@ async def client() -> AsyncGenerator[HomeassistantAnalyticsClient, None]:
 
 
 @pytest.fixture(name="responses")
-def aioresponses_fixture() -> Generator[aioresponses, None, None]:
+def aioresponses_fixture() -> Generator[aioresponses]:
     """Return aioresponses fixture."""
     with aioresponses() as mocked_responses:
         yield mocked_responses

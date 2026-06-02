@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from enum import StrEnum
 
 from mashumaro import field_options
@@ -36,7 +36,7 @@ class CurrentAnalytics(DataClassORJSONMixin):
 
     last_updated: datetime = field(
         metadata=field_options(
-            deserialize=lambda x: datetime.fromtimestamp(x / 1000, tz=timezone.utc),
+            deserialize=lambda x: datetime.fromtimestamp(x / 1000, tz=UTC),
         ),
     )
     countries: dict[str, int]
