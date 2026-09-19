@@ -163,6 +163,7 @@ ignore = [
   "PLR2004", # Just annoying, not really useful
   "PLR0913", # Too many arguments
   "ISC001", # Conflicts with other rules
+  "CPY001", # This project doesn't use copyright headers
 ]
 select = ["ALL"]
 
