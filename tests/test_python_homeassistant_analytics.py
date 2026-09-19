@@ -5,7 +5,7 @@ from typing import Any
 
 import aiohttp
 from aiohttp.hdrs import METH_GET
-from aioresponses import CallbackResult, aioresponses
+from aiointercept import CallbackResult, aiointercept
 import pytest
 
 from python_homeassistant_analytics import (
@@ -22,7 +22,7 @@ from .const import HEADERS, HOMEASSISTANT_ANALYTICS_URL, HOMEASSISTANT_URL
 
 
 async def test_putting_in_own_session(
-    responses: aioresponses,
+    responses: aiointercept,
 ) -> None:
     """Test putting in own session."""
     responses.get(
@@ -40,7 +40,7 @@ async def test_putting_in_own_session(
 
 
 async def test_creating_own_session(
-    responses: aioresponses,
+    responses: aiointercept,
 ) -> None:
     """Test creating own session."""
     responses.get(
@@ -57,7 +57,7 @@ async def test_creating_own_session(
 
 
 async def test_unexpected_server_response(
-    responses: aioresponses,
+    responses: aiointercept,
     homeassistant_analytics_client: HomeassistantAnalyticsClient,
 ) -> None:
     """Test handling unexpected response."""
@@ -72,7 +72,7 @@ async def test_unexpected_server_response(
 
 
 async def test_timeout(
-    responses: aioresponses,
+    responses: aiointercept,
 ) -> None:
     """Test request timeout."""
 
@@ -102,7 +102,7 @@ async def test_client_connection_error() -> None:
 
 
 async def test_analytics(
-    responses: aioresponses,
+    responses: aiointercept,
     homeassistant_analytics_client: HomeassistantAnalyticsClient,
     snapshot: SnapshotAssertion,
 ) -> None:
@@ -116,7 +116,7 @@ async def test_analytics(
 
 
 async def test_etags(
-    responses: aioresponses,
+    responses: aiointercept,
     homeassistant_analytics_client: HomeassistantAnalyticsClient,
 ) -> None:
     """Test retrieving current analytics."""
@@ -149,7 +149,7 @@ async def test_etags(
 
 
 async def test_current_analytics(
-    responses: aioresponses,
+    responses: aiointercept,
     homeassistant_analytics_client: HomeassistantAnalyticsClient,
     snapshot: SnapshotAssertion,
 ) -> None:
@@ -163,7 +163,7 @@ async def test_current_analytics(
 
 
 async def test_integrations(
-    responses: aioresponses,
+    responses: aiointercept,
     homeassistant_analytics_client: HomeassistantAnalyticsClient,
     snapshot: SnapshotAssertion,
 ) -> None:
@@ -177,7 +177,7 @@ async def test_integrations(
 
 
 async def test_custom_integrations(
-    responses: aioresponses,
+    responses: aiointercept,
     homeassistant_analytics_client: HomeassistantAnalyticsClient,
     snapshot: SnapshotAssertion,
 ) -> None:
@@ -191,7 +191,7 @@ async def test_custom_integrations(
 
 
 async def test_addons(
-    responses: aioresponses,
+    responses: aiointercept,
     homeassistant_analytics_client: HomeassistantAnalyticsClient,
     snapshot: SnapshotAssertion,
 ) -> None:
@@ -215,7 +215,7 @@ async def test_addons(
 )
 async def test_integration_environment(
     homeassistant_analytics_client: HomeassistantAnalyticsClient,
-    responses: aioresponses,
+    responses: aiointercept,
     environment: Environment,
     url: str,
 ) -> None:
