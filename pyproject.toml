@@ -50,7 +50,7 @@ dev = [
     "pytest==9.1.1",
     "pytest-asyncio==1.4.0",
     "pytest-cov==7.1.0",
-    "ruff==0.15.22",
+    "ruff==0.16.8",
     "safety==3.8.1",
     "yamllint==1.38.0",
     "syrupy==5.5.3",
@@ -163,6 +163,7 @@ ignore = [
   "PLR2004", # Just annoying, not really useful
   "PLR0913", # Too many arguments
   "ISC001", # Conflicts with other rules
+  "CPY001", # This project doesn't use copyright headers
 ]
 select = ["ALL"]
 
